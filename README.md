@@ -1,2 +1,2 @@
 # website
-The Frontend/Backend for https://savetheinterenet.info
+The Frontend/Backend for https://savetheinternet.info
