@@ -78,11 +78,26 @@ $ `git clone https://github.com/savetheinternetinfo/website.git && cd website` <
 $ `npm run postsetup` <br><br>
 4. Install all dependencies by typing <br>
 $ `npm install`<br><br>
-5. Finally: Build and run it to start a local instance by typing <br>
+
+**Testing & Building:**
+
+- Build and run a local instance:
+
+$ `npm test`
+
+- Build only:
+
+$ `npm run build`
+
+- Start only:
+
 $ `npm start`
 
-Alternatively you can build without running by typing:<br> 
-$ `npm build`
+- Run file watcher for automatic builds:
+
+$ `npm run watch`
+
+**Info:**
 
 Per default, the server runs on port 3500 (http://localhost:3500). <br>
 This can be customized in the `config.json` file. 
