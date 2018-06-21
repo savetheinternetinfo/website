@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/savetheinternetinfo/website#readme",
   "devDependencies": {
-    "@types/node": "^10.3.4"
+    "@types/node": "^10.3.4",
+    "typescript": "^2.9.2"
   },
   "dependencies": {
     "cookie-parser": "^1.4.3",
