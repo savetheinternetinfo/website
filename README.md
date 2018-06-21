@@ -12,7 +12,7 @@ Save the Internet with us
 On 20 June, the European Parliament will vote on the Copyright Directive. <br>
 Members of the parliament are the only ones that can stand in the way of bad copyright legislation.
 
-**Note:** This is the NodeJS version of [@Insax](https://github.com/Insax/)'s [savetheinternet repository](https://github.com/Insax/savetheinternet)
+**Note:** This is a NodeJS revamp of the [old website](https://github.com/Insax/savetheinternet)
 
 <hr>
 
@@ -22,7 +22,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 
 [https://savetheinternet.info](https://savetheinternet.info)
 
-**Stating (dev branch):**
+**Staging (dev branch):**
 
 [http://best-universe.de](http://best-universe.de)
 
