@@ -5,7 +5,7 @@ import * as i18n    from "i18n";
 import * as cookieP from "cookie-parser";
 
 import * as log from "./utils/logger";
-import { default as config } from "../config";
+import { default as config } from "./config";
 
 const app = express();
 
