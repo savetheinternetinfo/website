@@ -4,12 +4,13 @@ import * as favicon from "serve-favicon";
 import * as i18n    from "i18n";
 import * as cookieP from "cookie-parser";
 
-import * as log from "./utils/logger";
+import * as log from "winston";
+
 import { default as config } from "./config";
 
 const app = express();
 
-log("Started.");
+log.info("Started.");
 
 /*
 i18n.configure({
@@ -31,5 +32,5 @@ app.set("port", config.server.port);
 //require("./routes/router")(app);
 
 app.listen(app.get("port"), function(err){
-    log("Listening on port " + app.get("port") + "...");
+    log.info("Listening on port " + app.get("port") + "...");
 });
