@@ -10,6 +10,7 @@ package-lock.json
 
 # Build files
 build/
+dist/
 
 # Runtime data
 pids
