@@ -2,7 +2,7 @@
   "name": "savetheinternet",
   "version": "1.0.0",
   "description": "Save the internet",
-  "main": "./srv/app.ts",
+  "main": "./src/app.ts",
   "scripts": {
     "postsetup": "sudo npm install -g typescript",
     "build": "tsc",
