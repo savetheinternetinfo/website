@@ -79,10 +79,10 @@ $ `npm run postsetup` <br><br>
 4. Install all dependencies by typing <br>
 $ `npm install`<br><br>
 
-**Testing & Building:**
+**Developing & Building:**
 
 Build and run a local instance: <br>
-$ `npm test`
+$ `npm run dev`
 
 Build only:<br>
 $ `npm run build`
