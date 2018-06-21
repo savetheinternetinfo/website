@@ -79,6 +79,13 @@ $ `npm run postsetup` <br><br>
 4. Install all dependencies by typing <br>
 $ `npm install`<br><br>
 
+Or use Docker:<br>
+1. Install Docker and docker-compose 
+2. Clone the repository and navigate to it. <br>
+$ `git clone https://github.com/savetheinternetinfo/website.git && cd website` <br><br>
+3. Then run `docker-compose run --rm npm i && npm run build` this builds the container and the sources <br>
+4. After that run `docker-compose up` this starts the docker container with the comiled sources <br><br>
+
 **Developing & Building:**
 
 Build and run a local instance: <br>
