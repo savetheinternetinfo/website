@@ -81,20 +81,16 @@ $ `npm install`<br><br>
 
 **Testing & Building:**
 
-- Build and run a local instance:
-
+Build and run a local instance: <br>
 $ `npm test`
 
-- Build only:
-
+Build only:<br>
 $ `npm run build`
 
-- Start only:
-
+Start only:<br>
 $ `npm start`
 
-- Run file watcher for automatic builds:
-
+Run file watcher for automatic builds:<br>
 $ `npm run watch`
 
 **Info:**
