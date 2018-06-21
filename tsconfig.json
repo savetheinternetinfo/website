@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "lib": ["es6"],
+        "module": "commonjs",
+        "target": "es6",
+        "moduleResolution": "node",
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "dist",
+    ]
+}
