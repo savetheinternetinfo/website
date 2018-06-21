@@ -7,8 +7,8 @@
     "postsetup": "sudo npm install -g typescript",
     "build": "tsc",
     "watch": "npm run build -- -w",
-    "start": "node ./dist/app.js",
-    "dev": "npm run build && npm start"
+    "start": "NODE_ENV=production node ./dist/app.js",
+    "dev": "npm run build && node ./dist/app.js"
   },
   "engines": {
     "node": "~8.11.1"
