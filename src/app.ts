@@ -4,7 +4,7 @@ import * as favicon from "serve-favicon";
 import * as i18n    from "i18n";
 import * as cookieP from "cookie-parser";
 
-import * as log from "winston";
+import log from "./util/logging";
 
 import { default as config } from "./config";
 
