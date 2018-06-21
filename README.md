@@ -95,7 +95,7 @@ $ `npm run watch`
 
 **Info:**
 
-Per default, the server runs on port 3500 (http://localhost:3500). <br>
+Per default, the server runs on port 3000 (http://localhost:3000). <br>
 This can be customized in the [`config.ts`](https://github.com/savetheinternetinfo/website/blob/master/src/config.ts) file. 
 
 <hr>
