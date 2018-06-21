@@ -1,9 +1,11 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="assets/main.css" />
+        <link rel="stylesheet" href="<%= assets['main.css'].src %>" />
     </head>
-    <body>
-        <h1 class="m-4">Savetheinternet</h1>
+    <body class="bg-blue text-white">
+        <h1 class="m-4">Savetheinternet<span class="text-blue-lighter">.</span><span class="text-orange">info</span></h1>
+
+        <script type="text/javascript" src="<%= assets['main.js'].src %>"></script>
     </body>
 </html>

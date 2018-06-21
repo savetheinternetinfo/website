@@ -13,7 +13,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'public/assets'),
         filename: 'bundle.js?[hash]',
-        publicPath: '/assets',
+        publicPath: '/assets/',
     },
     module: {
         rules: [
@@ -57,8 +57,8 @@ module.exports = {
         }),
         new AssetsManifestPlugin({
             writeToDisk: true,
-            publicPath: true,
             integrity: true,
+            publicPath: true,
             integrityHashes: ['sha384'],
         }),
     ]
