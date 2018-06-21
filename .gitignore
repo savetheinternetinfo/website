@@ -65,3 +65,12 @@ typings/
 
 # next.js build output
 .next
+
+# User-specific stuff
+.idea/
+
+# CMake
+cmake-build-*/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
