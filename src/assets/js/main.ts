@@ -1,1 +1,1 @@
-console.log('Yeah')
+console.log('Yeah');

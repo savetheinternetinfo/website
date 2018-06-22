@@ -1,14 +1,8 @@
+MAINTAINER The Internet <contact@savetheinternet.info>
 FROM node:8-alpine
-
 WORKDIR /app
-
-#RUN apk add --no-cache git
-
 COPY package*.json /app/
-RUN npm install
-
 COPY . /app/
-
-EXPOSE 3000
-
+RUN npm install
+EXPOSE 80
 CMD ["npm", "start"]

@@ -1,16 +1,22 @@
 {
-    "compilerOptions": {
-        "outDir": "./dist",
-        "rootDir": "./src",
-        "inlineSourceMap": true,
-        "inlineSources": true,
-        "lib": ["es6"],
-        "module": "commonjs",
-        "target": "es6",
-        "moduleResolution": "node",
-        "experimentalDecorators": true
-    },
-    "exclude": [
-        "dist",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "lib": ["es6"],
+    "types": ["reflect-metadata"],
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
     ]
+  },
+  "exclude": [
+    "dist"
+  ]
 }
