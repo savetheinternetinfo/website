@@ -1,0 +1,15 @@
+{
+  "swagger": {
+    "basePath": "/",
+    "entryFile": "./src/server.ts",
+    "host": "localhost:80",
+    "outputDirectory": "./dist"
+  },
+  "routes": {
+    "basePath": "/",
+    "entryFile": "./src/server.ts",
+    "routesDir": "./src",
+    "iocModule": "./src/ioc",
+    "middlewareTemplate": "./src/routesTemplate.ts.hbs"
+  }
+}

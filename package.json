@@ -2,54 +2,72 @@
   "name": "savetheinternet",
   "version": "1.0.0",
   "description": "Save the internet",
-  "main": "./src/app.ts",
   "scripts": {
-    "postsetup": "sudo npm install -g typescript",
-    "build": "tsc",
-    "watch": "npm run build -- -w",
-    "start": "NODE_ENV=production node ./dist/app.js",
-    "dev": "npm run build && node ./dist/app.js",
-    "assets": "webpack --mode=production"
+    "development-start": "npm run development-build && node ./dist/server.js",
+    "development-debug": "npm run development-build && node %NODE_DEBUG_OPTION% ./dist/server.js",
+    "development-build": "npm run clean && npm run lint && npm run routes-gen && tsc",
+    "production-start": "set NODE_ENV=production&& node ./dist/server.js",
+    "production-build": "npm run clean && npm run assets && copyfiles -u 1 src/views/**/* dist/ && npm run lint && npm run routes-gen && tsc",
+    "lint": "tslint ./src/**/*.ts",
+    "clean": "rimraf dist",
+    "routes-gen": "tsoa routes",
+    "tsoa": "tsoa",
+    "assets": "webpack && copyfiles public/**/* dist/",
+    "assets-dev": "webpack --env.mode=dev"
   },
-  "engines": {
-    "node": "~8.11.1"
-  },
+  "author": "The Internet <contact@savetheinternet.info>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/savetheinternetinfo/website.git"
+    "url": "https://github.com/savetheinternetinfo/website.git"
   },
   "license": "Copyrighted - CC BY-NC-ND",
   "bugs": {
     "url": "https://github.com/savetheinternetinfo/website/issues"
   },
   "homepage": "https://github.com/savetheinternetinfo/website#readme",
+  "dependencies": {
+    "@types/luxon": "^0.2.5",
+    "@types/serve-favicon": "^2.2.30",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.15.2",
+    "cors": "latest",
+    "ejs": "^2.6.1",
+    "express": "^4.14.0",
+    "form-data": "^2.3.1",
+    "inversify": "^4.9.0",
+    "inversify-binding-decorators": "^3.2.0",
+    "luxon": "^0.4.0",
+    "method-override": "^2.3.6",
+    "reflect-metadata": "^0.1.10",
+    "serve-favicon": "latest",
+    "tsoa": "^1.0.0"
+  },
   "devDependencies": {
+    "@types/body-parser": "0.0.30",
+    "@types/express": "^4.0.30",
+    "@types/method-override": "0.0.27",
     "@types/node": "^10.3.4",
-    "@types/winston": "^2.3.9",
     "autoprefixer": "^8.6.3",
+    "copyfiles": "^2.0.0",
     "css-loader": "^0.28.11",
     "cssnano": "^3.10.0",
     "mini-css-extract-plugin": "^0.4.0",
+    "ncp": "^2.0.0",
     "node-sass": "^4.9.0",
     "postcss-import": "^11.1.0",
     "postcss-loader": "^2.1.5",
     "postcss-preset-env": "^5.1.0",
     "precss": "^3.1.2",
+    "rimraf": "^2.5.2",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
-    "tailwindcss": "^0.6.0",
+    "tailwindcss": "^0.6.1",
     "ts-loader": "^4.4.1",
-    "typescript": "^2.9.2",
+    "tslint": "3.15.1",
+    "typescript": "2.6.2",
+    "typescript-formatter": "5.2.0",
     "webpack": "^4.12.0",
     "webpack-assets-manifest": "^3.0.1",
     "webpack-cli": "^3.0.8"
-  },
-  "dependencies": {
-    "cookie-parser": "^1.4.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "i18n": "^0.8.3",
-    "serve-favicon": "^2.5.0",
-    "winston": "^3.0.0"
   }
 }
