@@ -19,6 +19,7 @@ mix.ts('src/assets/js/main.ts','public/assets/bundle.js')
         postCss: [ tailwindcss('./tailwind-config.js') ],
     })
     .copyDirectory("node_modules/font-awesome/fonts", 'public/fonts')
+    .sourceMaps()
     .version()
     .setPublicPath('public');
 

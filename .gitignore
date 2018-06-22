@@ -9,9 +9,7 @@ yarn-error.log*
 # Build files
 build/
 dist/
-public/assets
-public/fonts
-public/mix-manifest.json
+public
 
 # Runtime data
 pids
