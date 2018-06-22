@@ -1,0 +1,33 @@
+h1 {
+    @apply text-5xl;
+}
+
+h2 {
+    @apply text-4xl;
+}
+
+h3 {
+    @apply text-2xl;
+}
+
+h4 {
+    @apply text-xl;
+}
+
+h1, h2, h3, h4, h5 {
+    @apply mb-3;
+}
+
+p {
+    @apply leading-normal mb-2;
+}
+
+a {
+    @apply text-orange no-underline;
+
+    transition: color .25s ease-in-out;
+
+&:hover {
+     @apply text-orange-lighter;
+ }
+}
