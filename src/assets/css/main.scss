@@ -1,6 +1,9 @@
-@import "tailwindcss/preflight";
-@import "tailwindcss/components";
+@import "~tailwindcss/preflight";
+@import "~tailwindcss/components";
+
+$fa-font-path: '../fonts';
+@import "~font-awesome/scss/font-awesome";
 
 @import "shared.scss";
 
-@import "tailwindcss/utilities";
+@import "~tailwindcss/utilities";
