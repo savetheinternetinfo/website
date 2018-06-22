@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="<%= assets['main.css'].src %>"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+</head>
+<body class="bg-blue text-white">
+<header class="flex flex-no-wrap justify-between bg-blue w-full shadow fixed">
+    <div class="share-container flex flex-no-wrap ml-2">
+        <!-- We need to resolve the issue with using fontawesome.. -->
+        <a class="nav-link mr-1" href="https://www.facebook.com/Savetheinternet.info/"><i class="fa fa-facebook-square"></i></a>
+        <a class="nav-link mr-1" href="https://twitter.com/fckart13"><i class="fa fa-twitter"></i></a>
+        <a class="nav-link mr-0" href="https://www.instagram.com/savetheinternetpetition/"><i class="fa fa-instagram"></i></a>
+    </div>
+    <nav class="hidden sm:block flex-1 container">
+        <ul class="flex navbar flex-no-wrap list-reset m-0 p-0">
+            <li><a class="nav-link" href="#">Navlink 1</a></li>
+            <li><a class="nav-link" href="#">Navlink 2</a></li>
+            <li><a class="nav-link" href="#">Navlink 3</a></li>
+            <li><a class="nav-link mr-0" href="#">Navlink 4</a></li>
+        </ul>
+    </nav>
+    <div class="language-picker mr-2">
+        <a class="nav-link mr-0 lang-trigger">Language</a>
+        <menu class="hidden absolute w-full bg-blue shadow-md m-0 p-0 pr-2">
+            <ul class="flex flex-wrap justify-end w-full list-reset">
+                <li><a class="nav-link mb-2 mr-0 ml-2" href="#">Language 2</a></li>
+                <li><a class="nav-link mb-2 mr-0 ml-2" href="#">Language 3</a></li>
+                <li><a class="nav-link mb-2 mr-0 ml-2" href="#">Language 4</a></li>
+                <li><a class="nav-link mb-2 mr-0 ml-2" href="#">Language 5</a></li>
+                <li><a class="nav-link mb-2 mr-0 ml-2" href="#">Language 6</a></li>
+                <li><a class="nav-link mb-2 mr-0 ml-2" href="#">Language 7</a></li>
+            </ul>
+        </menu>
+
+    </div>
+</header>
+<div class="hero pt-8 flex items-center justify-center flex-col">
+    <h1 class="m-4">Savetheinternet<span class="text-blue-lighter">.</span><span class="text-orange">info</span></h1>
+    <p class="text-xl">The internet is in danger, and you can save it!</p>
+    <a class="btn btn-orange mt-3" href="#">Sign the petition</a>
+</div>

@@ -1,0 +1,89 @@
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-xl;
+}
+
+h1, h2, h3, h4, h5 {
+  @apply mb-3;
+}
+
+p {
+  @apply leading-normal mb-2;
+}
+
+a {
+  @apply text-orange no-underline;
+
+  transition: color .25s ease-in-out;
+}
+
+a:hover {
+  @apply text-orange-lighter;
+}
+
+.nav-link {
+  @apply block px-2 py-3 mr-2 text-white no-underline;
+
+  transition: color .25s ease-in-out;
+
+  &:hover {
+    @apply text-orange;
+  }
+}
+
+.hero {
+  min-height: 60vh;
+  background: url("https://savetheinternet.info/build/images/world.b6cd38ae.svg") no-repeat top;
+  background-size: auto 60vh;
+}
+
+.section {
+  @apply mb-16 px-2;
+}
+
+.section .section {
+  @apply px-0;
+}
+
+.btn {
+  @apply border-0 rounded-full text-blue py-3 px-4 no-underline block bg-white;
+
+  transition: background-color .25s ease-in-out;
+}
+
+.btn:hover {
+
+}
+
+.btn-orange {
+  @apply bg-orange;
+}
+
+.btn-orange:hover {
+  @apply bg-orange-lighter text-blue;
+}
+
+.language-picker menu {
+  right: 0;
+  left: 0;
+}
+
+.language-picker > a.lang-trigger::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 5px 0 5px;
+  border-color: #ffbf00 transparent transparent transparent;
+}
