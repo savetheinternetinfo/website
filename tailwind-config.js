@@ -47,15 +47,17 @@ let colors = {
   'black': '#000',
   'white': '#fafafa',
 
+  'blue-darker': '#0c182b',
+  'blue-dark': '#0f1c33',
   'blue': '#12233f',
   'blue-light': '#142e4d',
   'blue-lighter': '#b9d6f2',
 
   'orange': '#ffbf00',
-
+  'orange-lighter': '#fc3',
   /*'black': '#22292f',
   'grey-darkest': '#3d4852',
-  'grey-darker': '#606f7b',
+  'grey-darker': '#606f7b',width
   'grey-dark': '#8795a1',
   'grey': '#b8c2cc',
   'grey-light': '#dae1e7',
@@ -415,7 +417,7 @@ module.exports = {
   |
   */
 
-  borderColors: global.Object.assign({ default: colors['grey-light'] }, colors),
+  borderColors: global.Object.assign({ default: colors['blue-light'] }, colors),
 
   /*
   |-----------------------------------------------------------------------------
@@ -664,6 +666,7 @@ module.exports = {
     '4': '1rem',
     '6': '1.5rem',
     '8': '2rem',
+    '16': '4rem',
   },
 
   /*
@@ -690,6 +693,7 @@ module.exports = {
     '4': '1rem',
     '6': '1.5rem',
     '8': '2rem',
+    '16': '4rem',
   },
 
   /*
@@ -757,6 +761,7 @@ module.exports = {
     '25': '.25',
     '50': '.5',
     '75': '.75',
+      '90': '.9',
     '100': '1',
   },
 
@@ -841,7 +846,7 @@ module.exports = {
     minHeight: ['responsive'],
     minWidth: ['responsive'],
     negativeMargin: ['responsive'],
-    opacity: ['responsive'],
+    opacity: ['responsive', 'hover'],
     overflow: ['responsive'],
     padding: ['responsive'],
     pointerEvents: ['responsive'],

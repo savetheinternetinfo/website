@@ -7,9 +7,10 @@
     "postsetup": "sudo npm install -g typescript",
     "build": "tsc",
     "watch": "npm run build -- -w",
-    "start": "NODE_ENV=production node ./dist/app.js",
+    "start": "cross-env NODE_ENV=production node ./dist/app.js",
     "dev": "npm run build && node ./dist/app.js",
-    "assets": "webpack --mode=production"
+    "assets": "cross-env NODE_ENV=production webpack --mode=production",
+    "watch-assets": "cross-env NODE_ENV=development webpack --mode=development --watch"
   },
   "engines": {
     "node": "~8.11.1"
@@ -29,6 +30,8 @@
     "autoprefixer": "^8.6.3",
     "css-loader": "^0.28.11",
     "cssnano": "^3.10.0",
+    "file-loader": "^1.1.11",
+    "font-awesome": "^4.7.0",
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.9.0",
     "postcss-import": "^11.1.0",
@@ -40,12 +43,14 @@
     "tailwindcss": "^0.6.0",
     "ts-loader": "^4.4.1",
     "typescript": "^2.9.2",
+    "url-loader": "^1.0.1",
     "webpack": "^4.12.0",
     "webpack-assets-manifest": "^3.0.1",
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
     "cookie-parser": "^1.4.3",
+    "cross-env": "^5.2.0",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "i18n": "^0.8.3",
