@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/savetheinternetinfo/website#readme",
   "devDependencies": {
+    "@types/express": "^4.16.0",
     "@types/node": "^10.3.4",
     "@types/winston": "^2.3.9",
     "cssnano": "^3.10.0",
