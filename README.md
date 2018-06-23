@@ -78,6 +78,10 @@ $ `git clone https://github.com/savetheinternetinfo/website.git && cd website` <
 $ `npm run postsetup` <br><br>
 4. Install all dependencies by typing <br>
 $ `npm install`<br><br>
+5. Compile the assets <br>
+$ `npm run assets-dev`<br><br>
+6. Start the server <br>
+$ `npm run dev`<br><br>
 
 Or use Docker:<br>
 1. Install Docker and docker-compose 
