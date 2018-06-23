@@ -31,7 +31,7 @@ app.use(favicon("./src/assets/favicon.png"));
 //app.use(i18n.init);
 app.set("port", config.server.port);
 
-app.locals.assets = require('../public/assets/manifest.json');
+app.locals.assets = require('../public/mix-manifest.json');
 
 //require("./routes/router")(app);
 
