@@ -17,10 +17,9 @@
     </div>
     <nav class="hidden sm:block flex-1 container">
         <ul class="flex navbar flex-no-wrap list-reset m-0 p-0">
-            <li><a class="nav-link" href="#">Navlink 1</a></li>
-            <li><a class="nav-link" href="#">Navlink 2</a></li>
-            <li><a class="nav-link" href="#">Navlink 3</a></li>
-            <li><a class="nav-link mr-0" href="#">Navlink 4</a></li>
+            <li><a class="nav-link" href="/about-us">About Us</a></li>
+            <li><a class="nav-link" href="/gallery"><%= __('gallery_title') %></a></li>
+            <li><a class="nav-link" href="/about"><%= __('about_title') %></a></li>
         </ul>
     </nav>
     <div class="language-picker mr-2">
@@ -36,7 +35,9 @@
     </div>
 </header>
 <div class="hero pt-8 flex items-center justify-center flex-col">
-    <h1 class="m-4">Savetheinternet<span class="text-blue-lighter">.</span><span class="text-orange">info</span></h1>
+    <h3 class="text-5xl m-4">
+        <a class="text-white" href="/">Savetheinternet<span class="text-blue-lighter">.</span><span class="text-orange">info</span></a>
+    </h3>
     <p class="text-xl"><%= __('header_tagline') %></p>
-    <a class="btn btn-orange mt-3" href="#"><%= __('sign_petition') %></a>
+    <a class="btn btn-orange mt-3" target="_blank" href="https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet"><%= __('sign_petition') %></a>
 </div>
