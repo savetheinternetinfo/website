@@ -3,6 +3,7 @@ import * as express from "express";
 import * as favicon from "serve-favicon";
 import * as i18n    from "i18n";
 import * as cookieP from "cookie-parser";
+import * as fs from 'fs';
 
 import log from "./util/logging";
 
@@ -51,7 +52,18 @@ app.use((req, res, next) => {
 //require("./routes/router")(app);
 
 app.get('/', (req, res) => {
-    res.render('index', {foo: 'FOO'})
+    res.render('index');
+});
+
+app.get('/:page', (req, res) => {
+    // Allow letters, numbers and hyphens
+    let page = req.params.page.replace(/[^A-Za-z0-9\-]/g,'');
+
+    if(fs.existsSync(`./src/views/${page}.ejs`)) {
+        res.render(page);
+    } else {
+        res.render('404');
+    }
 });
 
 app.listen(app.get("port"), function(err){
