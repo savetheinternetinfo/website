@@ -41,14 +41,7 @@ app.locals.languages = availableLanguages;
 app.use((req, res, next) => {
     let currentLocale = i18n.getLocale(req);
     app.locals.currentLanguage = currentLocale;
-    app.locals.currentRoute = req.path
-        .replace(
-            // Looks for /en/,/de/ etc and removes it
-            new RegExp(`/(${availableLanguages.join('|')})/?`, 'ms'),
-            ''
-        )
-        // removes leading and trailing slashes
-        .replace(/^\/|\/$/g, '');
+    app.locals.currentRoute = req.path.replace(/^\/|\/$/g, '');
 
     res.cookie(config.server.cookieprefix + "lang", currentLocale, {maxAge: 9000, httpOnly: true});
 
