@@ -7,23 +7,23 @@ class CacheService {
         this.cache = new NodeCache({ stdTTL: ttlSeconds, checkperiod: ttlSeconds * 0.2, useClones: false });
     }
 
-    get(key, storeFunction) {
+    get<T>(key: string, storeFunction: () => Promise<T>): Promise<T> {
         const value = this.cache.get(key);
         if (value) {
-            return Promise.resolve(value);
+            return Promise.resolve(<T> value);
         }
 
-        return storeFunction().then((result) => {
+        return storeFunction().then((result: T) => {
             this.cache.set(key, result);
             return result;
         });
     }
 
-    del(keys) {
+    del(keys: string): void {
         this.cache.del(keys);
     }
 
-    delStartWith(startStr = '') {
+    delStartWith(startStr = ''): void {
         if (!startStr) {
             return;
         }
@@ -36,7 +36,7 @@ class CacheService {
         }
     }
 
-    flush() {
+    flush(): void {
         this.cache.flushAll();
     }
 }
