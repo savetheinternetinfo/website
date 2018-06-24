@@ -4,6 +4,7 @@ import * as favicon from "serve-favicon";
 import * as i18n    from "i18n";
 import * as cookieP from "cookie-parser";
 import * as fs from 'fs';
+import TwitterService from './services/TwitterService'
 
 import log from "./util/logging";
 
@@ -52,7 +53,11 @@ app.use((req, res, next) => {
 //require("./routes/router")(app);
 
 app.get('/', (req, res) => {
-    res.render('index');
+    // Get tweets by hashtag
+    let twitter = new TwitterService(config.twitter);
+    twitter.getTweet().then((tweets) => {
+        res.render('index', {"tweets": tweets.statuses});
+    });
 });
 
 app.get('/:page', (req, res) => {
