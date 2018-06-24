@@ -27,11 +27,12 @@ class TwitterService {
     }
 
     getTweet() : Promise<Tweets> {
-        this.cache.flush();
         return this.cache.get<Tweets>("Tweets", () => {
+
             return this.tclient.get<Tweets>('search/tweets', {count: 20, q: '#FCKArt13'}).then((res) => {
                 return Promise.resolve(res);
             });
+
         }).then(value => {
             return value;
         });
