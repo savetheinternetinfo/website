@@ -1,0 +1,13 @@
+.gallery-grid {
+    .gallery,
+    .grid-sizer {
+        @apply w-1/5;
+    }
+    .gallery {
+        @apply .relative .border .border-blue-lighter .mb-2;
+    
+        .lang {
+            @apply .absolute .pin-t .pin-r .mt-1 .mr-1;
+        }
+    }
+}

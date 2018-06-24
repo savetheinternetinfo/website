@@ -1,8 +1,17 @@
 <%- include('layout/header'); -%>
 <div class="section container">
     <h1><%= __('gallery_title') %></h1>
-    <% locals.images.forEach(i => { %>
-        <img src="<%= i.paths.thumbnail %>" />
-    <% }) %>
+    <div class="gallery-grid">
+        <div class="grid-sizer"></div>
+        <% locals.images.forEach(i => { %>
+            <div class="gallery">
+                <a target="_blank" href="<%= i.paths.full %>">
+                    <span class="lang"><%= i.lang %></span>
+                    <img class="gallery-img" src="<%= i.paths.thumbnail %>" width="300" height="300" />
+                </a>
+            </div>
+        <% }) %>
+    </div>
 </div>
+<script type="text/javascript" src="<%= assets['/assets/gallery.js'] %>"
 <%- include('layout/footer'); -%>
