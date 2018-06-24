@@ -6,3 +6,5 @@ langMenuTrigger.addEventListener('click', function() {
     langpicker.classList.toggle('open'),
     langMenu.classList.toggle('hidden');
 });
+
+require('./mep');
