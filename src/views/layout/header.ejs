@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<%= assets['/assets/main.css'] %>"/>
     <% languages.forEach((language) => { %>
         <% if(language != currentLanguage) { %><link rel="alternate" href="<%= `/${currentRoute}?lang=${language}` %>" hreflang="<%= language %>"><% } %>
