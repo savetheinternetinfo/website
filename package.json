@@ -56,6 +56,7 @@
     "sharp": "^0.20.4",
     "simplelightbox": "^1.13.0",
     "twitter": "^1.7.1",
+    "typed.js": "^2.0.8",
     "winston": "^3.0.0"
   }
 }

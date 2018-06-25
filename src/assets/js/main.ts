@@ -1,3 +1,6 @@
+import './mep';
+const Typed = require('typed.js'); // It fails with a TS import
+
 let langpicker = document.getElementsByClassName("language-picker")[0];
 let langMenuTrigger = langpicker.getElementsByClassName('lang-trigger')[0];
 let langMenu = langpicker.getElementsByTagName('menu')[0];
@@ -6,6 +9,18 @@ langMenuTrigger.addEventListener('click', function() {
     langpicker.classList.toggle('open'),
     langMenu.classList.toggle('hidden');
 });
+
+// it contains "the" for SEO, remove it as it messes up typed.js
+document.getElementById('head-typer').innerHTML = "";
+new Typed('#head-typer', {
+    strings: ['the', 'your', 'our', 'her', 'his', 'their'],
+    typeSpeed: 130,
+    backSpeed: 80,
+    loop: true,
+    smartBackspace: false,
+    shuffle: true,
+    backDelay: 1400,
+})
 
 /*
     Twitter Stuff
@@ -25,5 +40,3 @@ function showTweet(interval) {
 }
 showTweet(null);
 var fadeInterval = setInterval(function() { showTweet(fadeInterval) }, 60000);
-
-require('./mep');
