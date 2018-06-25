@@ -1,4 +1,4 @@
-import * as path    from "path";
+import config from "./config";
 import * as express from "express";
 import * as favicon from "serve-favicon";
 import * as i18n    from "i18n";
@@ -8,8 +8,6 @@ import * as moment from 'moment'
 import TwitterService from './services/TwitterService'
 
 import log from "./util/logging";
-
-import config from "./config";
 
 import GalleryController from './controllers/gallery';
 
