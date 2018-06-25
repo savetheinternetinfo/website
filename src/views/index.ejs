@@ -50,8 +50,32 @@
                 <%= __('twitter_description') %>
             </p>
         </div>
-        <div class="w-full md:w-1/2 pl-4 flex justify-center flex-col items-center">
-            <p>TWITTER FEED HERE</p>
+        <div class="w-full md:w-1/2 pl-4 pr-2 flex flex-col items-center overflow-y-auto text-sm section-twitter">
+            <% if(tweets) { %>
+                <% tweets.forEach(function(tweet){ %>
+                    <div class="container mx-auto tweet-container shadow-md mb-4 rounded-lg font-mono hidden" id="<%= tweet.id %>">
+                        <div class="flex mb-4">
+
+                            <div class="md:w-1/4 p-4 text-center">
+                                <img class="w-2/3 h-2/3 rounded-full" src="<%= tweet.user.profile_image_url_https %>">
+                            </div>
+
+                            <div class="md:w-3/4 p-4">
+                                <div class="">
+                                    <span class=""><a class="underline" target="_blank" href="https://twitter.com/<%= tweet.user.screen_name %>">@<%= tweet.user.screen_name %></a></span>
+                                    <span class="tweet-time"><%= moment(tweet.created_at, 'ddd MMM DD HH:mm:ss +ZZ YYYY', 'en').locale(currLang).fromNow() %></span>
+                                </div>
+
+                                <div class="mt-2">
+                                    <%= tweet.text %>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                <% }); %>
+            <% } %>
         </div>
     </div>
 </div>
