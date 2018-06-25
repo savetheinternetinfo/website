@@ -4,6 +4,7 @@ import * as favicon from "serve-favicon";
 import * as i18n    from "i18n";
 import * as cookieP from "cookie-parser";
 import * as fs from 'fs';
+import * as moment from 'moment'
 import TwitterService from './services/TwitterService'
 
 import log from "./util/logging";
@@ -51,12 +52,15 @@ app.use((req, res, next) => {
 });
 
 //require("./routes/router")(app);
+let twitter = new TwitterService(config.twitter);
 
 app.get('/', (req, res) => {
     // Get tweets by hashtag
-    let twitter = new TwitterService(config.twitter);
+    let currentLocale = i18n.getLocale(req);
     twitter.getTweet().then((tweets) => {
-        res.render('index', {"tweets": tweets.statuses});
+        res.render('index', {"tweets": tweets.statuses, "moment": moment, "currLang": currentLocale});
+    }).catch((err) => {
+        res.render('index');
     });
 });
 
