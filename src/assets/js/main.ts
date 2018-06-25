@@ -14,10 +14,12 @@ langMenuTrigger.addEventListener('click', function() {
 document.getElementById('head-typer').innerHTML = "";
 new Typed('#head-typer', {
     strings: ['the', 'your', 'our', 'her', 'his', 'their'],
-    typeSpeed: 125,
-    backSpeed: 75,
+    typeSpeed: 130,
+    backSpeed: 80,
     loop: true,
     smartBackspace: false,
+    shuffle: true,
+    backDelay: 1400,
 })
 
 /*
