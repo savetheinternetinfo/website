@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import log from '../util/logging';
-import * as fs from 'fs';
+import * as fs from 'fs-extra';
 import * as path from 'path';
 import CacheService from '../services/CacheService';
 import config from '../config';
@@ -34,30 +34,26 @@ class GalleryController {
     }
 
     private getImages(): Promise<Image[]> {
-        return this.cache.get<Image[]>('images', (): Promise<Image[]> => {
-            return new Promise((resolve, reject) => {
-                fs.readdir(this.galleryPath, (err, galleryFiles) => {
-                    if (err) return reject(err)
-
-                    const imgs = galleryFiles
-                        .map(f => path.resolve(this.galleryPath, f))
-                        .filter(f => fs.lstatSync(f).isDirectory())
-                        .map(dir => {
-                            const lang = path.basename(dir);
-                            return fs.readdirSync(dir)
-                                .filter(f => !f.startsWith('thumb_'))
-                                .filter(f => this.isImageFile(f))
-                                .map(f => path.resolve(dir, f))
-                                .map(f => this.processImage(lang, f))
-                        }).reduce((acc, curr): Image[] => {
-                            acc.push(...curr)
-                            return acc;
-                        }, [])
-                    log.debug('Generated gallery list: ' + JSON.stringify(imgs))
-                    resolve(imgs)
-                })
-            })
-        })
+        return this.cache.get<Image[]>('images', (): Promise<Image[]> =>
+            fs.readdir(this.galleryPath)
+                .then(galleryFiles => 
+                    Promise.all(
+                        galleryFiles
+                            .map(f => path.resolve(this.galleryPath, f))
+                            .filter(f => fs.lstatSync(f).isDirectory())
+                            .map(dir => {
+                                const lang = path.basename(dir);
+                                return fs.readdirSync(dir)
+                                    .filter(f => !f.startsWith('thumb_') && this.isImageFile(f))
+                                    .map(f => this.processImage(lang, path.resolve(dir, f)))
+                            })
+                            .reduce((acc, curr): Promise<Image>[] => {
+                                acc.push(...curr)
+                                return acc;
+                            }, [])
+                        )
+                    )
+        )
     }
 
     private isImageFile(file: string): boolean {
@@ -67,26 +63,28 @@ class GalleryController {
         }, false) 
     }
 
-    private processImage(lang: string, p: string): Image {
-        log.debug('image lang: ' + lang + ', path: ' + p);
+    private processImage(lang: string, p: string): Promise<Image> {
         const fdir = path.dirname(p)
         const fname = path.basename(p)
         const thumbnail = path.resolve(fdir, 'thumb_' + fname);
 
-        if (!fs.existsSync(thumbnail)) {
-            sharp(p)
-                .resize(453, 640)
-                .max()
-                .toFile(thumbnail);
-        }
-
-        return {
+        const img = {
             lang,
             paths: {
                 full: path.relative(PUBLIC_PATH, p),
                 thumbnail: path.relative(PUBLIC_PATH, thumbnail)
             }
-        };
+        }
+
+        if (!fs.existsSync(thumbnail)) {
+            return sharp(p)
+                .resize(453, 640)
+                .max()
+                .toFile(thumbnail)
+                .catch(log.error)
+                .then(() => img);
+        }
+        return Promise.resolve(img);
     }
 }
 
