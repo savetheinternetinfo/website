@@ -7,6 +7,7 @@ export type User = {
 }
 
 export type Status = {
+    id: number;
     created_at: string;
     text: string;
     user: User;
@@ -27,12 +28,10 @@ class TwitterService {
     }
 
     getTweet() : Promise<Tweets> {
-        return this.cache.get<Tweets>("Tweets", () => {
-
-            return this.tclient.get<Tweets>('search/tweets', {count: 20, q: '#FCKArt13'}).then((res) => {
+        return this.cache.get<Tweets>("tweets", () => {
+            return this.tclient.get<Tweets>('search/tweets', {q: '#Uploadfilter OR #FCKArt13 OR #SaveTheInternet'}).then((res) => {
                 return Promise.resolve(res);
             });
-
         }).then(value => {
             return value;
         });
