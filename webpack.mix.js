@@ -13,6 +13,7 @@ let tailwindcss = require('tailwindcss');
  */
 
 mix.ts('src/assets/js/main.ts','public/assets/bundle.js')
+    .ts('src/assets/js/gallery.ts','public/assets/gallery.js')
     .sass('src/assets/css/main.scss', 'public/assets')
     .options({
         processCssUrls: false,
@@ -20,6 +21,7 @@ mix.ts('src/assets/js/main.ts','public/assets/bundle.js')
     })
     .copyDirectory("node_modules/font-awesome/fonts", 'public/fonts')
     .copyDirectory("src/assets/static", 'public/static')
+    .copyDirectory("src/assets/gallery", 'public/gallery')
     .sourceMaps()
     .version()
     .setPublicPath('public');

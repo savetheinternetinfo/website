@@ -1,5 +1,17 @@
 <%- include('layout/header'); -%>
 <div class="section container">
     <h1><%= __('gallery_title') %></h1>
+    <div class="gallery-grid">
+        <div class="grid-sizer w-full"></div>
+        <% locals.images !== undefined && locals.images.forEach(i => { %>
+            <div class="gallery w-full relative border border-blue-lighter mb-6">
+                <a target="_blank" class="block border-none h-auto overflow-hidden" href="<%= i.paths.full %>">
+                    <span class="bg-blue p-2 z-10 lang absolute pin-t pin-r"><%= i.lang %></span>
+                    <img class="w-full h-auto block border-0 gallery-img m-0 p-0" src="<%= i.paths.thumbnail %>" width="300" height="300" />
+                </a>
+            </div>
+        <% }) %>
+    </div>
 </div>
+<script type="text/javascript" src="<%= assets['/assets/gallery.js'] %>"></script>
 <%- include('layout/footer'); -%>

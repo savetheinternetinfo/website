@@ -11,6 +11,8 @@ import log from "./util/logging";
 
 import config from "./config";
 
+import GalleryController from './controllers/gallery';
+
 const app = express();
 
 log.info("Started.");
@@ -63,6 +65,10 @@ app.get('/', (req, res) => {
         res.render('index');
     });
 });
+
+const galleryController = new GalleryController();
+// Because express fucking rebinds `this`
+app.get('/gallery', (req, res, next) => galleryController.index(req, res, next));
 
 app.get('/:page', (req, res) => {
     // Allow letters, numbers and hyphens

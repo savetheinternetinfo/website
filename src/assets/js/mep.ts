@@ -13,7 +13,8 @@ if(gridRoot.length > 0) {
     });
 
     componentRoot.find('select#country-sel').on('change', event => {
-        let selection = jQuery(event.currentTarget).val().toLowerCase();
+        let selection = jQuery(event.currentTarget).val();
+        if (typeof selection === 'string') selection = selection.toLowerCase();
 
         mepItems.show();
         mepItems.not(`.${selection}`).hide();
