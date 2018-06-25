@@ -50,10 +50,12 @@
     "fs-extra": "^6.0.1",
     "i18n": "^0.8.3",
     "masonry-layout": "^4.2.1",
+    "moment": "^2.22.2",
     "node-cache": "^4.2.0",
     "serve-favicon": "^2.5.0",
     "sharp": "^0.20.4",
     "simplelightbox": "^1.13.0",
+    "twitter": "^1.7.1",
     "winston": "^3.0.0"
   }
 }
