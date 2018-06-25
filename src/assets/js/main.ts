@@ -7,7 +7,6 @@ langMenuTrigger.addEventListener('click', function() {
     langMenu.classList.toggle('hidden');
 });
 
-
 /*
     Twitter Stuff
 */
@@ -26,3 +25,5 @@ function showTweet(interval) {
 }
 showTweet(null);
 var fadeInterval = setInterval(function() { showTweet(fadeInterval) }, 60000);
+
+require('./mep');
