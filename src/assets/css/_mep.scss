@@ -48,6 +48,13 @@
     }
   }
 
+  .mep-grid {
+    .mep-item, .grid-sizer {
+      width: 48%;
+      display: block;
+    }
+  }
+
   .mep-main {
     background-size: 30px 30px;
   }
@@ -89,6 +96,16 @@
     &.open figcaption {
       transform: scale(1);
       opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: config('screens.md')) {
+  .contact-your-mep {
+    .mep-grid {
+      .mep-item, .grid-sizer {
+        width: 100%;
+      }
     }
   }
 }
