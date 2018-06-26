@@ -81,6 +81,6 @@ app.get('/:page', (req, res) => {
     }
 });
 
-app.listen(app.get("port"), function(err){
-    log.info("Listening on port " + app.get("port") + "...");
+app.listen(app.get("port"), config.server.localhost_only ? "localhost" : null, function(err){
+    log.info("Listening on port " + app.get("port") + (config.server.localhost_only ? " localhost only..." : "..."));
 });
