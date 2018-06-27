@@ -19,6 +19,8 @@ module.exports = function(app){
             httpOnly: true
         });
 
+        if (req.query.lang) res.redirect(req.originalUrl.split("?").shift());
+
         next();
     });
 
