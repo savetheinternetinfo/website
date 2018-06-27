@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="h-full">
+<html class="h-full" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<%= assets['/assets/main.css'] %>"/>
@@ -24,11 +24,11 @@
         </ul>
     </nav>
     <div class="language-picker mr-2">
-        <a class="cursor-pointer nav-link pr-4 mr-0 lang-trigger"><%= currentLanguage.toUpperCase() %></a>
+        <a class="cursor-pointer nav-link pr-4 mr-0 lang-trigger"><span class="flag-icon flag-icon-<%= currentLanguage == 'en' ? 'gb' : currentLanguage %>"></span></a>
         <menu class="hidden absolute w-full bg-blue shadow-md m-0 p-0 pr-2">
             <ul class="flex flex-wrap justify-end w-full list-reset">
                 <% languages.forEach((language) => { %>
-                <li><a class="nav-link mb-2 mr-0 ml-2" href="/<%= currentRoute %>?lang=<%= language %>"><%= language.toUpperCase() %></a></li>
+                <li><a class="nav-link mb-2 mr-0 ml-2" href="/<%= currentRoute %>?lang=<%= language %>"><span class="flag-icon flag-icon-<%= language == 'en' ? 'gb' : language %>"></span> </a></li>
                 <% }); %>
             </ul>
         </menu>
