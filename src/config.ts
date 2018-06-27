@@ -1,10 +1,11 @@
 export default {
-    server: {
-        port: 3000,
-        cookieprefix: "_sti",
-        localhost_only: false
+    "server": {
+        "port": 3000,
+        "cookieprefix": "_sti",
+        "localhost_only": false,
+        "githook_secret": ""
     },
-    galleryPath: 'public/gallery/',
+    "galleryPath": "public/gallery/",
     "twitter": {
         "consumer_key": "",
         "consumer_secret": "",
