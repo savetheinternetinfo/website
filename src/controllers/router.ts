@@ -1,8 +1,8 @@
-import * as moment  from "moment";
-import * as i18n    from "i18n";
-import * as fs      from "fs";
+import * as moment from "moment";
+import * as i18n   from "i18n";
+import * as fs     from "fs";
 
-import TwitterService    from '../services/TwitterService';
+import TwitterService    from "../services/TwitterService";
 import config            from "../config";
 import GalleryController from "../controllers/gallery";
 
