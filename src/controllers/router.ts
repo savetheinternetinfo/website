@@ -8,7 +8,7 @@ import GalleryController from "../controllers/gallery";
 
 let twitter = new TwitterService(config.twitter);
 
-module.exports = function(app){
+export function router(app){
     app.use((req, res, next) => {
         let currentLocale = i18n.getLocale(req);
         app.locals.currentLanguage = currentLocale;
