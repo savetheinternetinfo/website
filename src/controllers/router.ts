@@ -10,16 +10,19 @@ let twitter = new TwitterService(config.twitter);
 
 export function router(app){
     app.use((req, res, next) => {
-        let currentLocale = i18n.getLocale(req);
-        app.locals.currentLanguage = currentLocale;
+        app.locals.currentLanguage = i18n.getLocale(req);
         app.locals.currentRoute = req.path.replace(/^\/|\/$/g, '');
 
-        res.cookie(config.server.cookieprefix + "lang", currentLocale, {
-            maxAge: 9000,
-            httpOnly: true
-        });
+        if (req.query.lang){
+            res.cookie(config.server.cookieprefix + "lang", req.query.lang, {
+                maxAge: 900000,
+                httpOnly: true
+            });
+            i18n.setLocale(req.query.lang);
+            return res.redirect(req.originalUrl.split("?").shift());
+        }
 
-        if (req.query.lang) res.redirect(req.originalUrl.split("?").shift());
+        if (req.cookies._stilang) i18n.setLocale(req.cookies._stilang);
 
         next();
     });
