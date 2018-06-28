@@ -24,7 +24,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 
 **Staging (dev branch):**
 
-[http://best-universe.de](http://best-universe.de)
+[https://dev.savetheinternet.info/](https://dev.savetheinternet.info/)
 
 <hr>
 
