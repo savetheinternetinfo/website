@@ -62,8 +62,7 @@
         "object-literal-sort-keys":false,
         "one-line": [  
             true,
-            "check-open-brace",
-            "check-whitespace"
+            "check-open-brace"
         ],
         "radix":true,
         "semicolon": [  

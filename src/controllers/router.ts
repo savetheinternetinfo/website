@@ -47,7 +47,7 @@ export function router(app){
 
     app.get("/:page", (req, res) => {
         // Allow letters, numbers and hyphens
-        let page = req.params.page.replace(/[^A-Za-z0-9\-]/g,"");
+        let page = req.params.page.replace(/[^A-Za-z0-9\-]/g, "");
 
         if (fs.existsSync(`./src/views/${page}.ejs`)) res.render(page);
         else res.render("404");
