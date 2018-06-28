@@ -9,8 +9,7 @@
         "eofline":false,
         "indent": [  
             true,
-            "spaces",
-            4
+            "spaces"
         ],
         "interface-name": [  
             true,
@@ -48,7 +47,7 @@
         "no-shadowed-variable":true,
         "quotemark": [  
             true,
-            "double"
+            "single"
         ],
         "no-string-literal":false,
         "no-switch-case-fall-through":true,
@@ -63,6 +62,9 @@
         "one-line": [  
             true,
             "check-open-brace",
+            "check-catch",
+            "check-else",
+            "check-finally",
             "check-whitespace"
         ],
         "radix":true,
