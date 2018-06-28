@@ -20,6 +20,7 @@ mix.ts('src/assets/js/main.ts','public/assets/bundle.js')
         postCss: [ tailwindcss('./tailwind-config.js') ],
     })
     .copyDirectory("node_modules/font-awesome/fonts", 'public/fonts')
+    .copyDirectory("node_modules/flag-icon-css/flags", 'public/flags')
     .copyDirectory("src/assets/static", 'public/static')
     .copyDirectory("src/assets/gallery", 'public/gallery')
     .sourceMaps()

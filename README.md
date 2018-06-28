@@ -24,7 +24,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 
 **Staging (dev branch):**
 
-[http://best-universe.de](http://best-universe.de)
+[https://dev.savetheinternet.info/](https://dev.savetheinternet.info/)
 
 <hr>
 
@@ -80,7 +80,10 @@ $ `npm run postsetup` <br><br>
 $ `npm install`<br><br>
 5. Compile the assets <br>
 $ `npm run assets-dev`<br><br>
-6. Start the server <br>
+6. Fill in your config secrets<br>
+$ `cp .env.dist .env`<br><br>
+And fill that file<br><br>
+7. Start the server <br>
 $ `npm run dev`<br><br>
 
 Or use Docker:<br>
