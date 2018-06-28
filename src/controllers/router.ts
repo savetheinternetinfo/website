@@ -22,7 +22,7 @@ export function router(app){
             return res.redirect(req.originalUrl.split("?").shift());
         }
 
-        if (req.cookies._stilang) i18n.setLocale(req.cookies._stilang);
+        //if (req.cookies._stilang) i18n.setLocale(req.cookies._stilang);
 
         next();
     });
