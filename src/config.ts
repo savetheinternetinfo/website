@@ -5,12 +5,18 @@ if(env.error) {
 }
 
 export default {
-    server: {
-        port: 3000,
-        cookieprefix: "_sti",
-        localhost_only: false
+    "server": {
+        "port": 3000,
+        "cookieprefix": "_sti",
+        "localhost_only": false,
+        "hook": {
+            "githook_secret": "",
+            "githook_commands": [
+                "git pull"
+            ]
+        }
     },
-    galleryPath: 'public/gallery/',
+    "galleryPath": "public/gallery/",
     "twitter": {
         "consumer_key": env.parsed.TWITTER_CONSUMER_KEY,
         "consumer_secret": env.parsed.TWITTER_CONSUMER_SECRET,

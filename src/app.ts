@@ -1,15 +1,27 @@
+import * as express  from "express";
+import * as favicon  from "serve-favicon";
+import * as i18n     from "i18n";
+import * as path     from "path";
+import * as cookieP  from "cookie-parser";
+import * as githook  from "express-github-webhook";
+import * as bParser  from "body-parser";
+
+import { exec } from "child_process";
+
+import log    from "./util/logging";
 import config from "./config";
-import * as express from "express";
-import * as favicon from "serve-favicon";
-import * as i18n    from "i18n";
-import * as cookieP from "cookie-parser";
-import * as fs from 'fs';
-import * as moment from 'moment'
-import TwitterService from './services/TwitterService'
 
-import log from "./util/logging";
+import { router } from "./controllers/router";
 
-import GalleryController from './controllers/gallery';
+let hook = githook({
+    path:   "/githook",
+    secret: config.server.hook.githook_secret
+});
+
+let puts = function(err, stdout, stderr){
+    if (err) return log.error(err);
+    log.info(stdout);
+};
 
 const app = express();
 
@@ -27,56 +39,28 @@ app.enable("trust proxy");
 app.set("view engine", "ejs");
 app.set("views", "./src/views");
 
+app.use(bParser.json());
+app.use(hook);
 app.use(cookieP());
 app.use(express.static("./public"));
 app.use(favicon("./src/assets/favicon.png"));
 app.use(i18n.init);
 app.set("port", config.server.port);
 
-app.locals.assets = require('../public/mix-manifest.json');
+app.locals.assets = require("../public/mix-manifest.json");
 
-/*
-    i18n stuff
- */
+// i18n stuff
 let availableLanguages = Object.keys(i18n.getCatalog());
 app.locals.languages = availableLanguages;
 
-app.use((req, res, next) => {
-    let currentLocale = i18n.getLocale(req);
-    app.locals.currentLanguage = currentLocale;
-    app.locals.currentRoute = req.path.replace(/^\/|\/$/g, '');
+router(app);
 
-    res.cookie(config.server.cookieprefix + "lang", currentLocale, {maxAge: 9000, httpOnly: true});
-
-    next();
-});
-
-//require("./routes/router")(app);
-let twitter = new TwitterService(config.twitter);
-
-app.get('/', (req, res) => {
-    // Get tweets by hashtag
-    let currentLocale = i18n.getLocale(req);
-    twitter.getTweet().then((tweets) => {
-        res.render('index', {"tweets": tweets.statuses, "moment": moment, "currLang": currentLocale});
-    }).catch((err) => {
-        res.render('index');
-    });
-});
-
-const galleryController = new GalleryController();
-// Because express fucking rebinds `this`
-app.get('/gallery', (req, res, next) => galleryController.index(req, res, next));
-
-app.get('/:page', (req, res) => {
-    // Allow letters, numbers and hyphens
-    let page = req.params.page.replace(/[^A-Za-z0-9\-]/g,'');
-
-    if(fs.existsSync(`./src/views/${page}.ejs`)) {
-        res.render(page);
-    } else {
-        res.render('404');
-    }
+hook.on("push", function(repo, data){
+    log.info(`Received push event for ${repo}`);
+    let command = "cd " + path.join(__dirname, "..");
+    let cmdArr = config.server.hook.githook_commands;
+    for (let i in cmdArr) command += " && " + cmdArr[i];
+    exec(command, puts);
 });
 
 app.listen(app.get("port"), config.server.localhost_only ? "localhost" : null, function(err){
