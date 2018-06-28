@@ -9,6 +9,7 @@
     "watch": "npm run build -- -w",
     "start": "cross-env NODE_ENV=production node ./dist/app.js",
     "dev": "npm run build && node ./dist/app.js",
+    "lint": "tslint -p './' -e 'src/assets/js/*'",
     "assets-dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "assets-watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "assets-hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -40,6 +41,7 @@
     "laravel-mix": "^2.1.11",
     "tailwindcss": "^0.6.1",
     "ts-loader": "^3.5",
+    "tslint": "^5.10.0",
     "typescript": "^2.9.2"
   },
   "dependencies": {

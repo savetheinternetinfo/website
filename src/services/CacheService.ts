@@ -1,4 +1,4 @@
-import * as NodeCache from 'node-cache';
+import * as NodeCache from "node-cache";
 
 class CacheService {
     private cache: NodeCache;
@@ -23,7 +23,7 @@ class CacheService {
         this.cache.del(keys);
     }
 
-    delStartWith(startStr = ''): void {
+    delStartWith(startStr = ""): void {
         if (!startStr) {
             return;
         }
