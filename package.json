@@ -46,6 +46,7 @@
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "cross-env": "^5.2.0",
+    "dotenv": "^6.0.0",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "express-github-webhook": "^1.0.6",
