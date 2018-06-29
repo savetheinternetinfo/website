@@ -116,6 +116,9 @@ $ `npm run build`
 Start only:<br>
 $ `npm start`
 
+Run TypeScript linter<br>
+$ `npm run lint`
+
 Run file watcher for automatic builds:<br>
 $ `npm run watch`
 
