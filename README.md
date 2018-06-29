@@ -7,7 +7,7 @@ Save the Internet with us
 
 <hr>
 
-## :pushpin: About 
+## :pushpin: About
 
 On 20 June, the European Parliament will vote on the Copyright Directive. <br>
 Members of the parliament are the only ones that can stand in the way of bad copyright legislation.
@@ -16,7 +16,7 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 
 <hr>
 
-## :computer: Website 
+## :computer: Website
 
 **Deployment:**
 
@@ -32,18 +32,40 @@ Members of the parliament are the only ones that can stand in the way of bad cop
 
 **Frontend**:
 
-- [JQuery 3.3.1](https://jquery.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
+| Name | Version |
+| ---- | :-----: |
+| [JQuery](https://jquery.com/)                               | 3.3.1  |
+| [Tailwind CSS](https://tailwindcss.com/)                    | 0.6.1  |
+| [flag-icon-css](http://flag-icon-css.lip.is/)               | 4.7.0  |
+| [cssnano](https://cssnano.co/)                              | 3.10.0 |
+| [font-awesome](https://fontawesome.com/)                    | 4.7.0  |
+| [masonry-layout](https://masonry.desandro.com/)             | 4.2.1  |
+| [simplelightbox](http://dbrekalo.github.io/simpleLightbox/) | 1.13.0 |
+| [typed.js](https://mattboldt.com/typed.js/)                 | 2.0.8  |
 
-**Backend**:
+**Backend (NodeJS Dependencies)**:
 
-- [NodeJS v8.11.2](https://nodejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [ExpressJS v4.16.3](https://expressjs.com/)
-- [EJS v2.6.1](http://ejs.co/)
-- [server favicon v2.5.0](https://www.npmjs.com/package/serve-favicon)
-- [i18n v0.8.3](https://www.npmjs.com/package/i18n)
-- [cookie-parser v1.4.3](https://www.npmjs.com/package/cookie-parser)
+| Name  | Version |
+| ----- | :-----: |
+| [NodeJS](https://nodejs.org/)                                                  | 8.11.2 |
+| [TypeScript](https://www.typescriptlang.org/)                                  | 2.9.2  |
+| [ExpressJS](https://expressjs.com/)                                            | 4.16.3 |
+| [EJS](http://ejs.co/)                                                          | 2.6.1  |
+| [server-favicon](https://www.npmjs.com/package/serve-favicon)                  | 2.5.0  |
+| [i18n](https://www.npmjs.com/package/i18n)                                     | 0.8.3  |
+| [cookie-parser](https://www.npmjs.com/package/cookie-parser)                   | 1.4.3  |
+| [laravel-mix](https://www.npmjs.com/package/laravel-mix)                       | 2.1.11 |
+| [tslint](https://palantir.github.io/tslint/)                                   | 5.10.0 |
+| [ts-loader](https://www.npmjs.com/package/ts-loader)                           | 3.5.0  |
+| [body-parser](https://www.npmjs.com/package/body-parser)                       | 1.18.3 |
+| [cross-env](https://www.npmjs.com/package/cross-env)                           | 5.2.0  |
+| [dotenv](https://www.npmjs.com/package/cross-env)                              | 6.0.0  |
+| [node-cache](http://mpneuried.github.io/nodecache/)                            | 4.2.0  |
+| [express-github-webhook](https://www.npmjs.com/package/express-github-webhook) | 1.0.6  |
+| [fs-extra](https://www.npmjs.com/package/fs-extra)                             | 6.0.1  |
+| [moment](http://momentjs.com/)                                                 | 2.22.2 |
+| [sharp](https://www.npmjs.com/package/sharp)                                   | 0.20.4 |
+| [winston](https://www.npmjs.com/package/winston)                               | 3.0.0  |
 
 <hr>
 
@@ -56,19 +78,9 @@ Current deployment platform specifications:
 - Operating System: Ubuntu 16.04.4 LTS
 - Architecture: x86_64
 
-**NodeJS Dependencies**:
-
-| package name  | used version |
-| ------------- | ------------ |
-| ExpressJS     | 4.16.3       |
-| EJS           | 2.6.1        |
-| serve-favicon | 2.5.0        |
-| i18n          | 0.8.3        |
-| cookie-parser | 1.4.3        |
-
 **Installation & Quick setup:**
 
-0. Open up your favourite terminal (and navigate somewhere you want to download the repository to) <br><br>
+0. Open up your favorite terminal (and navigate somewhere you want to download the repository to) <br><br>
 1. Make sure you have nodejs installed. Test by  entering <br>
 $ `node -v` <br>
 If this returns a version number, NodeJS is installed. **If not**, get NodeJS <a href="https://nodejs.org/en/download/package-manager/">here</a>. <br><br>
@@ -87,11 +99,11 @@ And fill that file<br><br>
 $ `npm run dev`<br><br>
 
 Or use Docker:<br>
-1. Install Docker and docker-compose 
+1. Install Docker and docker-compose
 2. Clone the repository and navigate to it. <br>
 $ `git clone https://github.com/savetheinternetinfo/website.git && cd website` <br><br>
 3. Then run `docker-compose run --rm npm i && npm run build` this builds the container and the sources <br>
-4. After that run `docker-compose up` this starts the docker container with the comiled sources <br><br>
+4. After that run `docker-compose up` this starts the docker container with the compiled sources <br><br>
 
 **Developing & Building:**
 
@@ -104,13 +116,16 @@ $ `npm run build`
 Start only:<br>
 $ `npm start`
 
+Run TypeScript linter<br>
+$ `npm run lint`
+
 Run file watcher for automatic builds:<br>
 $ `npm run watch`
 
 **Info:**
 
 Per default, the server runs on port 3000 (http://localhost:3000). <br>
-This can be customized in the [`config.ts`](https://github.com/savetheinternetinfo/website/blob/master/src/config.ts) file. 
+This can be customized in the [`config.ts`](https://github.com/savetheinternetinfo/website/blob/master/src/config.ts) file.
 
 <hr>
 

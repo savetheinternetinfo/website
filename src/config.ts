@@ -1,6 +1,6 @@
-let env = require('dotenv').config('../.env');
+let env = require("dotenv").config("../.env");
 
-if(env.error) {
+if (env.error){
     throw new Error("Please copy the '.env.dist' file to a new '.env' file on the project root, and fill out the configuration");
 }
 
