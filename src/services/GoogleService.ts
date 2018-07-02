@@ -7,7 +7,9 @@ class GoogleService {
     private cache: CacheService;
     private doc: GoogleSpreadsheet;
     private sheet;
-    constructor() {
+    private config;
+    constructor(config) {
+        this.config = config;
         this.cache = new CacheService(1200);
         this.doc = new GoogleSpreadsheet ("19WKHONdULFT3U8T-5dhguM5UgO71OzHAzwhZq1MKXaY");
     }
@@ -15,7 +17,7 @@ class GoogleService {
     getData(): any {
         return this.cache.get("press_reviews", () => {
                 return new Promise((resolve) => {
-                    this.doc.useServiceAccountAuth(require("../../google_cred.json"), (err1) => {
+                    this.doc.useServiceAccountAuth(this.config, (err1) => {
                         this.doc.getInfo((err2, info) => {
                             let last_update = info.updated;
                             this.sheet = info.worksheets[0];

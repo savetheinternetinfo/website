@@ -22,5 +22,9 @@ export default {
         "consumer_secret": env.parsed.TWITTER_CONSUMER_SECRET,
         "access_token_key": env.parsed.TWITTER_TOKEN_KEY,
         "access_token_secret": env.parsed.TWITTER_TOKEN_SECRET
+    },
+    "google": {
+        "private_key": env.parsed.GOOGLE_PRIVATE_KEY,
+        "client_email": env.parsed.GOOGLE_CLIENT_EMAIL
     }
 };

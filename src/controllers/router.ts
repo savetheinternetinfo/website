@@ -8,7 +8,7 @@ import GalleryController from "../controllers/gallery";
 import GoogleService     from "../services/GoogleService";
 
 let twitter = new TwitterService(config.twitter);
-let google = new GoogleService();
+let google = new GoogleService(config.google);
 
 export function router(app){
     app.use((req, res, next) => {
