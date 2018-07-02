@@ -3,23 +3,25 @@
         <h1 class="mb-16">
             Pressemitteilungen
         </h1>
+
         <table class="w-full text-left table-collapse">
             <thead>
                 <tr>
-                    <th class="text-sm font-semibold p-2 bg-grey-lightest">Datum</th>
-                    <th class="text-sm font-semibold p-2 bg-grey-lightest">Pressemitteilung</th>
+                    <th class="text-sm p-2 bg-grey-lightest">Datum</th>
+                    <th class="text-sm p-2 bg-grey-lightest">Pressemitteilung</th>
                 </tr>
             </thead>
             <tbody class="align-baseline">
                 <% rows.forEach(function(row){ %>
                     <tr>
-                        <td class="p-2 border-t border-grey-light font-mono text-xs"><%= row._cokwr %></td>
-                        <td class="p-2 border-t border-grey-light font-mono text-xs">
+                        <td class="p-2 border-t border-grey-light text-sm"><%= row._cokwr %></td>
+                        <td class="p-2 border-t border-grey-light text-sm">
                             <a href="<%= row._cpzh4 %>" target="_blank"><%= row._cre1l %></a>
                         </td>
                     </tr>
                 <% }); %>
             </tbody>
         </table>
+        <p class="text-sm">Letztes Update: <%= moment(last_update, '', 'de').fromNow() %></p>
     </div>
     <%- include('layout/footer'); -%>
