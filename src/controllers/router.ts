@@ -43,11 +43,14 @@ export function router(app){
         });
     });
 
-    app.get("/google", (req, res) => {
+    app.get("/pressreview", (req, res) => {
         // TODO: Better error handling
         google.getData().then((ret) => {
-            ret.shift();
-            res.render("pressreview", {"rows": ret});
+            res.render("pressreview", {
+                "rows": ret.rows,
+                "last_update": ret.last_update,
+                "moment": moment
+            });
         }).catch((err) => {
             res.send("ERROR: " + err);
         });
