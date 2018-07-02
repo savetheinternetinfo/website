@@ -16,12 +16,15 @@ class GoogleService {
 
     getData(): any {
         return this.cache.get("press_reviews", () => {
-                return new Promise((resolve) => {
+                return new Promise((resolve, reject) => {
                     this.doc.useServiceAccountAuth(this.config, (err1) => {
+                        if (err1) { reject(err1); }
                         this.doc.getInfo((err2, info) => {
+                            if (err2) { reject(err2); }
                             let last_update = info.updated;
                             this.sheet = info.worksheets[0];
                             this.sheet.getRows(( err3, rows ) => {
+                                if (err3) { reject(err3); }
                                 rows.shift(); // Remove the Table header
                                 rows.reverse(); // Reverse the Array so the newer rows are first
                                 resolve({
