@@ -5,8 +5,10 @@ import * as fs     from "fs";
 import TwitterService    from "../services/TwitterService";
 import config            from "../config";
 import GalleryController from "../controllers/gallery";
+import GoogleService     from "../services/GoogleService";
 
 let twitter = new TwitterService(config.twitter);
+let google = new GoogleService();
 
 export function router(app){
     app.use((req, res, next) => {
@@ -38,6 +40,16 @@ export function router(app){
             });
         }).catch((err) => {
             res.render("index");
+        });
+    });
+
+    app.get("/google", (req, res) => {
+        // TODO: Better error handling
+        google.getData().then((ret) => {
+            ret.shift();
+            res.render("pressreview", {"rows": ret});
+        }).catch((err) => {
+            res.send("ERROR: " + err);
         });
     });
 
