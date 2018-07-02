@@ -45,15 +45,20 @@ export function router(app){
 
     app.get("/pressreview", (req, res) => {
         // TODO: Better error handling
-        google.getData().then((ret) => {
-            res.render("pressreview", {
-                "rows": ret.rows,
-                "last_update": ret.last_update,
-                "moment": moment
+        let currentLocale = i18n.getLocale(req);
+        if (currentLocale === "de") {
+            google.getData().then((ret) => {
+                res.render("pressreview", {
+                    "rows": ret.rows,
+                    "last_update": ret.last_update,
+                    "moment": moment
+                });
+            }).catch((err) => {
+                res.send("ERROR: " + err);
             });
-        }).catch((err) => {
-            res.send("ERROR: " + err);
-        });
+        } else {
+            res.render("404");
+        }
     });
 
     const galleryController = new GalleryController();
