@@ -17,9 +17,15 @@ class GoogleService {
                 return new Promise((resolve) => {
                     this.doc.useServiceAccountAuth(require("../../google_cred.json"), (err1) => {
                         this.doc.getInfo((err2, info) => {
+                            let last_update = info.updated;
                             this.sheet = info.worksheets[0];
                             this.sheet.getRows(( err3, rows ) => {
-                                resolve(rows);
+                                rows.shift(); // Remove the Table header
+                                rows.reverse(); // Reverse the Array so the newer rows are first
+                                resolve({
+                                    "rows": rows,
+                                    "last_update": last_update
+                                });
                             });
                         });
                     });
