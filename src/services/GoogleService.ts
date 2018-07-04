@@ -1,6 +1,6 @@
 import CacheService from "./CacheService";
 import * as GoogleSpreadsheet  from "google-spreadsheet";
-
+import conf from "../config";
 
 class GoogleService {
 
@@ -11,7 +11,7 @@ class GoogleService {
     constructor(config) {
         this.config = config;
         this.cache = new CacheService(1200);
-        this.doc = new GoogleSpreadsheet ("19WKHONdULFT3U8T-5dhguM5UgO71OzHAzwhZq1MKXaY");
+        this.doc = new GoogleSpreadsheet(conf.google_sheet);
     }
 
     getData(): any {

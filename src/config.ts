@@ -26,5 +26,6 @@ export default {
     "google": {
         "private_key": env.parsed.GOOGLE_PRIVATE_KEY,
         "client_email": env.parsed.GOOGLE_CLIENT_EMAIL
-    }
+    },
+    "google_sheet": "19WKHONdULFT3U8T-5dhguM5UgO71OzHAzwhZq1MKXaY"
 };
