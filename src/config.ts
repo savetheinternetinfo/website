@@ -21,7 +21,9 @@ export default {
         "consumer_key": env.parsed.TWITTER_CONSUMER_KEY,
         "consumer_secret": env.parsed.TWITTER_CONSUMER_SECRET,
         "access_token_key": env.parsed.TWITTER_TOKEN_KEY,
-        "access_token_secret": env.parsed.TWITTER_TOKEN_SECRET
+        "access_token_secret": env.parsed.TWITTER_TOKEN_SECRET,
+        "query": "#Uploadfilter OR #FCKArt13 OR #SaveTheInternet",
+        "ttl": 600
     },
     "google": {
         "api_key": env.parsed.GOOGLE_API_KEY,

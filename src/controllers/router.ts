@@ -40,7 +40,7 @@ export function router(app){
                 "currLang": currentLocale
             });
         }).catch((err) => {
-            res.render("index");
+            sendError(req, res, err);
         });
     });
 

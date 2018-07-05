@@ -21,16 +21,23 @@ class TwitterService {
 
     private tclient: twitter;
     private cache: CacheService;
+    private config;
 
     constructor(options) {
-        this.tclient = new twitter(options);
-        this.cache = new CacheService(600);
+        this.tclient = new twitter({
+            "consumer_key": options.consumer_key,
+            "consumer_secret": options.consumer_secret,
+            "access_token_key": options.access_token_key,
+            "access_token_secret": options.access_token_secret
+        });
+        this.cache = new CacheService(options.ttl);
+        this.config = options;
     }
 
     getTweet(): Promise<Tweets> {
         return this.cache.get<Tweets>("tweets", () => {
             return this.tclient.get<Tweets>("search/tweets", {
-                q: "#Uploadfilter OR #FCKArt13 OR #SaveTheInternet"
+                q: this.config.query
             }).then((res) => {
                 return Promise.resolve(res);
             });
