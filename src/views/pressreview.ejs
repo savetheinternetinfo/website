@@ -1,0 +1,26 @@
+<%- include('layout/header'); -%>
+    <div class="section container">
+        <h1 class="mb-16">
+            Pressemitteilungen
+        </h1>
+
+        <table class="w-full text-left table-collapse">
+            <thead>
+                <tr>
+                    <th class="text-sm p-2 bg-grey-lightest">Datum</th>
+                    <th class="text-sm p-2 bg-grey-lightest">Pressemitteilung</th>
+                </tr>
+            </thead>
+            <tbody class="align-baseline">
+                <% rows.forEach(function(row){ %>
+                    <tr>
+                        <td class="p-2 border-t border-grey-light text-sm"><%= row[0] %></td>
+                        <td class="p-2 border-t border-grey-light text-sm">
+                            <a href="<%= row[1] %>" target="_blank"><%= row[2] %></a>
+                        </td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+    </div>
+    <%- include('layout/footer'); -%>

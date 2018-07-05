@@ -22,5 +22,11 @@ export default {
         "consumer_secret": env.parsed.TWITTER_CONSUMER_SECRET,
         "access_token_key": env.parsed.TWITTER_TOKEN_KEY,
         "access_token_secret": env.parsed.TWITTER_TOKEN_SECRET
+    },
+    "google": {
+        "api_key": env.parsed.GOOGLE_API_KEY,
+        "sheet_id": "1qhAN-YfpA8PsSvSiYcD8gElJQRbg_aThNLD09-d7mKY",
+        "range": "Tabellenblatt1!A2:C",
+        "ttl": 1200
     }
 };
