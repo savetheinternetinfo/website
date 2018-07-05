@@ -5,8 +5,10 @@ import * as fs     from "fs";
 import TwitterService    from "../services/TwitterService";
 import config            from "../config";
 import GalleryController from "../controllers/gallery";
+import GoogleService     from "../services/GoogleService";
 
 let twitter = new TwitterService(config.twitter);
+let google = new GoogleService(config.google);
 
 export function router(app){
     app.use((req, res, next) => {
@@ -39,6 +41,24 @@ export function router(app){
         }).catch((err) => {
             res.render("index");
         });
+    });
+
+    app.get("/pressreview", (req, res) => {
+        // TODO: Better error handling
+        let currentLocale = i18n.getLocale(req);
+        if (currentLocale === "de") {
+            google.getData().then((ret) => {
+                res.render("pressreview", {
+                    "rows": ret.rows,
+                    "last_update": ret.last_update,
+                    "moment": moment
+                });
+            }).catch((err) => {
+                res.send("ERROR: " + err);
+            });
+        } else {
+            res.render("404");
+        }
     });
 
     const galleryController = new GalleryController();
