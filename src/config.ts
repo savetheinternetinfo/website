@@ -26,7 +26,7 @@ export default {
     "google": {
         "api_key": env.parsed.GOOGLE_API_KEY,
         "sheet_id": "1qhAN-YfpA8PsSvSiYcD8gElJQRbg_aThNLD09-d7mKY",
-        "range": "Tabellenblatt2!A2:C",
+        "range": "Tabellenblatt1!A2:C",
         "ttl": 1200
     }
 };
