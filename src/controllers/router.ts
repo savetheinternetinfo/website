@@ -6,6 +6,7 @@ import TwitterService    from "../services/TwitterService";
 import config            from "../config";
 import GalleryController from "../controllers/gallery";
 import GoogleService     from "../services/GoogleService";
+import sendError from "../util/error";
 
 let twitter = new TwitterService(config.twitter);
 let google = new GoogleService(config.google);
@@ -44,17 +45,14 @@ export function router(app){
     });
 
     app.get("/pressreview", (req, res) => {
-        // TODO: Better error handling
         let currentLocale = i18n.getLocale(req);
         if (currentLocale === "de") {
             google.getData().then((ret) => {
                 res.render("pressreview", {
-                    "rows": ret.rows,
-                    "last_update": ret.last_update,
-                    "moment": moment
+                    "rows": ret.values
                 });
             }).catch((err) => {
-                res.send("ERROR: " + err);
+                sendError(req, res, err);
             });
         } else {
             res.render("404");
