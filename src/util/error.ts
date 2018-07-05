@@ -4,10 +4,11 @@ const sendError = (req, res, err) => {
     if (allowedDevDomains.indexOf(req.headers.host) > -1) {
         isDev = true;
     }
+    res.status(500);
     res.render("500", {
         "isDev": isDev,
         "message": err
-    }).status(500);
+    });
 };
 
 export default sendError;
