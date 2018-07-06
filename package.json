@@ -5,7 +5,7 @@
   "main": "./src/app.ts",
   "scripts": {
     "postsetup": "sudo npm install -g typescript",
-    "build": "tsc",
+    "build": "tsc --p ./tsconfig-es6.json && tsc --p ./tsconfig-es5.json",
     "watch": "npm run build -- -w",
     "start": "cross-env NODE_ENV=production node ./dist/app.js",
     "dev": "npm run build && node ./dist/app.js",
