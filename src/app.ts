@@ -31,7 +31,9 @@ i18n.configure({
     directory: "./src/languages",
     cookie: config.server.cookieprefix + "lang",
     defaultLocale: "en",
-    queryParameter: "lang"
+    queryParameter: "lang",
+    updateFiles: false,
+    autoReload: true,
 });
 
 app.enable("trust proxy");
