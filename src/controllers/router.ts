@@ -73,7 +73,11 @@ export function router(app){
         else res.render("404");
     });
 
-    app.get('/api/meta', (req, res) => {
+    app.get("/api/meta", (req, res) => {
+        if(req.query.q === undefined) {
+            return res.send("'q' is a required parameter");
+        }
+
         meta.get(req.query.q)
             .then(metaData => {
                 let item = req.query.item;
@@ -82,7 +86,7 @@ export function router(app){
                 } else if (metaData.hasOwnProperty(item)) {
                     res.send(metaData[item])
                 } else {
-                    res.send('error: item not found');
+                    res.send("error: item not found");
                 }
             })
             .catch(err => {

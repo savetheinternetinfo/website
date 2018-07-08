@@ -1,8 +1,8 @@
 import CacheService from "./CacheService";
-import * as Crypto from 'crypto';
+import * as Crypto from "crypto";
 
-const Metascraper = require('metascraper')
-const Got = require('got')
+const Metascraper = require("metascraper");
+const Got = require("got");
 
 class MetaService {
 
@@ -15,7 +15,7 @@ class MetaService {
     }
 
     get(page: string): any {
-        let cacheKey = this.config.prefix +  Crypto.createHash('md5').update(page).digest('hex');
+        let cacheKey = this.config.prefix +  Crypto.createHash("md5").update(page).digest("hex");
 
         return this.cache.get(cacheKey, async () => {
             // Deny loopback
