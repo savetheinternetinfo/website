@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="h-full" xmlns="http://www.w3.org/1999/html">
+<%
+    String.prototype.capitalize = function(){
+        return this.charAt(0).toUpperCase() + this.slice(1);
+    }
+%>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <% if (currentRoute.replace(/\//g, "") == ""){ %>
+    <title>Save the Internet</title>
+    <% } else { %>
+    <title><%= currentRoute.replace(/\-/g, " ").capitalize() %> | Save the Internet</title>
+    <% } %>
+    <meta name="title" content="Save the Internet">
+    <meta name="description" content="The Internet is in great danger. We are an organization who has the goal to inform and stop the EU from their biggest mistake. Help us defend the Internet!">
+
+    <!-- Browser Colors -->
+    <meta name="msapplication-TileColor" content="#12233f">
+    <meta name="theme-color" content="#12233f">
+
+    <!-- Cards -->
+    <meta itemprop="name" content="Save the Internet">
+    <meta itemprop="description" content="The Internet is in danger. Learn more about how you can save it.">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content='Save the Internet'/>
+    <meta name="twitter:description" content="The Internet is in danger. Learn more about how you can save it."/>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Save the Internet">
+    <meta property="og:description" content="The Internet is in danger. Learn more about how you can save it.">
+    <meta property="og:site_name" content="Save the Internet"/>
+
+    <link rel="stylesheet" href="<%= assets['/assets/main.css'] %>"/>
+    <% languages.forEach((language) => { %>
+        <% if(language != currentLanguage) { %><link rel="alternate" href="<%= `/${currentRoute}?lang=${language}` %>" hreflang="<%= language %>"><% } %>
+    <% }); %>
+    <base href="/" >
+</head>
+<body class="bg-blue text-white min-h-screen flex flex-col">
+<header class="z-50 flex flex-no-wrap justify-between bg-blue w-full shadow fixed">
+    <div class="share-container flex flex-no-wrap ml-2">
+        <a class="nav-link mr-1" href="https://www.facebook.com/Savetheinternet.info/"><i class="fa fa-facebook-square"></i></a>
+        <a class="nav-link mr-1" href="https://twitter.com/uploadfilter"><i class="fa fa-twitter"></i></a>
+        <a class="nav-link mr-0" href="https://www.instagram.com/savetheinternetpetition/"><i class="fa fa-instagram"></i></a>
+    </div>
+    <nav class="hidden sm:block flex-1 container">
+        <ul class="flex navbar flex-no-wrap list-reset m-0 p-0">
+            <li><a class="nav-link" href="/about-us">About Us</a></li>
+            <li><a class="nav-link" href="/gallery"><%= __('gallery_title') %></a></li>
+            <li><a class="nav-link" href="/about"><%= __('about_title') %></a></li>
+            <!-- <% if(currentLanguage == "de") { %><li><a class="nav-link" href="/pressreview">Pressemitteilung</a></li><% } %> -->
+        </ul>
+    </nav>
+    <div class="language-picker mr-2">
+        <a class="cursor-pointer nav-link pr-4 mr-0 lang-trigger"><span class="flag-icon flag-icon-<%= currentLanguage == 'en' ? 'gb' : currentLanguage %>"></span></a>
+        <menu class="hidden absolute w-full bg-blue shadow-md m-0 p-0 pr-2">
+            <ul class="flex flex-wrap justify-end w-full list-reset">
+                <% languages.forEach((language) => { %>
+                <li><a class="nav-link mb-2 mr-0 ml-2" href="/<%= currentRoute %>?lang=<%= language %>"><span class="flag-icon flag-icon-<%= language == 'en' ? 'gb' : language %>"></span> </a></li>
+                <% }); %>
+            </ul>
+        </menu>
+
+    </div>
+</header>
+<div class="hero pt-8 flex items-center justify-center flex-col mt-4">
+    <div class="tilt text-2xl md:text-title m-4 bg-white p-4">
+        <div class="untilt">
+                <a class="text-blue hover:text-blue font-bold" href="/">Save <span id="head-typer" class="font-hairline">the</span>Internet</a>
+        </div>
+    </div>
+    <p class="text-xl px-2 text-center"><%= __('header_tagline') %></p>
+    <a class="btn btn-orange mt-3" target="_blank" href="https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet"><%= __('sign_petition') %></a>
+</div>

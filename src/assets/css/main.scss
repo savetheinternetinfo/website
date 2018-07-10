@@ -1,0 +1,18 @@
+@import "~tailwindcss/preflight";
+@import "~tailwindcss/components";
+
+$fa-font-path: '../fonts';
+@import "~font-awesome/scss/font-awesome";
+
+$sl-overlay-background: #000;
+$sl-navigation-color: #FFF;
+$sl-caption-color: #fff;
+$sl-caption-background: #000;
+$sl-overlay-opacity: 0.8;
+@import "~simplelightbox/dist/simplelightbox";
+
+@import "shared";
+@import "gallery";
+@import "mep";
+@import '~flag-icon-css/sass/flag-icon';
+@import "~tailwindcss/utilities";

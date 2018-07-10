@@ -1,0 +1,7 @@
+<%- include('layout/header'); -%>
+<div class="section container">
+    <h1>Internal server error!</h1>
+    <p>We are very sorry, it seems there is a problem with our servers!</p>
+    <% if(isDev) {%> <pre><%= message %></pre> <% } %>
+</div>
+<%- include('layout/footer'); -%>

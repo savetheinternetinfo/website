@@ -1,0 +1,71 @@
+.tweet-container {
+    background-color: #293852;
+}
+
+.tweet-time {
+    font-weight: 700;
+    color: #666;
+}
+.tweet-time::before {
+    content: " \B7 "
+}
+
+.section-twitter {
+    height: 18rem;
+}
+
+.section-twitter::-webkit-scrollbar {
+    width: 3px
+}
+
+.section-twitter::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.section-twitter::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #294f8e;
+}
+
+.section-twitter::-webkit-scrollbar-thumb:hover {
+    background: #555
+}
+
+.fade {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

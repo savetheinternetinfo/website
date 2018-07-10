@@ -1,0 +1,25 @@
+
+    <div class="flex-grow"></div>
+    <div class="notice p-4 bg-blue-dark text-center text-orange text-sm">
+        <p class="mb-0">
+            <%= __('footer_notice') %>
+        </p>
+    </div>
+    <footer class="flex flex-col lg:flex-row xl:flex-row bg-blue-darker text-sm">
+        <div class="p-4 flex-grow flex-no-shrink text-center lg:text-left xl:text-left">
+            © 2018 - <a href="https://savetheinternet.info">savetheinternet.info</a> - <a target="_blank" href="https://github.com/savetheinternetinfo/website/blob/develop/LICENSE">CC BY-NC-ND</a>
+        </div>
+        <nav>
+            <ul class="list-reset flex flex-wrap justify-center">
+                <li class="my-4 mx-3"><a href="/gallery"><%= __('gallery_title') %></a></li>
+                <li class="my-4 mx-3"><a href="/about"><%= __('about_title') %></a></li>
+                <li class="my-4 mx-3"><a href="/about-us">About Us</a></li>
+                <li class="my-4 mx-3"><a href="/imprint"><%= __('imprint_link') %></a></li>
+                <li class="my-4 mx-3"><a href="/privacy-policy"><%= __('privacy_link') %></a></li>
+                <li class="my-4 mx-3"><a target="_blank" href="https://github.com/savetheinternetinfo">GitHub</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script type="text/javascript" src="<%= assets['/assets/bundle.js'] %>"></script>
+    </body>
+</html>
