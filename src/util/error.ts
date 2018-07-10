@@ -6,10 +6,11 @@ const sendError = (req, res, err) => {
     if (allowedDevDomains.indexOf(req.headers.host) > -1) {
         isDev = true;
     }
-    if(typeof err === "object") {
-        if(err.hasOwnProperty('message')) {
-            err = err.message
-        } else {
+    if (typeof err === "object") {
+        if (err.hasOwnProperty("message")) {
+            err = err.message;
+        }
+        else {
             console.error(err);
             err = "Error is too large to show. Look at the console for details.";
         }

@@ -19,7 +19,7 @@ class MetaService {
 
         return this.cache.get(cacheKey, async () => {
             // Deny loopback
-            if(/^https?:\/\/localhost|^https?:\/\/127(?:\.[0-9]+){0,2}\.[0-9]+/.test(page)) {
+            if (/^https?:\/\/localhost|^https?:\/\/127(?:\.[0-9]+){0,2}\.[0-9]+/.test(page)) {
                 return Promise.reject("Invalid hostname");
             }
 
