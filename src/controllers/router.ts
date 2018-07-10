@@ -45,7 +45,7 @@ export function router(app){
             sendError(req, res, err);
         });
     });
-
+/*
     app.get("/pressreview", (req, res) => {
         let currentLocale = i18n.getLocale(req);
         if (currentLocale === "de") {
@@ -60,7 +60,7 @@ export function router(app){
             res.render("404");
         }
     });
-
+*/
     const galleryController = new GalleryController();
     // Because express fucking rebinds `this`
     app.get("/gallery", (req, res, next) => galleryController.index(req, res, next));
