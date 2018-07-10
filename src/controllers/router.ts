@@ -7,9 +7,11 @@ import config            from "../config";
 import GalleryController from "../controllers/gallery";
 import GoogleService     from "../services/GoogleService";
 import sendError from "../util/error";
+import MetaService from "../services/MetaService";
 
 let twitter = new TwitterService(config.twitter);
 let google = new GoogleService(config.google);
+let meta =  new MetaService(config.meta);
 
 export function router(app){
     app.use((req, res, next) => {
@@ -69,5 +71,28 @@ export function router(app){
 
         if (fs.existsSync(`./src/views/${page}.ejs`)) res.render(page);
         else res.render("404");
+    });
+
+    app.get("/api/meta", (req, res) => {
+        if (req.query.q === undefined) {
+            return res.send("'q' is a required parameter");
+        }
+
+        meta.get(req.query.q)
+            .then(metaData => {
+                let item = req.query.item;
+                if (item === undefined){
+                    res.send(metaData);
+                }
+                else if (metaData.hasOwnProperty(item)){
+                    res.send(metaData[item]);
+                }
+                else {
+                    res.send("error: item not found");
+                }
+            })
+            .catch(err => {
+                res.send(err.message);
+            });
     });
 }
