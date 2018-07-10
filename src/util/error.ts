@@ -6,7 +6,14 @@ const sendError = (req, res, err) => {
     if (allowedDevDomains.indexOf(req.headers.host) > -1) {
         isDev = true;
     }
-    err = typeof err === "object" ? JSON.stringify(err) : err;
+    if(typeof err === "object") {
+        if(err.hasOwnProperty('message')) {
+            err = err.message
+        } else {
+            console.error(err);
+            err = "Error is too large to show. Look at the console for details.";
+        }
+    }
     res.status(500);
     res.render("500", {
         "isDev": isDev,
