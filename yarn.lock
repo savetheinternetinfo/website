@@ -5219,7 +5219,7 @@ metascraper-video@^3.11.8:
     "@metascraper/helpers" "^3.11.8"
     video-extensions "~1.1.0"
 
-metascraper@^3.11.7:
+metascraper@^3.11.8:
   version "3.11.8"
   resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-3.11.8.tgz#44e7f8d03fe14cf34ab2442a98457226a0f3201e"
   dependencies:
