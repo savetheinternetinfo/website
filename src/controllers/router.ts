@@ -5,12 +5,12 @@ import * as fs     from "fs";
 import TwitterService    from "../services/TwitterService";
 import config            from "../config";
 import GalleryController from "../controllers/gallery";
-import GoogleService     from "../services/GoogleService";
+//import GoogleService     from "../services/GoogleService";
 import sendError from "../util/error";
 import MetaService from "../services/MetaService";
 
 let twitter = new TwitterService(config.twitter);
-let google = new GoogleService(config.google);
+//let google = new GoogleService(config.google);
 let meta =  new MetaService(config.meta);
 
 export function router(app){
