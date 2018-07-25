@@ -31,7 +31,7 @@ const appPort = config.server.port || 3000;
 
 if (!config.server.port) log.warn("No port specified. Using default: 3000");
 
-if (!/^([0-9]{1,4}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])$/.test(appPort)){
+if (appPort < 1 || appPort > 65535){
     log.error("Invalid port specified. Stopping...");
     process.exit(1);
 }
