@@ -27,6 +27,15 @@ const app = express();
 
 log.info("Started.");
 
+const appPort = config.server.port || 3000;
+
+if (!config.server.port) log.warn("No port specified. Using default: 3000");
+
+if (appPort < 1 || appPort > 65535){
+    log.error("Invalid port specified. Stopping...");
+    process.exit(1);
+}
+
 i18n.configure({
     directory: "./src/languages",
     cookie: config.server.cookieprefix + "lang",
@@ -47,7 +56,7 @@ app.use(cookieP());
 app.use(express.static("./public"));
 app.use(favicon("./src/assets/favicon.png"));
 app.use(i18n.init);
-app.set("port", config.server.port);
+app.set("port", appPort);
 
 app.locals.assets = require("../public/mix-manifest.json");
 
