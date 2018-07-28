@@ -1,4 +1,5 @@
 import './mep';
+import './countdown';
 const Typed = require('typed.js'); // It fails with a TS import
 
 let langpicker = document.getElementsByClassName("language-picker")[0];
