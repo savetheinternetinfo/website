@@ -1,34 +1,42 @@
-import './mep';
 import './countdown';
-const Typed = require('typed.js'); // It fails with a TS import
+import "./mep";
+const Typed = require("typed.js"); // It fails with a TS import
 
 let langpicker = document.getElementsByClassName("language-picker")[0];
-let langMenuTrigger = langpicker.getElementsByClassName('lang-trigger')[0];
-let langMenu = langpicker.getElementsByTagName('menu')[0];
+let langMenuTrigger = langpicker.getElementsByClassName("lang-trigger")[0];
+let langMenu = langpicker.getElementsByTagName("menu")[0];
+let mainMenu = document.getElementsByClassName("main-menu")[0];
+let mobileMenuTrigger = mainMenu.getElementsByClassName("mobile-menu-trigger")[0];
+let mainMenuList = mainMenu.getElementsByTagName("ul")[0];
 
-langMenuTrigger.addEventListener('click', function() {
-    langpicker.classList.toggle('open'),
-    langMenu.classList.toggle('hidden');
+langMenuTrigger.addEventListener("click", function() {
+    langpicker.classList.toggle("open"),
+    langMenu.classList.toggle("hidden");
+});
+
+mobileMenuTrigger.addEventListener("click", function() {
+    mainMenu.classList.toggle("open");
+    mainMenuList.classList.toggle("hidden");
 });
 
 // it contains "the" for SEO, remove it as it messes up typed.js
-document.getElementById('head-typer').innerHTML = "";
-new Typed('#head-typer', {
-    strings: ['the', 'your', 'our', 'her', 'his', 'their'],
+document.getElementById("head-typer").innerHTML = "";
+new Typed("#head-typer", {
+    strings: ["the", "your", "our", "her", "his", "their"],
     typeSpeed: 130,
     backSpeed: 80,
     loop: true,
     smartBackspace: false,
     shuffle: true,
     backDelay: 1400,
-})
+});
 
 /*
     Twitter Stuff
 */
 function showTweet(interval) {
-    let tweets = Array.from(document.querySelectorAll('.section-twitter>.tweet-container:not(.fade)'));
-    if(tweets.length === 0) {
+    let tweets = Array.from(document.querySelectorAll(".section-twitter>.tweet-container:not(.fade)"));
+    if (tweets.length === 0) {
         clearInterval(interval);
     } else {
         let tweet = tweets[0];
@@ -40,4 +48,4 @@ function showTweet(interval) {
 
 }
 showTweet(null);
-var fadeInterval = setInterval(function() { showTweet(fadeInterval) }, 60000);
+let fadeInterval = setInterval(function() { showTweet(fadeInterval); }, 60000);

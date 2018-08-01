@@ -11,6 +11,8 @@ $sl-caption-background: #000;
 $sl-overlay-opacity: 0.8;
 @import "~simplelightbox/dist/simplelightbox";
 
+.sl-overlay { z-index: 1000 !important; }
+
 @import "shared";
 @import "gallery";
 @import "mep";
