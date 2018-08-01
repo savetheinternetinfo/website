@@ -88,14 +88,15 @@ If this returns a version number, NodeJS is installed. **If not**, get NodeJS <a
 $ `git clone https://github.com/savetheinternetinfo/website.git && cd website` <br><br>
 3. Run the post setup script to install typescript: <br>
 $ `npm run postsetup` <br><br>
-4. Install all dependencies by typing <br>
+4. Make sure you installed "libpng-dev" <br><br>
+5. Install all dependencies by typing <br>
 $ `npm install`<br><br>
-5. Compile the assets <br>
+6. Compile the assets <br>
 $ `npm run assets-dev`<br><br>
-6. Fill in your config secrets<br>
+7. Fill in your config secrets<br>
 $ `cp .env.dist .env`<br><br>
 And fill that file<br><br>
-7. Start the server <br>
+8. Start the server <br>
 $ `npm run dev`<br><br>
 
 Or use Docker:<br>
