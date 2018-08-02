@@ -7,8 +7,10 @@
   "header_tagline": "Das Internet ist in Gefahr, und du kannst es retten!",
   "share_twitter": "Das Internet ist in Gefahr, und du kannst es retten! https://savetheinternet.info #DeleteArt13",
   "article": "Artikel",
-  "article_header": "Das Internet ist sicher - vorerst.",
+  "article_header": "Das Internet ist sicher",
+  "article_header2": "nicht mehr.",
   "article_title": "Was ist passiert?",
+  "countdown_done": "jetzt",
   "article_content1": "Am 5. Juli 2018 fand im Plenum des Europäischen Parlaments die Abstimmung über die <a href=\"https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:52016PC0593&from=EN\" class=\"highlight\">Reform des Urheberrechts im digitalen Binnenmarkt</a> statt. Gegenstand dieser Reform waren die bereits im Vorfeld stark kritisierten Artikel 11 und 13. Diese beiden Artikel hätten in der vorgeschlagenen Form den Weg für eine umfassende Zensur des Internets geebnet. Aus diesem Grund haben wir eine erfreulicher Weise sehr erfolgreiche Petition ins Leben gerufen, welche wir, dank der persöhnlichen Einladung der EU-Abgeordneten Julia Reda, direkt vor der Abstimmung mitsamt den damals 736.000 Unterschriften den Abgeordneten überreichen konnten. Durch den unermüdlichen Einsatz unserer Mitglieder und der enormen Zahl an Unterschriften konnten wir den Abgeordneten das erhebliche Risiko dieser Reform bewusst machen und so eine Verabschiedung im Plenum verhindern.",
   "article_content2": "Der Reformvorschlag zum Urheberrecht (bes. Artikel 11 und 13) wurde 318 (53 %) zu 278 (47 %)  abgelehnt!",
   "article_content3": "Allerdings ist die Gefahr noch nicht gänzlich vom Tisch! Die Ablehnung im Plenum bedeutet lediglich, dass der Reformvorschlag überarbeitet und neu eingereicht werden muss. Wir rechnen mit einer erneuten Abstimmung über eine dann überarbeitete Version im September.",
@@ -23,6 +25,7 @@
   "twitter_description": "Die Zensur könnte schon sehr bald die kulturellen Normen des Webs, wie wir es kennen, auf den Kopf stellen. Upload-Sperren sorgen in Kombination mit fehleranfälligen Algorithmen dafür, dass selbst das Posten von Links künftig ein massives Problem darstellen wird. Derartiges wird sich vor allem auf Plattformen wie Twitter, Facebook, 9GAG und Co. zeigen. Um genau zu sein – höchstwahrscheinlich alle deiner Lieblingswebsites. Denn hier würden die Artikel 11 und 13 dafür sorgen, dass Verlinkungen und direkte Zitate geschwärzt oder sogar gänzlich am Hochladen gehindert werden.",
   "countdown_title": "Die Zeit wird knapp",
   "countdown_description1": "Die Abstimmung im EU-Parlament findet schon in wenigen Tagen statt! Daher müssen wir <b>SOFORT</b> handeln um die Abgeordneten umzustimmen. Im zuständigen Ausschuss besteht gerade nur eine knappe Mehrheit von einer Stimme für den Vorschlag.",
+
   "countdown_until": "Countdown until the Legal Committee of the European Parliament discusses Article 13",
   "countdown_expired": "Zum Livestream",
   "livestream_link": "http://www.europarl.europa.eu/ep-live/de/committees/video?event=20180620-0900-COMMITTEE-JURI",
@@ -39,6 +42,7 @@
   "what_do_content1": "Auch weiterhin gilt es, ein klares Zeichen gegen Uploadfilter und Co zu setzen, weshalb wir die Petition auf change.org auch vorerst nicht stoppen werden. Insbesondere da erst im September die nächste Abstimmung geplant ist, gilt es jetzt nicht nachzulassen.",
   "what_do_content2": "Die Arbeit des Europäischen Parlaments ist über deren Webseite öffentlich zugänglich: <a href='https://eur-lex.europa.eu/'>https://eur-lex.europa.eu/</a> Auf dieser Seite findest du alle Informationen rund um die Europäische Gesetzgebung sowie PDF-Datein sämtlicher eingereichten Dokumente, Vorschläge und vergleichbares. Nutze die Möglichkeit, dir die Arbeit der Abgeordneten anzusehen und traue dich zu sagen, wenn dir etwas nicht passt. Denn es geht dabei schließlich auch um deine Zukunft!",
   "dont_like_header": "Mir gefällt ein Vorschlag oder Artikel nicht! - Was tun?",
+
   "dont_like_content1": "Dann Kontaktiere deinen Abgeordneten!Du kannst deinen EU-Abgeordneten direkt kontaktieren, um ihm/ihr deinen Unmut über das, was dir nicht passt, zu zeigen. Persönliche E-Mails erzielen oft eine sehr hohe Wirkung. Denn Menschen, mit denen man im direkten Kontakt steht, sind eher gewillt sich umstimmen zu lassen. Eine Liste mit E-Mail-Adressen der jeweiligen Abgeordneten findest du hier:",
   "dont_like_content2": "Ein Tipp, um den bestmöglichen Effekt deiner Beschwerde zu erzielen: Bleib sachlich und höflich. Mit beleidigenden Worten oder Drohungen erreichst du nur Ablehnung, bleib also pragmatisch und erkläre deinen Unmut gegenüber der Sache, nicht gegenüber dem/der Abgeordneten.",
   "near_demos": "Wo wirst du gebraucht?",
