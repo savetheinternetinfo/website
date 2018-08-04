@@ -74,3 +74,6 @@ cmake-build-*/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+
+# DS_STORE
+.DS_Store

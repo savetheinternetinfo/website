@@ -24,23 +24,25 @@ class TwitterService {
     private config;
 
     constructor(options) {
-        this.tclient = new twitter({
-            "consumer_key": options.consumer_key,
-            "consumer_secret": options.consumer_secret,
-            "access_token_key": options.access_token_key,
-            "access_token_secret": options.access_token_secret
-        });
+        if (options.consumer_key && options.consumer_key != null) {
+            this.tclient = new twitter({
+                "consumer_key": options.consumer_key,
+                "consumer_secret": options.consumer_secret,
+                "access_token_key": options.access_token_key,
+                "access_token_secret": options.access_token_secret
+            });
+        }
         this.cache = new CacheService(options.ttl);
         this.config = options;
     }
 
     getTweet(): Promise<Tweets> {
         return this.cache.get<Tweets>("tweets", () => {
-            return this.tclient.get<Tweets>("search/tweets", {
+            return this.tclient ? this.tclient.get<Tweets>("search/tweets", {
                 q: this.config.query
             }).then((res) => {
                 return Promise.resolve(res);
-            });
+            }) : Promise.resolve({});
         }).then(value => {
             return value;
         });

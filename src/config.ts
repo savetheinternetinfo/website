@@ -6,7 +6,7 @@ if (env.error){
 
 export default {
     "server": {
-        "port": 3000,
+        "port": env.parsed.PORT,
         "cookieprefix": "_sti",
         "localhost_only": false,
         "hook": {
