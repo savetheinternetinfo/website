@@ -27,6 +27,7 @@ const app = express();
 
 log.info("Started.");
 
+
 const appPort = config.server.port || 3000;
 
 if (!config.server.port) log.warn("No port specified. Using default: 3000");
@@ -35,6 +36,7 @@ if (appPort < 1 || appPort > 65535){
     log.error("Invalid port specified. Stopping...");
     process.exit(1);
 }
+
 
 i18n.configure({
     directory: "./src/languages",
