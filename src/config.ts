@@ -34,5 +34,9 @@ export default {
     "meta": {
         "ttl": 1200,
         "prefix": "meta_"
+    },
+    "recaptcha": {
+        siteKey: env.parsed.GOOGLE_RECAPTCHA_SITEKEY,
+        secretKey: env.parsed.GOOGLE_RECAPTCHA_SECRETKEY
     }
 };
