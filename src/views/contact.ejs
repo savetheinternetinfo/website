@@ -1,5 +1,6 @@
 <%- include('layout/header'); -%>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script type="text/javascript" src="<%= assets['/assets/contact.js'] %>"></script>
 <div class="section container mx-auto flex justify-center">
                 <form class="w-full max-w-md">
                     <h1 class="mb-8">Kontaktformular</h1>
@@ -36,7 +37,7 @@
                                 <%- recaptcha_form %>
                         </div>
                         <div class="w-full md:w-1/2 px-3">
-                                <button class="btn btn-orange rounded">Senden</button>
+                                <button class="btn btn-orange rounded" type="button" id="send">Senden</button>
                         </div>
                 </div>
 

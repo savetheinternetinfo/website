@@ -4,7 +4,7 @@ import * as reCAPTCHA from "recaptcha2";
 class ContactService {
 
     private config;
-    private recaptcha;
+    public recaptcha;
     constructor(config) {
         this.recaptcha = new reCAPTCHA(config);
     }

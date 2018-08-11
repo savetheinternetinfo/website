@@ -1,6 +1,7 @@
 import * as moment from "moment";
 import * as i18n   from "i18n";
 import * as fs     from "fs";
+import * as bodyparser from "body-parser";
 
 import TwitterService    from "../services/TwitterService";
 import config            from "../config";
@@ -8,10 +9,12 @@ import GalleryController from "../controllers/gallery";
 import GoogleService     from "../services/GoogleService";
 import sendError from "../util/error";
 import MetaService from "../services/MetaService";
+import ContactService from "../services/ContactService";
 
 let twitter = new TwitterService(config.twitter);
 let google = new GoogleService(config.google);
 let meta =  new MetaService(config.meta);
+let contact = new ContactService(config.recaptcha);
 
 export function router(app){
     app.use((req, res, next) => {
@@ -31,6 +34,7 @@ export function router(app){
 
         next();
     });
+    app.use(bodyparser.json());
 
     app.get("/", (req, res) => {
         // Get tweets by hashtag
@@ -60,6 +64,21 @@ export function router(app){
         else {
             res.render("404");
         }
+    });
+
+    app.get("/contact", (req, res) => {
+        res.render("contact", {
+            "recaptcha_form": contact.getCaptcha()
+        });
+    });
+
+    app.post("/api/contact", (req, res) => {
+        console.log(req.body);
+        contact.recaptcha.validate(req.body.reCAPTCHA_VAL).then(function(){
+          res.send(JSON.stringify({ "valid": true, "send": true }));
+        }).catch(function(){
+            res.send(JSON.stringify({ "valid": false, "send": false }));
+        });
     });
 
     const galleryController = new GalleryController();
