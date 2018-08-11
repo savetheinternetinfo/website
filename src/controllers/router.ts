@@ -8,10 +8,12 @@ import GalleryController from "../controllers/gallery";
 //import GoogleService     from "../services/GoogleService";
 import sendError from "../util/error";
 import MetaService from "../services/MetaService";
+import ContactService from "../services/ContactService";
 
 let twitter = new TwitterService(config.twitter);
 //let google = new GoogleService(config.google);
 let meta =  new MetaService(config.meta);
+let contact = new ContactService(config.recaptcha);
 
 export function router(app){
     app.use((req, res, next) => {
@@ -45,6 +47,13 @@ export function router(app){
             sendError(req, res, err);
         });
     });
+
+    app.get("/contact", (req, res) => {
+        res.render("contact", {
+            "recaptcha_form": contact.getCaptcha()
+        });
+    });
+
 /*
     app.get("/pressreview", (req, res) => {
         let currentLocale = i18n.getLocale(req);
