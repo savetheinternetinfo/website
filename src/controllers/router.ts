@@ -14,7 +14,7 @@ import ContactService from "../services/ContactService";
 let twitter = new TwitterService(config.twitter);
 let google = new GoogleService(config.google);
 let meta =  new MetaService(config.meta);
-let contact = new ContactService(config.recaptcha);
+let contact = new ContactService(config.recaptcha, config.smtp);
 
 export function router(app){
     app.use((req, res, next) => {
@@ -68,17 +68,12 @@ export function router(app){
 
     app.get("/contact", (req, res) => {
         res.render("contact", {
-            "recaptcha_form": contact.getCaptcha()
+            "recaptcha_sitekey": config.recaptcha.siteKey
         });
     });
 
     app.post("/api/contact", (req, res) => {
-        console.log(req.body);
-        contact.recaptcha.validate(req.body.reCAPTCHA_VAL).then(function(){
-          res.send(JSON.stringify({ "valid": true, "send": true }));
-        }).catch(function(){
-            res.send(JSON.stringify({ "valid": false, "send": false }));
-        });
+        contact.sendContact(req, res);
     });
 
     const galleryController = new GalleryController();
