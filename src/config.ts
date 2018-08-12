@@ -38,5 +38,12 @@ export default {
     "recaptcha": {
         siteKey: env.parsed.GOOGLE_RECAPTCHA_SITEKEY,
         secretKey: env.parsed.GOOGLE_RECAPTCHA_SECRETKEY
+    },
+    "smtp": {
+        "server": env.parsed.SMTP_SERVER,
+        "port": env.parsed.SMTP_PORT,
+        "username": env.parsed.SMTP_USERNAME,
+        "password": env.parsed.SMTP_PASSWORD,
+        "reciever": env.parsed.SMTP_RECIEVER
     }
 };
