@@ -4,8 +4,6 @@ import * as nodemailer from "nodemailer";
 import log from "../util/logging";
 
 class ContactService {
-
-    private config;
     public recaptcha;
     private constraints;
     private transporter;
@@ -24,7 +22,8 @@ class ContactService {
                 rejectUnauthorized: false
             }
         };
-        console.log(smtpConnectionObj);
+
+        //console.log(smtpConnectionObj);
         this.transporter = nodemailer.createTransport(smtpConnectionObj);
         this.transporter.verify((error, success) => {
             if (error) {
@@ -56,13 +55,15 @@ class ContactService {
                     let firstname;
                     if (validate.isEmpty(req.body.firstname)) {
                         firstname = "Vorname nicht angegeben";
-                    } else {
+                    }
+                    else {
                         firstname = req.body.firstname;
                     }
                     let lastname;
                     if (validate.isEmpty(req.body.lastname)) {
                         lastname = "Nachname nicht angegeben";
-                    } else {
+                    }
+                    else {
                         lastname = req.body.lastname;
                     }
                     let message = "Sie haben eine neue Anfrage über das Kontaktformular!\n" +
@@ -87,14 +88,16 @@ class ContactService {
                                 "error": "Es ist ein Fehler beim Senden der Anfrage aufgetreten, bitte versuchen Sie es erneut!"
                             }));
                             log.error(error);
-                        } else {
+                        }
+                        else {
                             res.send(JSON.stringify({
                                 "valid": true,
                                 "send": true
                             }));
                         }
                     });
-                } else {
+                }
+                else {
                     // Nachricht ist leer!
                     res.send(JSON.stringify({
                         "valid": true,
@@ -102,7 +105,8 @@ class ContactService {
                         "error": "Sie haben keine Nachricht eingegeben!"
                     }));
                 }
-            } else {
+            }
+            else {
                 // E-Mail ist nicht korrekt!
                 res.send(JSON.stringify({
                     "valid": true,
