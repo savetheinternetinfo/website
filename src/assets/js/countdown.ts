@@ -1,7 +1,7 @@
 import * as moment from "moment";
 
 // Set the date we're counting down to
-let targetDate = moment("2018-09-12 10:00:00").locale(document.documentElement.getAttribute("lang"));
+let targetDate = moment("2018-08-26 10:00:00").locale(document.documentElement.getAttribute("lang"));
 
 const countdowns = document.getElementsByClassName("countdown");
 
