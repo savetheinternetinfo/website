@@ -76,6 +76,11 @@ export function router(app){
         contact.sendContact(req, res);
     });
 
+    app.get("/api/contact/translation", (req, res) => {
+        contact.getTranslation(req, res);
+    });
+
+
     const galleryController = new GalleryController();
     // Because express rebinds `this`
     app.get("/gallery", (req, res, next) => galleryController.index(req, res, next));

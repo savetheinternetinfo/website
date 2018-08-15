@@ -23,7 +23,6 @@ class ContactService {
             }
         };
 
-        //console.log(smtpConnectionObj);
         this.transporter = nodemailer.createTransport(smtpConnectionObj);
         this.transporter.verify((error, success) => {
             if (error) {
@@ -38,6 +37,16 @@ class ContactService {
                 email: true
             }
         };
+    }
+
+    getTranslation(req, res): any {
+        res.send(JSON.stringify({
+            "contactform_inccorect_email2": res.__("contactform_inccorect_email2"),
+            "contactform_empty_field": res.__("contactform_empty_field"),
+            "contactform_send_header": res.__("contactform_send_header"),
+            "contactform_send_info": res.__("contactform_send_info"),
+            "contactform_error_header": res.__("contactform_error_header"),
+        }));
     }
 
     sendContact(req, res): any {
@@ -85,7 +94,7 @@ class ContactService {
                             res.send(JSON.stringify({
                                 "valid": true,
                                 "send": false,
-                                "error": "Es ist ein Fehler beim Senden der Anfrage aufgetreten, bitte versuchen Sie es erneut!"
+                                "error": res.__("contactform_general_error")
                             }));
                             log.error(error);
                         }
@@ -102,7 +111,7 @@ class ContactService {
                     res.send(JSON.stringify({
                         "valid": true,
                         "send": false,
-                        "error": "Sie haben keine Nachricht eingegeben!"
+                        "error": res.__("contactform_empty_message"),
                     }));
                 }
             }
@@ -111,7 +120,7 @@ class ContactService {
                 res.send(JSON.stringify({
                     "valid": true,
                     "send": false,
-                    "error": "Die von Ihnen eingegebene E-Mail Adresse ist nicht korrekt!"
+                    "error": res.__("contactform_incorrect_email")
                 }));
             }
         }).catch((errorCodes) => {
@@ -119,7 +128,7 @@ class ContactService {
             res.send(JSON.stringify({
                 "valid": false,
                 "send": false,
-                "error": "Sie müssen das reCAPTCHA ausfüllen!"
+                "error": res.__("contactform_fillout_recaptcha")
             }));
         });
     }
