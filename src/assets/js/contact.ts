@@ -21,6 +21,7 @@ let transdata = function(translationString) {
 };
 
 jQuery(() => {
+    transdata("contactform_inccorect_email2"); // Call the function once at the start so the tempdata will be filled TODO: Make it better!
     jQuery("#contact-email").keyup(() => {
         let emailVal = jQuery("#contact-email").val();
         let validret = validate({
