@@ -2,6 +2,8 @@
 <script type="text/javascript" src="<%= assets['/assets/demomap.js'] %>"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
 <div class="container ">
+    <h2 class="text-5xl"><%= __('article_header') %> <span class="countdown"></span>
+        <span class="countdown-done hidden"><%= __('countdown_done') %></span> <%= __('article_header2') %></h2>
 	<div class="flex mb-4">
         <div class="w-3/4">
             <div style="height: 35rem;" id="demomap"></div>
