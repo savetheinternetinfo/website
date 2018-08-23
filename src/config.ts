@@ -45,5 +45,9 @@ export default {
         "username": env.parsed.SMTP_USERNAME,
         "password": env.parsed.SMTP_PASSWORD,
         "reciever": env.parsed.SMTP_RECIEVER
+    },
+    "demomap": {
+        "coordsfile": env.parsed.MAP_COORDSFILE,
+        "ttl": env.parsed.MAP_TTL
     }
 };

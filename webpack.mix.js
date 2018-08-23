@@ -15,6 +15,7 @@ let tailwindcss = require('tailwindcss');
 mix.ts('src/assets/js/main.ts','public/assets/bundle.js')
     .ts('src/assets/js/gallery.ts','public/assets/gallery.js')
     .ts('src/assets/js/contact.ts','public/assets/contact.js')
+    .ts('src/assets/js/demomap.ts','public/assets/demomap.js')
     .sass('src/assets/css/main.scss', 'public/assets')
     .options({
         processCssUrls: false,

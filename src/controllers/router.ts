@@ -10,11 +10,13 @@ import GoogleService     from "../services/GoogleService";
 import sendError from "../util/error";
 import MetaService from "../services/MetaService";
 import ContactService from "../services/ContactService";
+import DemomapService from "../services/DemomapService";
 
 let twitter = new TwitterService(config.twitter);
 let google = new GoogleService(config.google);
 let meta =  new MetaService(config.meta);
 let contact = new ContactService(config.recaptcha, config.smtp);
+let demomap = new DemomapService(config.demomap);
 
 export function router(app){
     app.use((req, res, next) => {
@@ -49,6 +51,8 @@ export function router(app){
             sendError(req, res, err);
         });
     });
+
+    app.get("/mapcoords", (req, res) => demomap.getCoords(req, res));
 
     app.get("/pressreview", (req, res) => {
         let currentLocale = i18n.getLocale(req);
