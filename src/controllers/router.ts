@@ -52,7 +52,9 @@ export function router(app){
         });
     });
 
-    app.get("/mapcoords", (req, res) => demomap.getCoords(req, res));
+    app.get("/mapcoords", (req, res) => { 
+		demomap.getCoords(req, res);
+	});
 
     app.get("/pressreview", (req, res) => {
         let currentLocale = i18n.getLocale(req);
