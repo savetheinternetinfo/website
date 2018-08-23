@@ -42,7 +42,7 @@ function bindPopoup(feature, layer) {
 jQuery(() => {
     let demomap = leaflet.map("demomap").setView([50, 5.0], 4);
     leaflet.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", {
-        attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
+        attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors | Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL"
     }).addTo(demomap);
 
     if (window.location.pathname === "/") {
