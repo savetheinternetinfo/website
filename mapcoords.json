@@ -4,9 +4,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Bergen",
              "description":"August 26 – 18:00 – Nedre Ole Bulls plass 3"
           },
@@ -22,10 +19,7 @@
           "type":"Feature",
           "properties":{
              "name":"Berlin",
-             "description":"26. August – 15.00 – Brandenburger Tor\nhttps://epicenter.works/event/1284",
-             "_storage_options":{
-                "color":"DarkOrchid"
-             }
+             "description":"26. August – 15.00 – Brandenburger Tor\nhttps://epicenter.works/event/1284"
           },
           "geometry":{
              "type":"Point",
@@ -38,9 +32,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Frankfurt",
              "description":"26. August – 13:30 – Paulsplatz\nhttps://www.facebook.com/events/651289581923691/"
           },
@@ -55,9 +46,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Graz",
              "description":"26. August – 15.00 – Schloßbergplatz\nhttps://epicenter.works/content/saveyourinternet-aktionstag-am-26-august-2018"
           },
@@ -72,9 +60,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Hamburg",
              "description":"26. August – 14:00 – Mönkebergbrunnen\nhttps://www.facebook.com/events/631386150569176/"
           },
@@ -89,9 +74,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Helsinki",
              "description":"August 26 – 12:00 – Narinkkatori\nhttps://www.facebook.com/events/380275895840211"
           },
@@ -106,9 +88,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Innsbruck",
              "description":"August 26 – 11:00 – Fotoaktion am Marktplatz\nhttps://epicenter.works/content/saveyourinternet-aktionstag-am-26-august-2018"
           },
@@ -123,9 +102,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Karlsruhe",
              "description":"26. August – 14:00 – Stephansplatz\nhttps://www.facebook.com/events/1548933888585517/"
           },
@@ -140,9 +116,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Katowice",
              "description":"August 26 – 18:00 – Rynek\nhttps://www.facebook.com/events/1736159829808663/"
           },
@@ -157,9 +130,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Kraków",
              "description":"August 26 – 18:00 – Rynek Główny\nhttps://www.facebook.com/events/1849272128711784/"
           },
@@ -174,9 +144,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Lisboa",
              "description":"September 8 – 17:00 – Praça de Luís de Camões\nhttps://www.facebook.com/events/293165507942061"
           },
@@ -192,10 +159,7 @@
           "type":"Feature",
           "properties":{
              "name":"Ljubljana",
-             "description":"August 26 – 11:00 – Prešernov trg\nhttps://www.facebook.com/events/287052418770178/",
-             "_storage_options":{
-                "color":"DarkOrchid"
-             }
+             "description":"August 26 – 11:00 – Prešernov trg\nhttps://www.facebook.com/events/287052418770178/"
           },
           "geometry":{
              "type":"Point",
@@ -208,9 +172,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Łódź",
              "description":"August 26 – 18:00 – Plac Wolności\nhttps://www.facebook.com/events/2171593299790462/"
           },
@@ -225,9 +186,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Lund",
              "description":"August 26 – Details TBA"
           },
@@ -243,10 +201,7 @@
           "type":"Feature",
           "properties":{
              "name":"Mainz",
-             "description":"25. August – 11:00 – Hauptbahnhof\nhttps://www.facebook.com/events/221208678595160/",
-             "_storage_options":{
-                "color":"DarkOrchid"
-             }
+             "description":"25. August – 11:00 – Hauptbahnhof\nhttps://www.facebook.com/events/221208678595160/"
           },
           "geometry":{
              "type":"Point",
@@ -260,10 +215,7 @@
           "type":"Feature",
           "properties":{
              "name":"München",
-             "description":"26. August – 13:00 – Marienplatz\nhttps://www.facebook.com/events/423899521423389/",
-             "_storage_options":{
-                "color":"DarkOrchid"
-             }
+             "description":"26. August – 13:00 – Marienplatz\nhttps://www.facebook.com/events/423899521423389/"
           },
           "geometry":{
              "type":"Point",
@@ -276,9 +228,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Paris",
              "description":"August 26 – 14:30 – Place Jules Joffrin, 75018 Paris"
           },
@@ -294,10 +243,7 @@
           "type":"Feature",
           "properties":{
              "name":"Praha",
-             "description":"August 26 – 16:00 – Palackého náměstí\nhttps://www.facebook.com/events/2135771473347359/",
-             "_storage_options":{
-                "color":"DarkOrchid"
-             }
+             "description":"August 26 – 16:00 – Palackého náměstí\nhttps://www.facebook.com/events/2135771473347359/"
           },
           "geometry":{
              "type":"Point",
@@ -310,9 +256,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Stockholm",
              "description":"August 26 – 12:00 – Raoul Wallenbergs Torg\nhttps://www.facebook.com/events/1131726740311531/"
           },
@@ -328,10 +271,7 @@
           "type":"Feature",
           "properties":{
              "name":"Stuttgart",
-             "description":"26. August – 14:00 – Marienplatz\nhttps://www.facebook.com/events/503638343421717/",
-             "_storage_options":{
-                "color":"DarkOrchid"
-             }
+             "description":"26. August – 14:00 – Marienplatz\nhttps://www.facebook.com/events/503638343421717/"
           },
           "geometry":{
              "type":"Point",
@@ -345,10 +285,7 @@
           "type":"Feature",
           "properties":{
              "name":"Warszawa",
-             "description":"August 26 – 16:00 – Plac Defilad\nhttps://www.facebook.com/events/2035752230086477/",
-             "_storage_options":{
-                "color":"DarkOrchid"
-             }
+             "description":"August 26 – 16:00 – Plac Defilad\nhttps://www.facebook.com/events/2035752230086477/"
           },
           "geometry":{
              "type":"Point",
@@ -361,9 +298,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Wien",
              "description":"26. August – 15.00 – Stephansplatz\nhttps://epicenter.works/content/saveyourinternet-aktionstag-am-26-august-2018"
           },
@@ -378,9 +312,6 @@
        {
           "type":"Feature",
           "properties":{
-             "_storage_options":{
-                "color":"DarkOrchid"
-             },
              "name":"Wrocław",
              "description":"August 26 – 18:00 – Rynek, 50-101 Wrocław, Polska\nhttps://www.facebook.com/events/208686879796389/"
           },
