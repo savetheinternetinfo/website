@@ -18,3 +18,8 @@
 .demomap_list > li {
     background-color: #293852;
 }
+@media (min-width: 768px) {
+    .demomap_container{
+        height: 35rem;
+    } 
+}
