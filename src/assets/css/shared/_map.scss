@@ -18,8 +18,17 @@
 .demomap_list > li {
     background-color: #293852;
 }
+
+.leaflet-pane {
+    z-index: 40 !important;
+}
+
+.leaflet-top, .leaflet-bottom {
+    z-index: 45 !important;
+}
+
 @media (min-width: 768px) {
     .demomap_container{
         height: 35rem;
-    } 
+    }
 }
