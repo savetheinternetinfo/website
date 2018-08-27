@@ -9,6 +9,7 @@
   "article": "Article",
   "article_header": "Help saving the internet",
   "article_header2": "and demonstrate on the streets.",
+  "article_header_new": "Thanks to all demo participants!",
   "countdown_done": "now",
   "article_title": "So what happened?",
   "article_content1": "On July 5, 2018, the plenary session of the European Parliament voted on the <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52016PC0593&from=EN\" class=\"highlight\">reform of copyright in the digital internal market</a>. These two articles, as proposed, would have paved the way for comprehensive censorship of the Internet. For this reason we have created a fortunately very successful petition, which, thanks to the personal invitation of MEP Julia Reda, we were able to present to MEPs immediately before the vote, together with the at that time 736,000 signatures. The untiring efforts of our Members and the enormous number of signatures enabled us to make Members aware of the considerable risk of this reform and thus prevent it from being adopted in plenary. ",
@@ -127,5 +128,7 @@
   "privacy_link": "Privat policy",
   "footer_notice": "We at savetheinternet.info distance ourselves from any illegal activities! We neither support illegal activities, nor do we commission them.",
   "contact_your_mep_title": "Contact your MEP",
-  "demomap_text": "The proponents of upload filters and the link tax are now claiming that the protest is fake and we're all just bots. Let's prove them wrong: This Sunday, August 26 is the SaveTheInternet Action Day! The many different organizations who oppose this law are staging protests together all across Europe. Check the map, join an event near you – and bring your friends! You dont see a cross in your city? Feel free to sign up for a demonstration on your own!"
+  "demomap_text": "The proponents of upload filters and the link tax are now claiming that the protest is fake and we're all just bots. Let's prove them wrong: This Sunday, August 26 is the SaveTheInternet Action Day! The many different organizations who oppose this law are staging protests together all across Europe. Check the map, join an event near you – and bring your friends! You dont see a cross in your city? Feel free to sign up for a demonstration on your own!",
+  "demomap_text_new": "Thanks to everyone, who went on the streets in 26 cities all over Europe to demonstrate against the new directives!",
+  "demomap_text_footer": "Note: This event has ended."
 }
