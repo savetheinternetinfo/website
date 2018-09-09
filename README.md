@@ -127,6 +127,10 @@ $ `npm run watch`
 Per default, the server runs on port 3000 (http://localhost:3000). <br>
 This can be customized in the [`config.ts`](https://github.com/savetheinternetinfo/website/blob/master/src/config.ts) file.
 
+The Timeline data is saved on a spreadsheet: 
+https://docs.google.com/spreadsheets/d/1Pdquh3QTlnfKzqDoGyGlpntr8VBpMoloV55syc-tA68/edit#gid=0
+
+
 <hr>
 
 ## Roadmap
