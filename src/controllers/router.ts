@@ -56,7 +56,7 @@ export function router(app) {
         demomap.getCoords(req, res);
     });
 
-    /*app.get("/pressreview", (req, res) => {
+    app.get("/pressreview", (req, res) => {
         let currentLocale = i18n.getLocale(req);
         if (currentLocale === "de"){
             google.getData().then((ret) => {
@@ -70,7 +70,7 @@ export function router(app) {
         else {
             res.render("404");
         }
-    });*/
+    });
 
     app.get("/contact", (req, res) => {
         res.render("contact", {
