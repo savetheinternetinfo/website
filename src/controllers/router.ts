@@ -1,12 +1,12 @@
 import * as moment from "moment";
-import * as i18n   from "i18n";
-import * as fs     from "fs";
+import * as i18n from "i18n";
+import * as fs from "fs";
 import * as bodyparser from "body-parser";
 
-import TwitterService    from "../services/TwitterService";
-import config            from "../config";
+import TwitterService from "../services/TwitterService";
+import config from "../config";
 import GalleryController from "../controllers/gallery";
-import GoogleService     from "../services/GoogleService";
+import GoogleService from "../services/GoogleService";
 import sendError from "../util/error";
 import MetaService from "../services/MetaService";
 import ContactService from "../services/ContactService";
@@ -14,16 +14,16 @@ import DemomapService from "../services/DemomapService";
 
 let twitter = new TwitterService(config.twitter);
 let google = new GoogleService(config.google);
-let meta =  new MetaService(config.meta);
+let meta = new MetaService(config.meta);
 let contact = new ContactService(config.recaptcha, config.smtp);
 let demomap = new DemomapService(config.demomap);
 
-export function router(app){
+export function router(app) {
     app.use((req, res, next) => {
         app.locals.currentLanguage = i18n.getLocale(req);
         app.locals.currentRoute = req.path.replace(/^\/|\/$/g, "");
 
-        if (req.query.lang){
+        if (req.query.lang) {
             res.cookie(config.server.cookieprefix + "lang", req.query.lang, {
                 maxAge: 900000,
                 httpOnly: true
@@ -56,7 +56,7 @@ export function router(app){
         demomap.getCoords(req, res);
     });
 
-    app.get("/pressreview", (req, res) => {
+    /*app.get("/pressreview", (req, res) => {
         let currentLocale = i18n.getLocale(req);
         if (currentLocale === "de"){
             google.getData().then((ret) => {
@@ -70,7 +70,7 @@ export function router(app){
         else {
             res.render("404");
         }
-    });
+    });*/
 
     app.get("/contact", (req, res) => {
         res.render("contact", {
@@ -107,10 +107,10 @@ export function router(app){
         meta.get(req.query.q)
             .then(metaData => {
                 let item = req.query.item;
-                if (item === undefined){
+                if (item === undefined) {
                     res.send(metaData);
                 }
-                else if (metaData.hasOwnProperty(item)){
+                else if (metaData.hasOwnProperty(item)) {
                     res.send(metaData[item]);
                 }
                 else {
