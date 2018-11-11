@@ -3,21 +3,16 @@
   "days": "days",
   "hours": "hours",
   "minutes": "minutes",
-
   "seconds": "seconds",
   "header_tagline": "The Internet is in danger and you can save it!",
   "share_twitter": "The Internet is in danger and you can save it! https://savetheinternet.info #DeleteArt13",
-
   "article": "Article",
   "article_header": "Help saving the internet",
   "article_header2": "and demonstrate on the streets.",
   "article_header_new": "Thanks to all demo participants!",
-
   "sti_day": "STI Actionday",
-
   "donate_content": "We voluntarily cope this project completely. That we can still be financially independent and talk to the representatives in Strasbourg and Brussels, organize demonstrations etc., we need your financial support. We represent the normal, european citizen. We are your voice. Every euro raises the chance for an Internet free of censorship. We thank you so much! <a href=\"https://www.gofundme.com/save-the-internet-info\" target=\"_blank\">https://www.gofundme.com/save-the-internet-info</a>",
   "donate_title": "Call for donations",
-
   "briefaktion": "Letter-campaign",
   "briefaktion_cont1": "Our fight against Article 13 goes to the second round. Again, we need your help!",
   "briefaktion_cont2": "Because we are getting accused of being bots, we decided to write a letter to the parliamentarians. A list of the members of the european parliament that voted for the reform and the address of the parliament can be found in the comments. If we all participate we'll get another shot to convince them to look at it from our point of view and stop the reform a second time.",
@@ -29,7 +24,6 @@
   "briefaktion_address": "Adress Parlament",
   "briefaktion_name": "MoEP [first name] [last name]",
   "countdown_done": "now",
-
   "article_title": "So what happened?",
   "article_content1": "On July, 5th  the european parliament voted on the <a target=\"_blank\" href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52016PC0593&from=EN\" class=\"highlight\">reform of copyright law in the digital domestic market</a>. Part of this reform were the already heavy critized articles 11 & 13. These articles would've paved the way for massive censorship on the internet. That's why we started a pretty successful petition which we, thanks to a personal invitation from MeP Julia Reda, personally delivered to the representatives together with all our 736.000 signatures we had back then.",
   "article_content2": "The first reform proposal to the new copyright law (articles 11 and 13) has been rejected with a 318 (53%) to 278 (47%) majority!",
@@ -38,78 +32,57 @@
   "article_content5": "Now only two more meetings of the responsible EU-representatives with the ministers of the countries will be held, in which changes can be brought to the table, or be fought for compromise.",
   "article_content6": "After this the parliament is expected to vote one last time in january. Each nation of the european union has to adjust it's own laws to the guideline. This means national laws are expected to be released in 2019/2020.",
   "article_content7": "Of course we want to thank all the people who supported us. Without you we wouldn't have achieved any of this. Also we want to thank everyone who took part in the massive postage action.",
-
   "prevented_header": "What do we want to prevent?",
   "article_reddit_title": "The dictatorship of error-prone",
   "article_reddit_title_highlight": "algorithms",
-  "article_reddit_content": "Upload filters on sites like YouTube, Facebook and Co. all have one thing in common: They never act as exactly as a human could. As a result, content that violates copyright but is protected by citation law is often also removed. This \"vulnerability\" can be used as an excuse to filter out content that does not correspond to one's own values and ideas.",
-
+  "article_reddit_content": "Press publishers will be able to charge people for every link they paste in terms of their content. This would mean the end of smaller news portals. <br />Say no to a link tax!",
   "article_link_title": "Paid",
   "article_link_title_highlight": "Links",
   "article_link_content": "Press publishers should be obliged to charge for all links that someone places on their content. News portals would have lost reach and readership. The resulting loss of revenue would have been offset by the additional costs incurred by a license system to be administered. For many portals and publishers this would have meant economic ruin.",
-
-  "twitter_title": "Hear the voices of others",
-  "twitter_description": "Censorship could very soon turn the cultural norms of the web as we know them upside down. Upload locks in combination with error-prone algorithms ensure that even the posting of links will pose a massive problem in the future. This will be particularly evident on platforms such as Twitter, Facebook, 9GAG and Co. In fact, most likely all of your favorite websites. Articles 11 and 13 would ensure that links and direct quotes are blacked out or even prevented entirely from uploading.",
-
+  "twitter_title": "Which threats do we face?",
+  "twitter_description": "This form of censorship could very soon destroy the cultural normatives of the internet as we know it. The blocking of uploads, in combination with faulty algorithms, will result in so called overblocking lead by the platforms, so that they can avoid legal violations. Even the sharing of links can become a massive problem on platforms like Twitter, Facebook and others. Article 11 would only allow to show links without a preview, so that users have to blindly trust hyperlinks.",
   "countdown_title": "Time is running out",
   "countdown_description1": "The vote in the EU Parliament will take place in a few days! Therefore, we must <b> IMMEDIATELY </b> act to change the vote of the deputies. There is just a narrow majority of one vote in favour of the proposal in the relevant committee.",
   "countdown_description2": "",
   "countdown_until": "Countdown until the Legal Committee of the European Parliament discusses Article 13",
   "countdown_expired": "Visit the Livestream",
-
   "livestream_link": "http://www.europarl.europa.eu/ep-live/de/committees/video?event=20180620-0900-COMMITTEE-JURI",
   "whatsaved_title": "What’s been safed?",
-
   "voice_header": "The voice of each one of us",
   "voice_content": "The rejection of the proposal ensures everyone's freedom to speak out on the Internet. Freedom and neutrality have always been the cornerstones of the Internet as we know it and these pillars will remain with us for the time being. Every user retains the right to share what he likes with his friends without fear of copyright lawsuit. This will give us an Internet that we can shape ourselves without fear of government intervention. Just as it has always been in the sense of a worldwide connection of all people.",
-
   "information_header": "The free and unrestricted flow of information",
   "information_content": "Never before has information and news been distributed around the globe as quickly as today. Everyone has the same access to all this information and messages at all times. This can work because this information is distributed from person to person - through sharing and linking on various platforms. This flow would have been severely curbed by Article 11 - with consequences both for the providers of such information and for the consumer. By rejecting the reform proposal, we were able to maintain free access to information.",
-
   "freedom_header": "The freedom of the image",
   "freedom_content": "A picture says more than a thousand words. This means that an image not only consists of its obvious content but also conveys a message. This message, made by humans and intended for humans, could never have been recognized, let alone understood, by an automated content recognition technology. Upload filters such as those created under Article 13 would therefore never have been able to fulfil their task.",
-
   "continue_title": "What's the next move?",
-  "continue_content": "The rejected reform proposal must be revised and will then be submitted again. This means that Articles 11 and 13 will no longer come in this form, but it also means that they can come again in another format. MEPs will then have the opportunity to vote on the modified proposal from 10-13 September. The freedom that we have now successfully upheld must continue to be preserved and actively protected by all of us. That is why we must pay close attention to which laws we want to live with, also in the future. And we must not be afraid to raise our voices and participate in our own future.",
-
+  "continue_content": "Die Minister der Länder treten mit den EU-Parlamentariern noch zwei mal zusammen und geben den daraus entstehenden letzten Entwurf dem EU-Parlament zur finalen Abstimmung. Danach werden die EU-Länder aufgefordert sein, innerhalb einer Frist von meist 12-24 Monaten die Richtlinie in ihre nationalen Gesetze einzubinden oder gänzlich neu zu gestalten. Dabei lässt ihnen die Richtlinie einen gewissen Spielraum. The ministers of the european nations will meet two times with the european parliament and hand the resulting proposal to a final vote. After this, our nations have to edit the laws and work them into their own national laws. This makes the new perfomance protection law not final.",
   "what_do_title": "What can you do?",
-  "what_do_content1": "We still need to send a clear signal against upload filters and the like, which is why we will not stop the petition on change.org for the time being. Especially since the next vote is not planned until September, we must not let up now.",
-  "what_do_content2": "The activities of the European Parliament are publicly accessible on its website: https://eur-lex.europa.eu/ On this page you will find all information about European legislation as well as PDF files of all submitted documents, proposals and similar. Take the opportunity to look at the work of the deputies and dare to say if something doesn't suit you. After all, it's also about your future!",
-
+  "what_do_content1": "The activities of the European Parliament are publicly accessible on its website: <a href=\"https://eur-lex.europa.eu/\" target=\"_blank\">https://eur-lex.europa.eu/</a>. On this page you can find all information about european legislation, as well as PDF files of all submitted documents, proposals and so on.",
+  "what_do_content2": "Take the oppurtinity to oversee the work of your representatives and tell them if you're not okay with it. After all, it's also about YOUR future!",
   "dont_like_header": "I don't like a proposal or article! - What to do?",
-  "dont_like_content1": "contact your MEP!  You can contact your MEP directly to show him/her your dissatisfaction with what you don't like. Personal e-mails often have a very high effect. Because people with whom you are in direct contact are more willing to be convinced. You can find a list with e-mail addresses of the respective delegates here: [Link]",
-  "dont_like_content2": "A tip to get the best possible effect from your complaint: Be objective and polite. With insulting words or threats you only achieve rejection, so stay pragmatic and explain your displeasure with the matter, not with the MEPs.",
-
+  "dont_like_content1": "Contact your representatives! You can contact them directy to show them your discontent. E-mails often have a very good effect. That's because directly contacted people are often more willing to be convinced. You can find a list with e-mail addresses of the respective delegates here:",
+  "dont_like_content2": "A lead on how to get the best effect from your complaint: Be objective and polite. Insults and threats only result in rejection. Stay pragmatic and explain how unpleased you are with the matter, not with the MEP him/herself.",
   "near_demos": "Where are you needed?",
   "near_demos_content1": "Are you close to one of the demonstrations on the map and want to support us? Then you have the opportunity to join us and join us in drawing attention to Article 13.",
   "near_demos_content2": "Just click the marker on the map that is nearest to you in order to get information about the exact time and location!",
   "near_demos_content3": "Together we are strong! We need you to save the internet as we know it.",
   "near_demos_content4": "Only a dictatorship needs censorship!",
-
   "graphic_box_title1": "Article 13 in detail",
   "graphic_box_content1": "Article 13 would have demanded in actual practice that almost all Internet platforms install content recognition techniques, with the task of automatically checking uploaded content for potential copyright infringements. Freedom of expression would have been considerably restricted in this way, since the opinion would have fallen victim to deletion even before it had been expressed. Decisions about actually published content and thus its censorship would have been taken over by error-prone and hypersensitive algorithms (programmed in such a way that they \"play it safe\" and delete everything that poses a risk to the platform in case of doubt). Since the programming of these algorithms would be in the hands of a few, it could not have been ruled out that these algorithms would also have been used to sort out unpleasant opinions in advance.",
   "graphic_box_title2": " Article 11 in detail",
-
   "graphic_box_content2": "The ancillary copyright would have stipulated that the future content of certain information providers is subject to a more concrete press law. The inalienability of these press rights to the respective authors would have made it inevitable that a fee-based licensing system for news would have been created. This licensing could have meant that even quoting texts could have been declared a copyright infringement. However, this would make a complex exchange of views or a more in-depth debate on the Internet almost impossible.",
-
   "image_split_title": "Article 11 not only affects the internet",
   "image_split_content": "Research and progress are also suffering from Article 11. In the future, users, such as independent researchers, journalists, individuals and various companies, will be denied text and data mining. This has a slowing effect on various discoveries of public interest.",
-
   "common_success_header": "A mutual triumph!",
   "common_success_content": "The successful prevention of this reform could only be achieved through the work and hard work of every single member of our group and many other supporters. But not only the untiring commitment of our members but also the voice of each individual under our petition were decisive for this success. This victory is not only our victory but the victory of each individual, who has signed a sign against the censorship of the Internet. To illustrate this victory once again, you can find enough pictures of the petition in our gallery and hand it over to Parliament: ",
-
   "petition_title": "Censorship? Without me!",
-  "petition_content1": "Support us with your voice! Only together we are strong!",
-  "petition_content2": "That's why we've made a petition to tackle Articles 11 and 13!",
+  "petition_content1": "Support us with your voice! Unity is what makes us strong!",
+  "petition_content2": "That's the reason why we started a <a href=\"https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet?utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition\" target=\"_blank\">petition</a> to fight against Article 11 and 13!",
   "petition_button": "Visit the petition",
   "sign_petition": "Sign the petition",
-
   "gallery_title": "Gallery",
-
   "contact_link": "Contact",
-
   "gallery_download_pdf": "Download PDF",
-
   "contactform_title": "Contactform",
   "contactform_firstname": "First name",
   "contactform_lastname": "Last name",
@@ -128,26 +101,19 @@
   "contactform_send_header": "Your message has been submitted",
   "contactform_send_info": "We will get back to you shortly",
   "contactform_error_header": "An error occured.",
-
   "about_title": "About",
-
   "pressreview": "Pressreview",
   "pressreview_construction": "Under Construction - (Paused)",
-
   "date": "Date",
-
   "about_sub_title1": "Stop the censorship machine - save the internet!",
   "about_sub_title7": "Post by The Guardian (13.09.2018)",
   "about_sub_title8": "Update by Julia Reda (MEP) on the status in the trilogue negotiations (24.10.2018)",
   "about_link_text": "Link to website",
-
   "mep_title": "Contact your MEP",
   "mep_heading": "The <span style=\"color: #6bbbff !important;\">Magic 10</span>: #savetheinternet <br> Heroes or Zeroes?",
   "mep_text_1": "On 20 June, the European Parliament will vote on the Copyright Directive. <b>The votes of 10 Members of the parliament will determine if the Internet remains open and free from censorship in the EU.</b> Tell them you need them to protect your Internet against surveillance and censorship machines, as the defenders of EU citizens!",
   "mep_text_2": "Give them the power to be Heroes!",
-
   "select_country": "Select country",
-
   "about_us_heading": "About us",
   "about_us_link": "About us",
   "about_us_1_heading": "Who are we?",
@@ -165,7 +131,6 @@
   "about_us_7_heading": "How can you support us?",
   "about_us_7_text": "At present, we see no need for action and therefore do not need any support at present. But who knows what the future will bring. If you want to support us, check back here regularly. As soon as we need help again, something else will be written here ;)",
   "about_link": "Infos",
-
   "imprint_link": "Imprint",
   "privacy_link": "Privat policy",
   "footer_notice": "We at savetheinternet.info distance ourselves from any illegal activities! We neither support illegal activities, nor do we commission them.",
