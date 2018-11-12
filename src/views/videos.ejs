@@ -7,11 +7,41 @@
         <%= __('videos_text') %>
     </p>
 
-    <iframe width="560" height="315" class="mt-16" src="https://www.youtube-nocookie.com/embed/SpUoLn0k5v4" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
-    <iframe width="560" height="315" class="mt-16" src="https://www.youtube-nocookie.com/embed/SpUoLn0k5v4" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
-    <iframe width="560" height="315" class="mt-16" src="https://www.youtube-nocookie.com/embed/SpUoLn0k5v4" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="flex flex-wrap mt-16">
+        <div class="w-full lg:w-1/2 p-4">
+            <h3 class="mb-8">
+                <%= __('videos_title_1') %>
+            </h3>
+            <p>
+                <%= __('videos_text_1') %>
+            </p>
+            <iframe height="315" class=" w-full mx-auto mt-4" src="https://www.youtube-nocookie.com/embed/SpUoLn0k5v4"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="w-full lg:w-1/2 p-4">
+            <h3 class="mb-8">
+                <%= __('videos_title_2') %>
+            </h3>
+            <p>
+                <%= __('videos_text_2') %>
+            </p>
+            <iframe height="315" class=" w-full mx-auto mt-4" src="https://www.youtube-nocookie.com/embed/SpUoLn0k5v4"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="w-full lg:w-1/2 p-4">
+            <h3 class="mb-8">
+                <%= __('videos_title_3') %>
+            </h3>
+            <p>
+                <%= __('videos_text_3') %>
+            </p>
+            <iframe height="315" class=" w-full mx-auto mt-4" src="https://www.youtube-nocookie.com/embed/SpUoLn0k5v4"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+    </div>
 </div>
 <%- include('layout/footer'); -%>
