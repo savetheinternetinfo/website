@@ -1,6 +1,6 @@
 let env = require("dotenv").config("../.env");
 
-if (env.error){
+if (env.error) {
     throw new Error("Please copy the '.env.dist' file to a new '.env' file on the project root, and fill out the configuration");
 }
 
@@ -17,6 +17,7 @@ export default {
         }
     },
     "galleryPath": "public/gallery/",
+    "memePath": "public/memes/",
     "twitter": {
         "consumer_key": env.parsed.TWITTER_CONSUMER_KEY,
         "consumer_secret": env.parsed.TWITTER_CONSUMER_SECRET,

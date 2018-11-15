@@ -6,6 +6,7 @@ import * as bodyparser from "body-parser";
 import TwitterService from "../services/TwitterService";
 import config from "../config";
 import GalleryController from "../controllers/gallery";
+import MemeController from "../controllers/memes";
 import GoogleService from "../services/GoogleService";
 import sendError from "../util/error";
 import MetaService from "../services/MetaService";
@@ -58,7 +59,7 @@ export function router(app) {
 
     app.get("/pressreview", (req, res) => {
         let currentLocale = i18n.getLocale(req);
-        if (currentLocale === "de"){
+        if (currentLocale === "de") {
             google.getData().then((ret) => {
                 res.render("pressreview", {
                     "rows": ret.values
@@ -90,6 +91,9 @@ export function router(app) {
     const galleryController = new GalleryController();
     // Because express rebinds `this`
     app.get("/gallery", (req, res, next) => galleryController.index(req, res, next));
+
+    const memeController = new MemeController();
+    app.get("/memes", (req, res, next) => memeController.index(req, res, next));
 
     app.get("/:page", (req, res) => {
         // Allow letters, numbers and hyphens
