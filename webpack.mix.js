@@ -12,19 +12,20 @@ let tailwindcss = require('tailwindcss');
  |
  */
 
-mix.ts('src/assets/js/main.ts','public/assets/bundle.js')
-    .ts('src/assets/js/gallery.ts','public/assets/gallery.js')
-    .ts('src/assets/js/contact.ts','public/assets/contact.js')
-    .ts('src/assets/js/demomap.ts','public/assets/demomap.js')
+mix.ts('src/assets/js/main.ts', 'public/assets/bundle.js')
+    .ts('src/assets/js/gallery.ts', 'public/assets/gallery.js')
+    .ts('src/assets/js/contact.ts', 'public/assets/contact.js')
+    .ts('src/assets/js/demomap.ts', 'public/assets/demomap.js')
     .sass('src/assets/css/main.scss', 'public/assets')
     .options({
         processCssUrls: false,
-        postCss: [ tailwindcss('./tailwind-config.js') ],
+        postCss: [tailwindcss('./tailwind-config.js')],
     })
     .copyDirectory("node_modules/font-awesome/fonts", 'public/fonts')
     .copyDirectory("node_modules/flag-icon-css/flags", 'public/flags')
     .copyDirectory("src/assets/static", 'public/static')
     .copyDirectory("src/assets/gallery", 'public/gallery')
+    .copyDirectory("src/assets/memes", 'public/memes')
     .sourceMaps()
     .version()
     .setPublicPath('public');
