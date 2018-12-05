@@ -128,9 +128,3 @@ Per default, the server runs on port 3000 (http://localhost:3000). <br>
 This can be customized in the [`config.ts`](https://github.com/savetheinternetinfo/website/blob/master/src/config.ts) file.
 
 <hr>
-
-## Roadmap
-
-- //TODO
-
-<hr>
