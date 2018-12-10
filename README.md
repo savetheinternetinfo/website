@@ -9,7 +9,7 @@ Save the Internet with us
 
 ## :pushpin: About
 
-On 20 June, the European Parliament will vote on the Copyright Directive. <br>
+On 20 June, the European Parliament voted on the Copyright Directive. <br>
 Members of the parliament are the only ones that can stand in the way of bad copyright legislation.
 
 **Note:** This is a NodeJS revamp of the [old website](https://github.com/Insax/savetheinternet)
@@ -126,11 +126,5 @@ $ `npm run watch`
 
 Per default, the server runs on port 3000 (http://localhost:3000). <br>
 This can be customized in the [`config.ts`](https://github.com/savetheinternetinfo/website/blob/master/src/config.ts) file.
-
-<hr>
-
-## Roadmap
-
-- //TODO
 
 <hr>
