@@ -30,8 +30,8 @@
   "index_dont_like_header": "I don't like a proposal or article! - What to do?",
   "index_dont_like_content1": "Contact your representatives! You can contact them directy to show them your discontent. E-mails often have a very good effect. That's because directly contacted people are often more willing to be convinced. You can find a list with e-mail addresses of the respective delegates here:",
   "index_dont_like_content2": "A lead on how to get the best effect from your complaint: Be objective and polite. Insults and threats only result in rejection. Stay pragmatic and explain how unpleased you are with the matter, not with the MEP him/herself.",
-  "index_art13_title": "Article 3 in detail",
-  "index_art13_content": "In the future,users such as independent research workers, journalists, regular citizens and  various companies shall be refused to mine data and text. Since this is only valid for the region of the European Union, this will create obstacles and we will drop in international comparisons. In the worst case this will force companies to relocate their headquarters outside of the European Union.",
+  "index_art3_title": "Article 3 in detail",
+  "index_art3_content": "In the future,users such as independent research workers, journalists, regular citizens and  various companies shall be refused to mine data and text. Since this is only valid for the region of the European Union, this will create obstacles and we will drop in international comparisons. In the worst case this will force companies to relocate their headquarters outside of the European Union.",
   "index_art11_title": " Article 11 in detail",
   "index_art11_content": "The performance protection law defines that all websites that link to articles, require a license to display the well-known preview. Others can only use the isolated link. The discussion included approaches like 'attended by single words'. It remains to be seen which version will be used. Already the headline shall be seen as creative act of the creators.In return the readers have to decide in advance if they want to click on a news link or not.",
   "index_image_split_title": "There are even more areas that have to deal with this reform",
@@ -88,7 +88,7 @@
   "about_link": "Infos",
   "about_title": "About",
 
-  "demomap_text": "The proponents of upload filters and the link tax are now claiming that the protest is fake and we're all just bots. Let's prove them wrong: This Sunday, August 26 is the SaveTheInternet Action Day! The many different organizations who oppose this law are staging protests together all across Europe. Check the map, join an event near you – and bring your friends! You dont see a cross in your city? Feel free to sign up for a demonstration on your own!",
+  "demomap_text": "On the following map you will find an overview of all demonstrations planned throughout Europe. This will be filled in the next few hours.<br />If there is no city near you, you are welcome to register your own demonstration - of course we will support you! <br />If you have any questions, please feel free to contact us at <a href=\"https://discord.gg/x83MxcK\">Discord!</a><br />In order to organize your own demonstration, you must first ask your city administration for detailed information on registration and then create a page on Facebook (or an alternative platform). Please let us know the conditions and the link to the event so that we can include them in the map.<br />",
   "demomap_text_new": "Thanks to everyone, who went on the streets in 26 cities all over Europe to demonstrate against the new directives!",
   "demomap_text_footer": "Note: This event has ended.",
 
@@ -101,7 +101,7 @@
   "article_content3": "But this threat is not off the table right now! The plenary rejection means just that the reform has to be revamped and submitted again. A new vote is to be expected in january.",
   "article_content4": "Despite a million signatures, thousands of handwritten letters to the parliamentarians, protests on the streets, flyer distributions and enlightenment work in social media the parliamentarians passed the paper to the trialogue. There it was accepted on September 12th with a 438 (62%) to 229 (33%) majority. This means that the next step to a binding guideline is reached. <a target=\"_blank\" href=\"http://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//TEXT+TA+P8-TA-2018-0337+0+DOC+XML+V0//EN\" class=\"highlight\">Amendments adopted by the European Parliament on 12 September 2018</a>",
   "article_content5": "Now only two more meetings of the responsible EU-representatives with the ministers of the countries will be held, in which changes can be brought to the table, or be fought for compromise.",
-  "article_content6": "After this the parliament is expected to vote one last time in january. Each nation of the european union has to adjust it's own laws to the guideline. This means national laws are expected to be released in 2019/2020.",
+  "article_content6": "After this the parliament is expected to vote one last time in april. Each nation of the european union has to adjust it's own laws to the guideline. This means national laws are expected to be released in 2019/2020.",
   "article_content7": "Of course we want to thank all the people who supported us. Without you we wouldn't have achieved any of this. Also we want to thank everyone who took part in the massive postage action.",
   "countdown_title": "Time is running out",
   "countdown_description1": "The vote in the EU Parliament will take place in a few days! Therefore, we must <b> IMMEDIATELY </b> act to change the vote of the deputies. There is just a narrow majority of one vote in favour of the proposal in the relevant committee.",

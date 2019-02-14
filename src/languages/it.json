@@ -31,8 +31,8 @@
   "index_dont_like_header": "Non mi piace una proposta o un articolo! - Cosa fare?",
   "index_dont_like_content1": "Contatta i tuoi rappresentanti! Puoi contattarli direttamente per mostrare loro il tuo malcontento. Le e-mail hanno spesso un ottimo effetto. Questo perché le persone contattate direttamente sono spesso più disposte ad essere convinte. Qui trovate una lista con gli indirizzi e-mail dei rispettivi delegati.",
   "index_dont_like_content2": "Una guida su come ottenere il miglior effetto possibile dal tuo reclamo: Siate oggettivi ed educati. Insulti e minacce portano solo al rifiuto. Rimanete pragmatici e spiegate quanto siete insoddisfatti della questione, non con il deputato stesso.",
-  "index_art13_title": "Articolo 3 in dettaglio",
-  "index_art13_content": "In futuro, agli utenti, come i ricercatori indipendenti, i giornalisti, i cittadini abituali e varie imprese, sarà rifiutato di estrarre dati e testi. Poiché ciò vale solo per la regione dell'Unione europea, si creeranno ostacoli e si ridurranno i confronti internazionali. Nel peggiore dei casi questo costringerà le imprese a trasferire la loro sede centrale al di fuori dell'Unione europea.",
+  "index_art3_title": "Articolo 3 in dettaglio",
+  "index_art3_content": "In futuro, agli utenti, come i ricercatori indipendenti, i giornalisti, i cittadini abituali e varie imprese, sarà rifiutato di estrarre dati e testi. Poiché ciò vale solo per la regione dell'Unione europea, si creeranno ostacoli e si ridurranno i confronti internazionali. Nel peggiore dei casi questo costringerà le imprese a trasferire la loro sede centrale al di fuori dell'Unione europea.",
   "index_art11_title": "Articolo 11 in dettaglio",
   "index_art11_content": "La legge sulla protezione delle prestazioni definisce che tutti i siti web che rimandano ad articoli, richiedono una licenza per visualizzare la ben nota anteprima. Altri possono utilizzare solo il link isolato. La discussione ha incluso approcci come 'frequentato da singole parole'. Resta da vedere quale versione sarà utilizzata. In cambio i lettori devono decidere in anticipo se vogliono o meno cliccare su un link di notizie.",
   "index_image_split_title": "Ci sono ancora più settori che devono affrontare questa riforma.",
@@ -40,7 +40,7 @@
   "index_petition_title": "Censura? senza di me!",
   "index_petition_content1": "Sosteneteci con la vostra voce! L'unità è ciò che ci rende forti!",
   "index_petition_content2": "Questo è il motivo per cui abbiamo iniziato una <a href=\"https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet?utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition\" target=\"_blank\">petizione</a> per combattere contro gli articoli 11 e 13!",
-  "index_petition_button": "Visitez la pétition",
+  "index_petition_button": "Visita la petizione",
   "index_contact_your_mep_title": "Contatta il tuo eurodeputato",
   "index_thankyou": "Grazie per i 4 milioni di firme",
 
@@ -89,7 +89,7 @@
   "about_title": "Riguardo",
   "about_link": "Informazioni",
 
-  "demomap_text": "I sostenitori dei filtri di upload e della link tax sostengono ora che la protesta è falsa e che siamo tutti solo bot. Dimostriamo loro che si sbagliano: questa domenica 26 agosto è il SaveTheInternet Action Day! Le diverse organizzazioni che si oppongono a questa legge stanno organizzando proteste in tutta Europa. Controlla la mappa, partecipa a un evento vicino a te - e porta i tuoi amici! Non vedi una croce nella tua città? Sentitevi liberi di iscrivervi a una dimostrazione da soli!",
+  "demomap_text": "Nella seguente mappa troverai una panoramica di tutte le manifestazioni pianificate in tutta Europa. Questo sarà riempito nelle prossime ore.<br />Se non ci sono città vicino a te, sei invitato a registrare la tua dimostrazione - ovviamente ti sosterremo!<br />Se avete domande, non esitate a contattarci su <a href=\"https://discord.gg/x83MxcK\">Discord</a>!<br />Per organizzare la tua dimostrazione, devi prima chiedere all'amministrazione della tua città informazioni dettagliate sulla registrazione e quindi creare una pagina su Facebook (o una piattaforma alternativa). Per favore fateci sapere le condizioni e il link all'evento in modo che possiamo includerli nella mappa.",
   "demomap_text_new": "Grazie a tutti coloro che sono sce,si in strada in 26 città di tutta Europa per protestare contro le nuove direttive!",
   "demomap_text_footer": "Questo evento e' finito",
 
@@ -102,7 +102,7 @@
   "article_content3": "Ma questa minaccia non è fuori discussione in questo momento! La reiezione in plenaria significa solo che la riforma deve essere rinnovata e presentata di nuovo. Una nuova votazione è prevista per gennaio.",
   "article_content4": "Nonostante un milione di firme, migliaia di lettere manoscritte ai parlamentari, proteste per le strade, distribuzioni di volantini e lavori di illuminazione sui social media, i parlamentari hanno passato il documento al trilogo. Lì è stato accettato il 12 settembre con una maggioranza di 438 (62%) a 229 (33%). Questo significa che il passo successivo verso una linea guida vincolante è stato raggiunto. <a target=\"_blank\" href=\"http://www.europarl.europa.eu/sides/getDoc.do?pubRef=-////EP//TEXT+TA+P8-TA-2018-TA-2018-0337+0+0+DOC+XML+V0//EN\" class=\"highlight\">Emendamenti approvati dal Parlamento europeo il 12 settembre 2018</a>.",
   "article_content5": "Ora si terranno solo altre due riunioni dei rappresentanti responsabili dell'Unione europea con i ministri dei paesi, in cui i cambiamenti possono essere portati al tavolo dei negoziati o combattuti per un compromesso.",
-  "article_content6": "In seguito, il Parlamento dovrebbe votare un'ultima volta in gennaio. Ogni nazione dell'unione europea deve adeguare le proprie leggi alla linea guida. Questo significa che le leggi nazionali dovrebbero essere pubblicate nel 2019/2020.",
+  "article_content6": "In seguito, il Parlamento dovrebbe votare un'ultima volta in aprile. Ogni nazione dell'unione europea deve adeguare le proprie leggi alla linea guida. Questo significa che le leggi nazionali dovrebbero essere pubblicate nel 2019/2020.",
   "article_content7": "Naturalmente vogliamo ringraziare tutte le persone che ci hanno sostenuto. Senza di voi non avremmo ottenuto nulla di tutto questo. Vogliamo anche ringraziare tutti coloro che hanno preso parte alla massiccia azione di affrancatura.",
   "countdown_title": "Time is running out",
   "countdown_description1": "La votazione in seno al Parlamento europeo si svolgerà tra pochi giorni! Pertanto, dobbiamo agire immediatamente per cambiare il voto dei deputati. C'è solo una ristretta maggioranza di un voto a favore della proposta nella commissione competente.",
@@ -135,5 +135,5 @@
 
   "imprint_link": "Imprint",
   "privacy_link": "Privat policy",
-  "footer_notice": "À SaveTheInternet nous prenons nos distances avec  toutes activité illégale ! Nous ne supportons ni les activités illégales ni nous ne les commandons."
+  "footer_notice": "A Save TheInternet prendiamo le distanze con qualsiasi attività illegale! Non supportiamo o commissioniamo attività illegali."
 }
