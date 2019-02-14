@@ -37,17 +37,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Warsaw",
-        "description": "March 23 - 17:00 - Jasna 14/16"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [21.011717, 52.235503]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Bruxelles",
         "description": "March 23 - 17:00 - Place de la Monnaie"
       },
