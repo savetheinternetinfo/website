@@ -1,333 +1,115 @@
 {
-    "type":"FeatureCollection",
-    "features":[
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Bergen",
-             "description":"August 26 – 18:00 – Nedre Ole Bulls plass 3"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                5.323516,
-                60.39203
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Berlin",
-             "description":"26. August – 15.00 – Brandenburger Tor\nhttps://epicenter.works/event/1284"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                13.377785682678224,
-                52.516260037262676
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Frankfurt",
-             "description":"26. August – 13:30 – Paulsplatz\nhttps://www.facebook.com/events/651289581923691/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                8.690185546875002,
-                50.10296448723355
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Graz",
-             "description":"26. August – 15.00 – Schloßbergplatz\nhttps://epicenter.works/content/saveyourinternet-aktionstag-am-26-august-2018"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                15.436230897903444,
-                47.072759744403804
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Hamburg",
-             "description":"26. August – 14:00 – Mönkebergbrunnen\nhttps://www.facebook.com/events/631386150569176/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                9.995844127843158,
-                53.54583985016114
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Helsinki",
-             "description":"August 26 – 12:00 – Narinkkatori\nhttps://www.facebook.com/events/380275895840211"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                24.941411018371582,
-                60.17061345472757
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Innsbruck",
-             "description":"August 26 – 11:00 – Fotoaktion am Marktplatz\nhttps://epicenter.works/content/saveyourinternet-aktionstag-am-26-august-2018"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                11.39074355363846,
-                47.26749076176817
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Karlsruhe",
-             "description":"26. August – 14:00 – Stephansplatz\nhttps://www.facebook.com/events/1548933888585517/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                8.399620880372824,
-                49.00263543928602
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Katowice",
-             "description":"August 26 – 18:00 – Rynek\nhttps://www.facebook.com/events/1736159829808663/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                19.02205467224121,
-                50.2594705020705
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Kraków",
-             "description":"August 26 – 18:00 – Rynek Główny\nhttps://www.facebook.com/events/1849272128711784/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                19.936913251876835,
-                50.062159984202495
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Lisboa",
-             "description":"September 8 – 17:00 – Praça de Luís de Camões\nhttps://www.facebook.com/events/293165507942061"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                -9.139519929885866,
-                38.713995177801
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Ljubljana",
-             "description":"August 26 – 11:00 – Prešernov trg\nhttps://www.facebook.com/events/287052418770178/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                14.506040811538698,
-                46.05143320207181
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Łódź",
-             "description":"August 26 – 18:00 – Plac Wolności\nhttps://www.facebook.com/events/2171593299790462/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                19.460220336914066,
-                51.763165413548094
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Lund",
-             "description":"August 26 – Details TBA"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                13.1866192817688,
-                55.70693740022883
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Mainz",
-             "description":"25. August – 11:00 – Hauptbahnhof\nhttps://www.facebook.com/events/221208678595160/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                8.25974464416504,
-                50.001257040062114
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"München",
-             "description":"26. August – 13:00 – Marienplatz\nhttps://www.facebook.com/events/423899521423389/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                11.57613515853882,
-                48.138198647757676
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Paris",
-             "description":"August 26 – 14:30 – Place Jules Joffrin, 75018 Paris"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                2.350387573242188,
-                48.85522811385678
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Praha",
-             "description":"August 26 – 16:00 – Palackého náměstí\nhttps://www.facebook.com/events/2135771473347359/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                14.420714378356935,
-                50.08755414688996
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Stockholm",
-             "description":"August 26 – 12:00 – Raoul Wallenbergs Torg\nhttps://www.facebook.com/events/1131726740311531/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                18.057682514190677,
-                59.329960683145174
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Stuttgart",
-             "description":"26. August – 14:00 – Marienplatz\nhttps://www.facebook.com/events/503638343421717/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                9.17888402938843,
-                48.77887427753054
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Warszawa",
-             "description":"August 26 – 16:00 – Plac Defilad\nhttps://www.facebook.com/events/2035752230086477/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                21.008251905441288,
-                52.231834238039944
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Wien",
-             "description":"26. August – 15.00 – Stephansplatz\nhttps://epicenter.works/content/saveyourinternet-aktionstag-am-26-august-2018"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                16.372289657592777,
-                48.20841626078854
-             ]
-          }
-       },
-       {
-          "type":"Feature",
-          "properties":{
-             "name":"Wrocław",
-             "description":"August 26 – 18:00 – Rynek, 50-101 Wrocław, Polska\nhttps://www.facebook.com/events/208686879796389/"
-          },
-          "geometry":{
-             "type":"Point",
-             "coordinates":[
-                17.033314704895023,
-                51.109988817459296
-             ]
-          }
-       }
-    ],
-    "_storage":{
-       "displayOnLoad":true,
-       "browsable":true,
-       "name":"Layer 1",
-       "id":608593
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Munich",
+        "description": "March 23 - 13:30 - Marienplatz 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.574843, 48.137514]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poznań",
+        "description": "March 23 - 14:00 - plac Wolności"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.926896, 52.408654]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warsaw",
+        "description": "March 23 - 17:00 - Jasna 14/16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.011717, 52.235503]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warsaw",
+        "description": "March 23 - 17:00 - Jasna 14/16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.011717, 52.235503]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bruxelles",
+        "description": "March 23 - 17:00 - Place de la Monnaie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.354104, 50.849788]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wrocław",
+        "description": "March 23 - 17:00 - Rynek 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.032302, 51.110861]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krakow",
+        "description": "March 23 - 17:00 - Rynek Glowny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.936761, 50.06198]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Katowice",
+        "description": "March 23 - 17:00 - Rynek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.021685, 50.259481]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amsterdam",
+        "description": "March 23 - 17:00 - dam square"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.892608, 52.373239]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Łódź",
+        "description": "March 23 - 17:00 - plac Wolności"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.454626, 51.777257]
+      }
     }
- }
+  ]
+}
