@@ -4,12 +4,34 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Köln",
+        "description": "March 16 – 13:30 – Neumarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.932545, 50.936526]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Munich",
         "description": "March 23 - 13:30 - Marienplatz 1"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [11.574843, 48.137514]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frankfurt",
+        "description": "March 23 – 14:00 – Paulsplatz to Eurosign"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.681297, 50.110814]
       }
     },
     {
