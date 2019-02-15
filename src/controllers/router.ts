@@ -34,7 +34,7 @@ export function router(app) {
     }
 
     //if (req.cookies._stilang) i18n.setLocale(req.cookies._stilang);
-    res.header("X-Language", i18n.getLocale());
+    res.header("X-Language", i18n.getLocale(req));
     res.vary("X-Language");
     next();
   });
