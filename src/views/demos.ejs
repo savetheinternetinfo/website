@@ -1,18 +1,20 @@
 <%- include('layout/header'); -%>
+<script type="text/javascript" src="<%= assets['/assets/demomap.js'] %>"></script>
 <script
   type="text/javascript"
   src="<%= assets['/assets/demomap.js'] %>"
 ></script>
-<script
-  type="text/javascript"
-  src="<%= assets['/assets/partners.js'] %>"
-></script>
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-  crossorigin=""
-/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+<style>
+.leaflet-popup-content p {
+  margin: 0;
+}
+.leaflet-popup-content-wrapper {
+  padding: 1px;
+  text-align: left;
+  border-radius: 0;
+}
+</style>
 <div class="container">
   <h2 class="text-5xl p-2 md:p-0">
     <% /* %> <%= __('article_header') %> <span class="countdown"></span>
