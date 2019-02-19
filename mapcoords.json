@@ -26,6 +26,26 @@
       "properties": [
         {
           "name": "Where?",
+          "value": "Hamburg"
+        },
+        {
+          "name": "When?",
+          "value": "March 23 – 13:00 – Gänsemarkt"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9861994,
+          53.5553697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "name": "Where?",
           "value": "Munich"
         },
         {
