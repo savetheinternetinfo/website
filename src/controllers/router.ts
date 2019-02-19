@@ -102,6 +102,8 @@ export function router(app) {
   const memeController = new MemeController();
   app.get("/memes", (req, res, next) => memeController.index(req, res, next));
 
+  app.get("/demos/iframe", (req, res) => res.render("demos_iframe"));
+
   app.get("/:page", (req, res) => {
     // Allow letters, numbers and hyphens
     let page = req.params.page.replace(/[^A-Za-z0-9\-]/g, "");
