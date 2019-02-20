@@ -46,6 +46,26 @@
         "properties":[
            {
               "name":"where",
+              "value":"Karlsruhe"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 13:30 - Stephansplatz"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              8.3919626, 
+              49.0088189
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
               "value":"Frankfurt"
            },
            {
