@@ -1,115 +1,245 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Munich",
-        "description": "March 23 - 13:30 - Marienplatz 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.574843, 48.137514]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Karlsruhe",
-        "description": "March 23 - 13:30 - Stephansplatz"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.3919626, 49.0088189]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Poznań",
-        "description": "March 23 - 14:00 - plac Wolności"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [16.926896, 52.408654]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Warsaw",
-        "description": "March 23 - 17:00 - Jasna 14/16"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [21.011717, 52.235503]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bruxelles",
-        "description": "March 23 - 17:00 - Place de la Monnaie"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.354104, 50.849788]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Wrocław",
-        "description": "March 23 - 17:00 - Rynek 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [17.032302, 51.110861]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Krakow",
-        "description": "March 23 - 17:00 - Rynek Glowny"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [19.936761, 50.06198]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Katowice",
-        "description": "March 23 - 17:00 - Rynek"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [19.021685, 50.259481]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Amsterdam",
-        "description": "March 23 - 17:00 - dam square"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.892608, 52.373239]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Łódź",
-        "description": "March 23 - 17:00 - plac Wolności"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [19.454626, 51.777257]
-      }
-    }
+  "type":"FeatureCollection",
+  "features":[
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Köln"
+           },
+           {
+              "name":"when",
+              "value":"February 16 – 13:30 – Neumarkt"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              6.932545,
+              50.936526
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Munich"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 13:30 - Marienplatz 1"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              11.574843,
+              48.137514
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Karlsruhe"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 13:30 - Stephansplatz"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              8.3919626, 
+              49.0088189
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Frankfurt"
+           },
+           {
+              "name":"when",
+              "value":"March 23 – 14:00 – Paulsplatz to Eurosign"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              8.681297,
+              50.110814
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Poznań"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 17:00 - Plac Adama Mickewicza"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              16.926896,
+              52.408654
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Warsaw"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 17:00 - Jasna 14/16"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              21.011717,
+              52.235503
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Bruxelles"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 17:00 - Place de la Monnaie"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              4.354104,
+              50.849788
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Wrocław"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 17:00 - Rynek 1"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              17.032302,
+              51.110861
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Krakow"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 17:00 - Rynek Glowny"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              19.936761,
+              50.06198
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Katowice"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 17:00 - Rynek"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              19.021685,
+              50.259481
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Amsterdam"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 17:00 - Dam square"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              4.892608,
+              52.373239
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "name":"where",
+              "value":"Łódź"
+           },
+           {
+              "name":"when",
+              "value":"March 23 - 17:00 - Plac Wolności"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              19.454626,
+              51.777257
+           ]
+        }
+     }
   ]
 }

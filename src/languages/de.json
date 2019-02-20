@@ -9,8 +9,9 @@
   "article": "Artikel",
   "article_header": "Hilf",
   "article_header2": "mit, das Internet zu retten und gehe auf die Straße",
-  "article_header_new": "Werdet aktiv - jetzt zählt es!",
-  "sti_day": "STI Actionday",
+  "article_header_new": "23. März - Werdet aktiv - jetzt zählt es!",
+
+  "sti_day": "Demos",
   "index_donate_title": "Spendenaufruf",
   "index_donate_content": "Damit wir weiter finanziell unabhängig bleiben können, um mit den Abgeordneten in Straßburg und Brüssel zu sprechen, Demonstrationen zu organisieren, Flyer zu drucken und Ähnliches, benötigen wir unabhängige finanzielle Unterstützung. Wir wollen weiterhin die privaten und normalen europäischen Nutzer vertreten. Wir sind dein Sprachrohr. Jeder Euro erhöht die Chance auf ein freies Internet. Danke! <a href=\"https://www.gofundme.com/save-the-internet-info\">https://www.gofundme.com/save-the-internet-info</a>",
   "index_prevented_header": "Was wollen wir verhindern?",
@@ -93,6 +94,10 @@
   "demomap_text": "Auf der folgenden Karte findet ihr einen Überblick aller europaweit geplanten Demonstrationen. Diese wird in den nächsten Stunden noch befüllt.<br />Sollte sich keine Stadt in deiner Nähe darauf befinden, kannst Du gerne eine eigene Demonstration anmelden - wir werden dich dabei selbstverständlich unterstützen! <br />Bei Fragen kannst du dich jederzeit im <a href=\"https://discord.gg/x83MxcK\">Discord</a> melden! <br />Um eine eigene Demonstration zu organisieren, musst du zunächst genaue Informationen zur Anmeldung bei deiner Stadtverwaltung erfragen und anschließend eine Seite auf Facebook (oder einer alternativen Plattform) erstellen. Bitte teile uns dann die Rahmenbedingungen sowie den Link zum Event mit, damit wie diese in die Karte übernehmen können.",
   "demomap_text_new": "Danke an alle, die europaweit in 26 Städten auf die Strasse gegangen sind und gegen die Richtlinien demonstriert haben!",
   "demomap_text_footer": "Info: Diese Veranstaltung ist vorbei.",
+  "supporters_orga": "Organisationen und Gruppen die uns unterstützen",
+  "supporters_person": "Personen die uns unterstützen",
+  "demomap_prop_where": "Wo?",
+  "demomap_prop_when": "Wann?",
 
   "memes_title": "Memes",
 

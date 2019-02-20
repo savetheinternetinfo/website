@@ -11,31 +11,16 @@ function capitalizeFirstLetter(string) {
 }
 
 function bindPopoup(feature, layer) {
-    let popoupText = "";
+    let popupText = "";
 
-    for(let key in feature.properties) {
-        let link;
-        let text;
-        text = feature.properties[key];
-        let match = text.match(regexp); // Check for a Link in the text
-        if (match) {
-            link = text.match(regexp)[0]; // Link found!
-            text = text.replace(link, ""); // replace the link in the description with nothing
-        }
-        let title = capitalizeFirstLetter(key);
-        if (link) {
-            popoupText += `
-                <p><b>${title}: </b><a href="${link}">${text}</a></p>
-            `;
-        } else {
-            popoupText += `
-                <p><b>${title}: </b>${text}</p>
-            `;
-        }
+    for (let index = 0; index < feature.properties.length; index++) {
+        const element = feature.properties[index];
+        const translation = ((element.translation) ? element.translation : element.name);
+        popupText += `<p class="mb-0"><b>${translation}</b> ${element.value}</p>`;
     }
 
-    let listText = "<li class='shadow-md p-2 mb-4'>" + popoupText + "</li>";
-    layer.bindPopup(popoupText);
+    let listText = `<li class="shadow-md p-2 mb-4">${popupText}</li>`;
+    layer.bindPopup(popupText);
 
     jQuery("#event-list").append(listText);
 }
@@ -43,7 +28,7 @@ function bindPopoup(feature, layer) {
 jQuery(() => {
     let demomap = leaflet.map("demomap").setView([50, 5.0], 4);
     leaflet.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", {
-        attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors | Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL"
+        attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors | Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL | Save the Internet!"
     }).addTo(demomap);
 
     if (window.location.pathname === "/") {

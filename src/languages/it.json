@@ -9,8 +9,9 @@
   "article": "Article",
   "article_header": "Aiuta a salvare Internet",
   "article_header2": "Protesta per strada",
-  "article_header_new": "Attivi - ora è importante!",
-  "sti_day": "STI azione del giorno",
+  "article_header_new": "23 Marzo - Siate attivi - Ora conta!",
+
+  "sti_day": "Demos",
   "index_donate_content": "Affrontiamo volontariamente questo progetto. Non possiamo ancora essere finanziariamente indipendenti e parlare con i rappresentanti a Strasburgo e Bruxelles, organizzare dimostrazioni, ecc, abbiamo bisogno del vostro sostegno finanziario. Rappresentiamo il normale cittadino europeo. Noi siamo la vostra voce. Ogni euro aumenta la possibilità di avere un Internet libero da censura. Vi ringraziamo di cuore! <a href=\"https://www.gofundme.com/save-the-internet-info\" target=\"_blank\">https://www.gofundme.com/save-the-internet-info</a>",
   "index_donate_title": "Richiesta di donazioni",
   "index_prevented_header": "Cosa vogliamo prevenire?",
@@ -92,6 +93,8 @@
   "demomap_text": "Nella seguente mappa troverai una panoramica di tutte le manifestazioni pianificate in tutta Europa. Questo sarà riempito nelle prossime ore.<br />Se non ci sono città vicino a te, sei invitato a registrare la tua dimostrazione - ovviamente ti sosterremo!<br />Se avete domande, non esitate a contattarci su <a href=\"https://discord.gg/x83MxcK\">Discord</a>!<br />Per organizzare la tua dimostrazione, devi prima chiedere all'amministrazione della tua città informazioni dettagliate sulla registrazione e quindi creare una pagina su Facebook (o una piattaforma alternativa). Per favore fateci sapere le condizioni e il link all'evento in modo che possiamo includerli nella mappa.",
   "demomap_text_new": "Grazie a tutti coloro che sono sce,si in strada in 26 città di tutta Europa per protestare contro le nuove direttive!",
   "demomap_text_footer": "Questo evento e' finito",
+  "demomap_prop_where": "Where?",
+  "demomap_prop_when": "When?",
 
   "memes_title": "Meme",
 
