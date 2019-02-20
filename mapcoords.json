@@ -5,11 +5,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Köln"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"February 16 – 13:30 – Neumarkt"
            }
         ],
@@ -25,11 +25,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Munich"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"March 23 - 13:30 - Marienplatz 1"
            }
         ],
@@ -45,11 +45,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Frankfurt"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"March 23 – 14:00 – Paulsplatz to Eurosign"
            }
         ],
@@ -65,11 +65,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Poznań"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"March 23 - 17:00 - Plac Adama Mickewicza"
            }
         ],
@@ -85,11 +85,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Warsaw"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"March 23 - 17:00 - Jasna 14/16"
            }
         ],
@@ -105,11 +105,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Bruxelles"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"March 23 - 17:00 - Place de la Monnaie"
            }
         ],
@@ -125,11 +125,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Wrocław"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"March 23 - 17:00 - Rynek 1"
            }
         ],
@@ -145,11 +145,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Krakow"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"March 23 - 17:00 - Rynek Glowny"
            }
         ],
@@ -165,11 +165,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Katowice"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"March 23 - 17:00 - Rynek"
            }
         ],
@@ -185,11 +185,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Amsterdam"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"March 23 - 17:00 - Dam square"
            }
         ],
@@ -205,11 +205,11 @@
         "type":"Feature",
         "properties":[
            {
-              "name":"Where?",
+              "name":"where",
               "value":"Łódź"
            },
            {
-              "name":"When?",
+              "name":"when",
               "value":"March 23 - 17:00 - Plac Wolności"
            }
         ],

@@ -88,6 +88,8 @@
   "demomap_text": "Sur la carte ci-dessous, vous trouverez un aperçu de toutes les manifestations prévues à travers l'europe. Elle sera complétée dans les prochaines heures. S'il n'y a pas de ville proche de vous, vous êtes les bienvenus quant à effectuer votre propre démonstration - bien entendu, nous vous soutiendrons!<br />Si vous avez des questions, n'hésitez pas à nous contacter sur notre <a href=\"https://discord.gg/x83MxcK\">Discord</a>!<br />Afin d'organiser votre propre manifestation , vous devez d'abord en faire la demande auprès de la mairie et de l'administration de votre ville pour obtenir tous les détails nécessaires, puis créer une page Facebook (ou plateforme équivalente). Faites nous savoir les conditions et le lien vers votre évènement, ainsi, nous pourrons l'inclure sur la carte.",
   "demomap_text_new": "Merci à tous ceux qui sont sortis dans la rue dans 26 villes partout en Europe pour manifester contre les nouvelles directives!",
   "demomap_text_footer": "Note: Cet évènement est terminé.",
+  "demomap_prop_where": "Where?",
+  "demomap_prop_when": "When?",
   "memes_title": "Memes",
   "countdown_done": "maintenant",
   "article_title": "Alors, que s’est-il passé ?",
