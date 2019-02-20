@@ -37,7 +37,6 @@ class DemomapService {
                 for (let a = 0; a < feature.properties.length; a++) {
                     let property = feature.properties[a];
                     property.translation = res.__("demomap_prop_" + property.name);
-                    console.log(property);
                 }
             }
             res.send(coords);
