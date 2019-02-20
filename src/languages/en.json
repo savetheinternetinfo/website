@@ -92,6 +92,8 @@
   "demomap_text": "On the following map you will find an overview of all demonstrations planned throughout Europe. This will be filled in the next few hours.<br />If there is no city near you, you are welcome to register your own demonstration - of course we will support you! <br />If you have any questions, please feel free to contact us at <a href=\"https://discord.gg/x83MxcK\">Discord!</a><br />In order to organize your own demonstration, you must first ask your city administration for detailed information on registration and then create a page on Facebook (or an alternative platform). Please let us know the conditions and the link to the event so that we can include them in the map.<br />",
   "demomap_text_new": "Thanks to everyone, who went on the streets in 26 cities all over Europe to demonstrate against the new directives!",
   "demomap_text_footer": "Note: This event has ended.",
+  "demomap_prop_where": "Where?",
+  "demomap_prop_when": "When?",
 
   "memes_title": "Memes",
 

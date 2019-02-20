@@ -60,6 +60,7 @@ export function router(app) {
   app.get("/mapcoords", (req, res) => {
     demomap.getCoords(req, res);
   });
+  app.get("/demos/iframe", (req, res) => res.render("demos_iframe"));
 
   app.get("/pressreview", (req, res) => {
     let currentLocale = i18n.getLocale(req);
@@ -102,7 +103,6 @@ export function router(app) {
   const memeController = new MemeController();
   app.get("/memes", (req, res, next) => memeController.index(req, res, next));
 
-  app.get("/demos/iframe", (req, res) => res.render("demos_iframe"));
   app.get("/:page", (req, res) => {
     // Allow letters, numbers and hyphens
     let page = req.params.page.replace(/[^A-Za-z0-9\-]/g, "");
