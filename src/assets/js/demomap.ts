@@ -16,7 +16,7 @@ function bindPopoup(feature, layer) {
     for (let index = 0; index < feature.properties.length; index++) {
         const element = feature.properties[index];
         const translation = ((element.translation) ? element.translation : element.name);
-        popupText += `<p class="mb-0"><b>${translation}</b> ${element.value}</p>`;
+        popupText += `<p class="mb-0"><b>${translation}:</b> ${element.value}</p>`;
     }
 
     let listText = `<li class="shadow-md p-2 mb-4">${popupText}</li>`;
