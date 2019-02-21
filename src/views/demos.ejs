@@ -1,25 +1,28 @@
 <%- include('layout/header'); -%>
 <script type="text/javascript" src="<%= assets['/assets/demomap.js'] %>"></script>
-<script
-  type="text/javascript"
-  src="<%= assets['/assets/demomap.js'] %>"
-></script>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+<script type="text/javascript" src="<%= assets['/assets/demomap.js'] %>"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin="" />
 <style>
-.leaflet-popup-content p {
-  margin: 0;
-}
-.leaflet-popup-content-wrapper {
-  padding: 1px;
-  text-align: left;
-  border-radius: 0;
-}
+  .leaflet-popup-content p {
+    margin: 0;
+  }
+
+  .leaflet-popup-content-wrapper {
+    padding: 1px;
+    text-align: left;
+    border-radius: 0;
+  }
 </style>
 <div class="container">
   <h2 class="text-5xl p-2 md:p-0">
-    <% /* %> <%= __('article_header') %> <span class="countdown"></span>
-    <span class="countdown-done hidden"> <%= __('countdown_done') %></span>
-    <%= __('article_header2') %> <% */ %> <%= __('article_header_new') %>
+    <% /* %>
+    <%= __('article_header') %> <span class="countdown"></span>
+    <span class="countdown-done hidden">
+      <%= __('countdown_done') %></span>
+    <%= __('article_header2') %>
+    <% */ %>
+    <%= __('article_header_new') %>
   </h2>
   <div class="p-2 md:p-0">
     <p>
@@ -34,15 +37,13 @@
     </div>
 
     <div class="md:w-1/4">
-      <div
-        class="w-full md:ml-3 mt-4 md:mt-0 overflow-y-auto text-sm demomap_container"
-      >
+      <div class="w-full md:ml-3 mt-4 md:mt-0 overflow-y-auto text-sm demomap_container">
         <ul class="list-reset demomap_list pr-2" id="event-list"></ul>
       </div>
     </div>
   </div>
 
-  <div class="w-full my-16 p-2 md:p-0">
+  <!--<div class="w-full my-16 p-2 md:p-0">
     <div class="">
       <h2>
         <%- __('supporters_orga') %>
@@ -55,6 +56,6 @@
 
       <div class="w-full flex flex-wrap" id="supporting-ppl"></div>
     </div>
-  </div>
+  </div> -->
 </div>
 <%- include('layout/footer'); -%>
