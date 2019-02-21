@@ -6,35 +6,21 @@ window.$ = jQuery;
 const regex = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/gi;
 const regexp = new RegExp(regex);
 
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 function bindPopoup(feature, layer) {
-    let description = feature.properties.description; // Get the description
-    let match = description.match(regexp); // Check for a Link in the description
-    let link;
-    if (match) {
-        link = description.match(regexp)[0]; // Link found!
-    } else {
-        link = undefined; // There is no link
-    }
-    description = description.replace(link, ""); // replace the link in the description with nothing
-    let popoupText;
-    if (link) {
-        popoupText = `
-            <h4>${feature.properties.name}</h4>
-            <p><a href="${link}">${description}</a></p>
-        `;
-    } else if (description) {
-        popoupText = `
-            <h4>${feature.properties.name}</h4>
-            <p>${description}</p>
-        `;
-    } else {
-        popoupText = `
-            <h4>${feature.properties.name}</h4>
-        `;
+    let popupText = "";
+
+    for (let index = 0; index < feature.properties.length; index++) {
+        const element = feature.properties[index];
+        const translation = ((element.translation) ? element.translation : element.name);
+        popupText += `<p class="mb-0"><b>${translation}:</b> ${element.value}</p>`;
     }
 
-    let listText = "<li class='shadow-md p-3 mb-4'>" + popoupText + "</li>";
-    layer.bindPopup(popoupText);
+    let listText = `<li class="shadow-md p-2 mb-4">${popupText}</li>`;
+    layer.bindPopup(popupText);
 
     jQuery("#event-list").append(listText);
 }
@@ -42,7 +28,7 @@ function bindPopoup(feature, layer) {
 jQuery(() => {
     let demomap = leaflet.map("demomap").setView([50, 5.0], 4);
     leaflet.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", {
-        attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors | Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL"
+        attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors | Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL | Save the Internet!"
     }).addTo(demomap);
 
     if (window.location.pathname === "/") {
