@@ -240,6 +240,34 @@
               51.777257
            ]
         }
-     }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.892608,
+          52.373239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "name": "Where?",
+          "value": "Łódź"
+        },
+        {
+          "name": "When?",
+          "value": "March 23 - 17:00 - Plac Wolności"
+        }
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.454626,
+          51.777257
+        ]
+      }
+    }
   ]
 }
