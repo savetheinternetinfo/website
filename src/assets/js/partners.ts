@@ -15,7 +15,7 @@ jQuery(() => {
       });
 
       let ppl = "";
-      content.orga.forEach(element => {
+      content.person.forEach(element => {
         ppl +=
           '<div class="w-1/4 py-2 px-4 mt-3"><p class="text-center w-full">' +
           element.name +
