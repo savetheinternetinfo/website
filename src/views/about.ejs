@@ -1,113 +1,177 @@
 <%- include('layout/header'); -%>
 <div class="section container">
-    <h1 class="mb-16">
-        <%= __('about_title') %>
-    </h1>
+  <h1 class="mb-16">
+    <%= __('about_title') %>
+  </h1>
 
-    <% if (currentLanguage == "de"){ %>
-    <div class="mb-16">
-        <h3 class="mb-6 font-normal">
-            <%= __('about_sub_title5') %>
-        </h3>
+  <% if (currentLanguage == "de" || currentLanguage == "en" || currentLanguage
+  == "es" || currentLanguage == "it"){ %>
+  <h3 class="mb-6 font-normal">
+    <%= __('about_summary_title') %>
+  </h3>
+  <div class="mb-16 text-sm">
+    <%- __('about_summary') %>
+  </div>
+  <% } %> <% if (currentLanguage == "de"){ %>
+  <div class="mb-16">
+    <h3 class="mb-6 font-normal">
+      <%= __('about_sub_title5') %>
+    </h3>
 
-        <a target="_blank" rel="noopener noreferrer" class="italic text-xl" href="https://www.youtube.com/watch?v=SpUoLn0k5v4">
-            <%= __('about_link_video') %>
-        </a><br />
-        <iframe width="560" height="315" class="mt-4" src="https://www.youtube-nocookie.com/embed/SpUoLn0k5v4"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      class="italic text-xl"
+      href="https://www.youtube.com/watch?v=SpUoLn0k5v4"
+    >
+      <%= __('about_link_video') %> </a
+    ><br />
+    <iframe
+      width="560"
+      height="315"
+      class="mt-4"
+      src="https://www.youtube-nocookie.com/embed/SpUoLn0k5v4"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 
-    <div class="mb-16">
-        <h3 class="mb-6 font-normal">
-            <%= __('about_sub_title6') %>
-        </h3>
+  <div class="mb-16">
+    <h3 class="mb-6 font-normal">
+      <%= __('about_sub_title6') %>
+    </h3>
 
-        <a target="_blank" rel="noopener noreferrer" class="italic text-xl" href="http://www.europarl.europa.eu/news/de/press-room/20180906IPR12103/parlament-legt-position-zur-urheberrechtsreform-fur-das-internetzeitalter-fest">
-            <%= __('about_link_text') %>
-        </a>
-    </div>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      class="italic text-xl"
+      href="http://www.europarl.europa.eu/news/de/press-room/20180906IPR12103/parlament-legt-position-zur-urheberrechtsreform-fur-das-internetzeitalter-fest"
+    >
+      <%= __('about_link_text') %>
+    </a>
+  </div>
 
-    <div class="mb-16">
-        <h3 class="mb-6 font-normal">
-            <%= __('about_sub_title3') %>
-        </h3>
+  <div class="mb-16">
+    <h3 class="mb-6 font-normal">
+      <%= __('about_sub_title3') %>
+    </h3>
 
-        <a target="_blank" rel="noopener noreferrer" class="italic text-xl" href="https://netzpolitik.org/2018/das-eu-parlament-legt-einen-schleier-ueber-das-internet-votum-fuer-upload-filter-und-leistungsschutzrecht/">
-            <%= __('about_link_text') %>
-        </a>
-    </div>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      class="italic text-xl"
+      href="https://netzpolitik.org/2018/das-eu-parlament-legt-einen-schleier-ueber-das-internet-votum-fuer-upload-filter-und-leistungsschutzrecht/"
+    >
+      <%= __('about_link_text') %>
+    </a>
+  </div>
 
-    <div class="mb-16">
-        <h3 class="mb-6 font-normal">
-            <%= __('about_sub_title2') %>
-        </h3>
+  <div class="mb-16">
+    <h3 class="mb-6 font-normal">
+      <%= __('about_sub_title2') %>
+    </h3>
 
-        <a target="_blank" rel="noopener noreferrer" class="italic text-xl" href="https://www.heise.de/ct/ausgabe/2018-21-EU-Verbrauchern-drohen-Upload-Filter-4172829.html">
-            <%= __('about_link_text') %>
-        </a>
-    </div>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      class="italic text-xl"
+      href="https://www.heise.de/ct/ausgabe/2018-21-EU-Verbrauchern-drohen-Upload-Filter-4172829.html"
+    >
+      <%= __('about_link_text') %>
+    </a>
+  </div>
 
-    <div class="mb-16">
-        <h3 class="mb-6 font-normal">
-            <%= __('about_sub_title4') %>
-        </h3>
+  <div class="mb-16">
+    <h3 class="mb-6 font-normal">
+      <%= __('about_sub_title4') %>
+    </h3>
 
-        <a target="_blank" rel="noopener noreferrer" class="italic text-xl" href="https://juliareda.eu/2018/10/geheime-verhandlungen-urheberrechtsreform/">
-            <%= __('about_link_text') %>
-        </a>
-    </div>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      class="italic text-xl"
+      href="https://juliareda.eu/2018/10/geheime-verhandlungen-urheberrechtsreform/"
+    >
+      <%= __('about_link_text') %>
+    </a>
+  </div>
 
-    <div class="mb-16">
-        <h3 class="mb-6 font-normal">
-            <%= __('about_sub_title1') %>
-        </h3>
+  <div class="mb-16">
+    <h3 class="mb-6 font-normal">
+      <%= __('about_sub_title1') %>
+    </h3>
 
-        <a target="_blank" rel="noopener noreferrer" class="italic text-xl" href="https://www.heise.de/newsticker/meldung/YouTube-Chefin-Neues-EU-Copyright-fuer-Plattformen-zu-riskant-4198811.html">
-            <%= __('about_link_text') %>
-        </a>
-    </div>
-    <% } else{ %>
-    <div class="mb-16">
-        <h3 class="mb-6 font-normal">
-            <%= __('about_sub_title5') %>
-        </h3>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      class="italic text-xl"
+      href="https://www.heise.de/newsticker/meldung/YouTube-Chefin-Neues-EU-Copyright-fuer-Plattformen-zu-riskant-4198811.html"
+    >
+      <%= __('about_link_text') %>
+    </a>
+  </div>
+  <% } else{ %>
+  <div class="mb-16">
+    <h3 class="mb-6 font-normal">
+      <%= __('about_sub_title5') %>
+    </h3>
 
-        <a target="_blank" rel="noopener noreferrer" class="italic text-xl" href="https://www.youtube.com/watch?v=SpUoLn0k5v4">
-            <%= __('about_link_video') %>
-        </a><br />
-        <iframe width="560" height="315" class="mt-4" src="https://www.youtube-nocookie.com/embed/SpUoLn0k5v4"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      class="italic text-xl"
+      href="https://www.youtube.com/watch?v=SpUoLn0k5v4"
+    >
+      <%= __('about_link_video') %> </a
+    ><br />
+    <iframe
+      width="560"
+      height="315"
+      class="mt-4"
+      src="https://www.youtube-nocookie.com/embed/SpUoLn0k5v4"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 
-    <div class="mb-16">
-        <h3 class="mb-6 font-normal">
-            <%= __('about_sub_title7') %>
-        </h3>
+  <div class="mb-16">
+    <h3 class="mb-6 font-normal">
+      <%= __('about_sub_title7') %>
+    </h3>
 
-        <a target="_blank" rel="noopener noreferrer" class="italic text-xl" href="https://www.theguardian.com/commentisfree/2018/sep/13/tech-giants-eu-internet-searches-copyright-law">
-            <%= __('about_link_text') %>
-        </a>
-    </div>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      class="italic text-xl"
+      href="https://www.theguardian.com/commentisfree/2018/sep/13/tech-giants-eu-internet-searches-copyright-law"
+    >
+      <%= __('about_link_text') %>
+    </a>
+  </div>
 
-    <div class="mb-16">
-        <h3 class="mb-6 font-normal">
-            <%= __('about_sub_title8') %>
-        </h3>
+  <div class="mb-16">
+    <h3 class="mb-6 font-normal">
+      <%= __('about_sub_title8') %>
+    </h3>
 
-        <a target="_blank" rel="noopener noreferrer" class="italic text-xl" href="https://juliareda.eu/2018/10/where-eu-member-states-stand-on-upload-filters-and-the-link-tax/">
-            <%= __('about_link_text') %>
-        </a>
-    </div>
-    <% } %>
-    <div class="mb-16">
-        <p class="italic">
-            <a>#savetheinternet</a>
-            <a>#saveourinternet</a>
-            <a>#fckart13</a>
-        </p>
-    </div>
-
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      class="italic text-xl"
+      href="https://juliareda.eu/2018/10/where-eu-member-states-stand-on-upload-filters-and-the-link-tax/"
+    >
+      <%= __('about_link_text') %>
+    </a>
+  </div>
+  <% } %>
+  <div class="mb-16">
+    <p class="italic">
+      <a>#savetheinternet</a>
+      <a>#saveourinternet</a>
+      <a>#fckart13</a>
+    </p>
+  </div>
 </div>
 <%- include('layout/footer'); -%>
