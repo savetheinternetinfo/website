@@ -242,26 +242,6 @@
          "properties":[
             {
                "name":"where",
-               "value":"Munich"
-            },
-            {
-               "name":"when",
-               "value":"March 23 - 13:30 - Marienplatz 1"
-            }
-         ],
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               11.574843,
-               48.137514
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "name":"where",
                "value":"Karlsruhe"
             },
             {
@@ -287,6 +267,10 @@
             {
                "name":"when",
                "value":"March 23 - 17:00 - Plac Adama Mickewicza"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/316462322548144/\">Facebook Event</a>"
             }
          ],
          "geometry":{
@@ -307,6 +291,10 @@
             {
                "name":"when",
                "value":"March 23 - 17:00 - Jasna 14/16"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/245095949701247/\">Facebook Event</a>"
             }
          ],
          "geometry":{
@@ -327,6 +315,10 @@
             {
                "name":"when",
                "value":"March 23 - 17:00 - Place de la Monnaie"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/248501622762624/\">Facebook Event</a>"
             }
          ],
          "geometry":{
@@ -347,6 +339,10 @@
             {
                "name":"when",
                "value":"March 23 - 17:00 - Rynek 1"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/323974081561765/\">Facebook Event</a>"
             }
          ],
          "geometry":{
@@ -367,6 +363,10 @@
             {
                "name":"when",
                "value":"March 23 - 17:00 - Rynek Glowny"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/829021954107436/\">Facebook Event</a>"
             }
          ],
          "geometry":{
@@ -387,6 +387,10 @@
             {
                "name":"when",
                "value":"March 23 - 17:00 - Rynek"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/2306389049638873/\">Facebook Event</a>"
             }
          ],
          "geometry":{
@@ -407,6 +411,10 @@
             {
                "name":"when",
                "value":"March 23 - 17:00 - Dam square"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/2446844782253271/\">Facebook Event</a>"
             }
          ],
          "geometry":{
@@ -427,6 +435,10 @@
             {
                "name":"when",
                "value":"March 23 - 17:00 - Plac Wolności"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/384079415722434/\">Facebook Event</a>"
             }
          ],
          "geometry":{
