@@ -6,6 +6,94 @@
          "properties":[
             {
                "name":"where",
+               "value":"Berlin"
+            },
+            {
+               "name":"when",
+               "value":"March 23 - 14:00 - t.b.a. Zentral"
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               13.377640,
+               52.516340
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
+               "value":"Zürich"
+            },
+            {
+               "name":"when",
+               "value":"March 23 - 13:30 - t.b.a. Zentrum"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/2205504252842906/\">Facebook Event</a>"
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               8.540694,
+               47.37714
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
+               "value":"Luxembourg"
+            },
+            {
+               "name":"when",
+               "value":"March 23 - 14:00 - Place de l'Europe"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/2348261875408150/\">Facebook Event</a>"
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               6.144723,
+               49.619527
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
+               "value":"Bucharest"
+            },
+            {
+               "name":"when",
+               "value":"March 23 - 14:00 - t.b.a."
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               26.099364,
+               44.434708
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
                "value":"Dresden"
             },
             {
@@ -130,7 +218,7 @@
             },
             {
                "name":"when",
-               "value":"March 23 - 14:00 - Marienstraße"
+               "value":"March 23 - 14:00 - Rotebühlplatz"
             },
             {
                "name":"fb_event",
