@@ -74,6 +74,26 @@
          "properties":[
             {
                "name":"where",
+               "value":"Bucharest"
+            },
+            {
+               "name":"when",
+               "value":"March 23 - 14:00 - t.b.a."
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               26.099364,
+               44.434708
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
                "value":"Dresden"
             },
             {
