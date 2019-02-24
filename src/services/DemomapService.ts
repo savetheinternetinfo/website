@@ -32,6 +32,13 @@ class DemomapService {
 
     getCoords(req, res): any {
         this.getCoordsFromJSON().then((coords) => {
+            for (let i = 0; i < coords.features.length; i++) {
+                const feature = coords.features[i];
+                for (let a = 0; a < feature.properties.length; a++) {
+                    let property = feature.properties[a];
+                    property.translation = res.__("demomap_prop_" + property.name);
+                }
+            }
             res.send(coords);
         }).catch((err) => {
             log.error(err);
