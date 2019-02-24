@@ -310,26 +310,6 @@
          "properties":[
             {
                "name":"where",
-               "value":"Köln"
-            },
-            {
-               "name":"when",
-               "value":"February 23 - 13:00 - Neumarkt"
-            }
-         ],
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               6.947487,
-               50.93599
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "name":"where",
                "value":"Karlsruhe"
             },
             {
