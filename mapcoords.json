@@ -10,14 +10,14 @@
             },
             {
                "name":"when",
-               "value":"March 23 - 14:00 - t.b.a. Zentral"
+               "value":"March 23 - 14:00 - Potsdammer Platz"
             }
          ],
          "geometry":{
             "type":"Point",
             "coordinates":[
-               13.377640,
-               52.516340
+               13.375946,
+               52.509651
             ]
          }
       },
@@ -78,14 +78,14 @@
             },
             {
                "name":"when",
-               "value":"March 23 - 14:00 - t.b.a."
+               "value":"March 23 - 13:00 UTC+02 - Fântâna de la Universitate"
             }
          ],
          "geometry":{
             "type":"Point",
             "coordinates":[
-               26.099364,
-               44.434708
+               26.101453,
+               44.436280
             ]
          }
       },
@@ -302,26 +302,6 @@
             "coordinates":[
                12.37475,
                51.340333
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "name":"where",
-               "value":"Köln"
-            },
-            {
-               "name":"when",
-               "value":"February 23 - 13:00 - Neumarkt"
-            }
-         ],
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               6.947487,
-               50.93599
             ]
          }
       },
