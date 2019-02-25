@@ -20,16 +20,19 @@ mobileMenuTrigger.addEventListener("click", function() {
 });
 
 // it contains "the" for SEO, remove it as it messes up typed.js
-document.getElementById("head-typer").innerHTML = "";
-new Typed("#head-typer", {
-    strings: ["the", "your", "our", "her", "his", "their"],
-    typeSpeed: 130,
-    backSpeed: 80,
-    loop: true,
-    smartBackspace: false,
-    shuffle: true,
-    backDelay: 1400,
-});
+let _ht = document.getElementById("head-typer");
+if (_ht !== null) {
+    _ht.innerHTML = "";
+    new Typed("#head-typer", {
+        strings: ["the", "your", "our", "her", "his", "their"],
+        typeSpeed: 130,
+        backSpeed: 80,
+        loop: true,
+        smartBackspace: false,
+        shuffle: true,
+        backDelay: 1400,
+    });
+}
 
 /*
     Twitter Stuff

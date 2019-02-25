@@ -86,6 +86,12 @@ export function router(app) {
     });
   });
 
+  app.get("/demoform", (req, res) => {
+    res.render("demoform", {
+      recaptcha_sitekey: config.recaptcha.siteKey
+    });
+  });
+
   app.post("/api/contact", (req, res) => {
     contact.sendContact(req, res);
   });

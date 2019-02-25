@@ -13,10 +13,10 @@ function capitalizeFirstLetter(string) {
 function bindPopoup(feature, layer) {
     let popupText = "";
 
-    for (let index = 0; index < feature.properties.length; index++) {
-        const element = feature.properties[index];
-        const translation = ((element.translation) ? element.translation : element.name);
-        popupText += `<p class="mb-0"><b>${translation}</b> ${element.value}</p>`;
+    for (let index in feature.properties) {
+        const value = feature.properties[index];
+        const name = index; // __("demomap_prop_" + index);
+        popupText += `<p class="mb-0"><b>${name}</b> ${value}</p>`;
     }
 
     let listText = `<li class="shadow-md p-2 mb-4">${popupText}</li>`;
