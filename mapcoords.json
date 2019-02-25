@@ -6,6 +6,158 @@
          "properties":[
             {
                "name":"where",
+               "value":"Berlin - Axel Springer Hochhaus"
+            },
+            {
+               "name":"when",
+               "value":"02.März - 13 Uhr"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://berlingegen13.wordpress.com/demo/\">Berlingegen13.wordpress.com</a>"
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               13.3980,
+               52.5070
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
+               "value":"Dortmund- Friedensplatz"
+            },
+            {
+               "name":"when",
+               "value":"02.März - 14 Uhr"
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               7.466599999999971,
+               51.5115
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
+               "value":"Düsseldorf - Friedrich-Ebert-Straße 34"
+            },
+            {
+               "name":"when",
+               "value":"02.März - 13 Uhr"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/2510740782333323/\">Facebook Event</a>"
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               6.7898244,
+               51.2217083
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
+               "value":"Hannover - Ernst-August-Platz"
+            },
+            {
+               "name":"when",
+               "value":"02.März - 11 Uhr"
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               9.740479999999934,
+               52.3759
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
+               "value":"Lüneburg - Am Sande, IHK"
+            },
+            {
+               "name":"when",
+               "value":"02.März - 11 Uhr"
+            },
+            {
+               "name":"fb_event",
+               "value":"<a href=\"https://www.facebook.com/events/769614156756441/\">Facebook Event</a>"
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               10.408545,
+               53.247295
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
+               "value":"Kiel - Landtag Kiel"
+            },
+            {
+               "name":"when",
+               "value":"02.März - 13 Uhr"
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               10.1525199,
+               54.3353052
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
+               "value":"Rostock - Universitätsplatz"
+            },
+            {
+               "name":"when",
+               "value":"02.März - 12.00-13.30 Uhr"
+            }
+         ],
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               12.134199999999964,
+               54.0878
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":[
+            {
+               "name":"where",
                "value":"Berlin"
             },
             {
