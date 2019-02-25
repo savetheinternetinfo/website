@@ -1,32 +1,48 @@
 import * as jQuery from "jquery";
 import * as leaflet from "leaflet";
+import * as moment from "moment";
 window.jQuery = jQuery;
 window.$ = jQuery;
 
-const regex = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/gi;
-const regexp = new RegExp(regex);
+jQuery(() => {
 
-function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-}
+    const demomap = leaflet.map("demomap");
+    const selectedLang = jQuery('html').attr('lang');
+    function bindPopoup(feature, layer) {
+        let popupText = "";
 
-function bindPopoup(feature, layer) {
-    let popupText = "";
+        for (let index = 0; index < feature.properties.length; index++) {
+            const element = feature.properties[index];
+            if(element.fa_icon === "fa-clock-o") {
+                let momentObj = moment(element.value, "DD.MM.YYYY H:m");
 
-    for (let index = 0; index < feature.properties.length; index++) {
-        const element = feature.properties[index];
-        const translation = ((element.translation) ? element.translation : element.name);
-        popupText += `<p class="mb-0"><b>${translation}:</b> ${element.value}</p>`;
+                // Get locale data
+                var localeData = moment.localeData(selectedLang);
+                var format = localeData.longDateFormat('LLL')
+                // Remove year part
+                format = format.replace(/.YYYY/, ''); 
+                element.value = momentObj.locale(selectedLang).format(format);
+            }
+            popupText += `<p class="mb-0 font-thin"><i class="fa ${element.fa_icon}" aria-hidden="true"></i> ${element.value}</p>`;
+        }
+
+        let listText = `<li class="shadow-md p-2 mb-4 rounded-lg cursor-pointer" id="markerListItem" data-latlang="${feature.geometry.coordinates}">${popupText}</li>`;
+        let popup = layer.bindPopup(popupText);
+        popup.on('click', function(e){
+            demomap.flyTo(e.latlng, 14, {
+                animate: true,
+                duration: 1.5
+            });
+        });
+        jQuery("#event-list").append(listText);
     }
 
-    let listText = `<li class="shadow-md p-2 mb-4">${popupText}</li>`;
-    layer.bindPopup(popupText);
-
-    jQuery("#event-list").append(listText);
-}
-
-jQuery(() => {
-    let demomap = leaflet.map("demomap").setView([50, 5.0], 4);
+    const STIIcon = leaflet.icon({
+        iconUrl: "/static/marker.png",
+        iconSize: [32, 32],
+        iconAnchor: [16, 37],
+        popupAnchor: [0, -28]
+      });
     leaflet.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", {
         attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors | Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL | Save the Internet!"
     }).addTo(demomap);
@@ -50,10 +66,22 @@ jQuery(() => {
         if (window.location.pathname === "/") {
             leaflet.geoJSON(data).addTo(demomap);
         } else {
-            leaflet.geoJSON(data, {
+            let geoJSONLayer = leaflet.geoJSON(data, {
+                pointToLayer: function (feature, latlng) {
+                    return leaflet.marker(latlng, {icon: STIIcon});
+                },
                 onEachFeature: bindPopoup
             }).addTo(demomap);
+            demomap.fitBounds(geoJSONLayer.getBounds());
         }
+        jQuery("#event-list li").click(function() {
+            let latLang = jQuery(this).data("latlang");
+            latLang = latLang.split(',');
+            demomap.flyTo([latLang[1], latLang[0]], 14, {
+                animate: true,
+                duration: 1.5
+            });
+        });
 
     });
 
