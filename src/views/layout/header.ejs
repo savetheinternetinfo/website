@@ -90,6 +90,7 @@
 
         </div>
     </header>
+    <% if(currentRoute !== "demos") { %>
     <div class="hero pt-8 flex items-center justify-center flex-col mt-4">
         <div class="tilt text-2xl md:text-title m-4 bg-white p-4">
             <div class="untilt">
@@ -104,3 +105,6 @@
             href="https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet">
             <%= __('sign_petition') %></a>
     </div>
+    <% } else { %>
+    <div class="w-full h-24"></div>
+    <% } %>
