@@ -5,15 +5,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
+               "fa_icon":"fa-map-marker",
                "value":"Berlin - Axel Springer Hochhaus"
             },
             {
-               "name":"when",
-               "value":"02.März - 13 Uhr"
+               "fa_icon":"fa-clock-o",
+               "value":"02.03.2019 13:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://berlingegen13.wordpress.com/demo/\">Berlingegen13.wordpress.com</a>"
             }
          ],
@@ -29,12 +29,12 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
+               "fa_icon":"fa-map-marker",
                "value":"Dortmund- Friedensplatz"
             },
             {
-               "name":"when",
-               "value":"23.März - 14 Uhr"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 14:00"
             }
          ],
          "geometry":{
@@ -49,15 +49,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
+               "fa_icon":"fa-map-marker",
                "value":"Düsseldorf - Friedrich-Ebert-Straße 34"
             },
             {
-               "name":"when",
-               "value":"23.März - 13 Uhr"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 13:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/2510740782333323/\">Facebook Event</a>"
             }
          ],
@@ -73,12 +73,12 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
+               "fa_icon":"fa-map-marker",
                "value":"Hannover - Ernst-August-Platz"
             },
             {
-               "name":"when",
-               "value":"23.März - 11 Uhr"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 11:00"
             }
          ],
          "geometry":{
@@ -93,15 +93,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
+               "fa_icon":"fa-map-marker",
                "value":"Lüneburg - Am Sande, IHK"
             },
             {
-               "name":"when",
-               "value":"23.März - 11 Uhr"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 11:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/769614156756441/\">Facebook Event</a>"
             }
          ],
@@ -117,12 +117,12 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
+               "fa_icon":"fa-map-marker",
                "value":"Kiel - Landtag Kiel"
             },
             {
-               "name":"when",
-               "value":"23.März - 13 Uhr"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 13:00"
             }
          ],
          "geometry":{
@@ -137,12 +137,12 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
+               "fa_icon":"fa-map-marker",
                "value":"Rostock - Universitätsplatz"
             },
             {
-               "name":"when",
-               "value":"23.März - 12.00-13.30 Uhr"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 12:00"
             }
          ],
          "geometry":{
@@ -157,12 +157,12 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Berlin"
+               "fa_icon":"fa-map-marker",
+               "value":"Berlin - Potsdammer Platz"
             },
             {
-               "name":"when",
-               "value":"March 23 - 14:00 - Potsdammer Platz"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 14:00"
             }
          ],
          "geometry":{
@@ -177,15 +177,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Zürich"
+               "fa_icon":"fa-map-marker",
+               "value":"Zürich - t.b.a Zentrum"
             },
             {
-               "name":"when",
-               "value":"March 23 - 13:30 - t.b.a. Zentrum"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 13:30"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/2205504252842906/\">Facebook Event</a>"
             }
          ],
@@ -201,15 +201,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Luxembourg"
+               "fa_icon":"fa-map-marker",
+               "value":"Luxembourg - Place de l'Europe"
             },
             {
-               "name":"when",
-               "value":"March 23 - 14:00 - Place de l'Europe"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 14:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/2348261875408150/\">Facebook Event</a>"
             }
          ],
@@ -225,12 +225,12 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Bucharest"
+               "fa_icon":"fa-map-marker",
+               "value":"Bucharest - Fântâna de la Universitate"
             },
             {
-               "name":"when",
-               "value":"March 23 - 13:00 UTC+02 - Fântâna de la Universitate"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 15:00"
             }
          ],
          "geometry":{
@@ -245,15 +245,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Dresden"
+               "fa_icon":"fa-map-marker",
+               "value":"Dresden – Goldener Reiter Dresden"
             },
             {
-               "name":"when",
-               "value":"March 23 – 14:00 – Goldener Reiter Dresden"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 14:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/322476768618069/\">Facebook Event</a>"
             }
          ],
@@ -269,15 +269,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Hamburg"
+               "fa_icon":"fa-map-marker",
+               "value":"Hamburg - Gänsemarkt"
             },
             {
-               "name":"when",
-               "value":"March 23 - 13:00 - Gänsemarkt"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 13:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/559846927852058/\">Facebook Event</a>"
             }
          ],
@@ -293,15 +293,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Saarbrücken"
+               "fa_icon":"fa-map-marker",
+               "value":"Saarbrücken- Tbilisser Platz vor dem Staatstheater"
             },
             {
-               "name":"when",
-               "value":"March 23 - 14:00 - Tbilisser Platz vor dem Staatstheater "
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 14:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/542866742867644/\">Facebook Event</a>"
             }
          ],
@@ -317,15 +317,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Koblenz"
+               "fa_icon":"fa-map-marker",
+               "value":"Koblenz - Löhrrondell"
             },
             {
-               "name":"when",
-               "value":"March 23 - 13:30 - Löhrrondell"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 13:30"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/608041522951932/\">Facebook Event</a>"
             }
          ],
@@ -341,15 +341,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Frankfurt"
+               "fa_icon":"fa-map-marker",
+               "value":"Frankfurt - Paulsplatz"
             },
             {
-               "name":"when",
-               "value":"March 23 - 14:00 - Paulsplatz"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 14:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/791707307876981/ \">Facebook Event</a>"
             }
          ],
@@ -365,15 +365,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Stuttgart"
+               "fa_icon":"fa-map-marker",
+               "value":"Stuttgart - Rotebühlplatz"
             },
             {
-               "name":"when",
-               "value":"March 23 - 14:00 - Rotebühlplatz"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 14:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/2043589342421711/\">Facebook Event</a>"
             }
          ],
@@ -389,15 +389,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"München"
+               "fa_icon":"fa-map-marker",
+               "value":"München - Marienplatz"
             },
             {
-               "name":"when",
-               "value":"March 23 - 13:30 - Marienplatz"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 13:30"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/297793067550334/\">Facebook Event</a>"
             }
          ],
@@ -413,15 +413,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Erfurt"
+               "fa_icon":"fa-map-marker",
+               "value":"Erfurt - Anger"
             },
             {
-               "name":"when",
-               "value":"March 23 - 14:30 - Anger"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 14:30"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/151586089078792/?ti=cl\">Facebook Event</a>"
             }
          ],
@@ -437,15 +437,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
+               "fa_icon":"fa-map-marker",
                "value":"Leipzig"
             },
             {
-               "name":"when",
-               "value":"March 23 - 14:00"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 14:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/2217164858603054/\">Facebook Event</a>"
             }
          ],
@@ -461,12 +461,12 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Karlsruhe"
+               "fa_icon":"fa-map-marker",
+               "value":"Karlsruhe - Stephansplatz"
             },
             {
-               "name":"when",
-               "value":"March 23 - 13:30 - Stephansplatz"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 13:30"
             }
          ],
          "geometry":{
@@ -481,15 +481,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Poznań"
+               "fa_icon":"fa-map-marker",
+               "value":"Poznań - Plac Adama Mickewicza"
             },
             {
-               "name":"when",
-               "value":"March 23 - 17:00 - Plac Adama Mickewicza"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 17:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/316462322548144/\">Facebook Event</a>"
             }
          ],
@@ -505,15 +505,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Warsaw"
+               "fa_icon":"fa-map-marker",
+               "value":"Warsaw - Jasna 14/16"
             },
             {
-               "name":"when",
-               "value":"March 23 - 17:00 - Jasna 14/16"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 17:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/245095949701247/\">Facebook Event</a>"
             }
          ],
@@ -529,15 +529,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Bruxelles"
+               "fa_icon":"fa-map-marker",
+               "value":"Bruxelles - Place de la Monnaie"
             },
             {
-               "name":"when",
-               "value":"March 23 - 17:00 - Place de la Monnaie"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 17:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/248501622762624/\">Facebook Event</a>"
             }
          ],
@@ -553,15 +553,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Wrocław"
+               "fa_icon":"fa-map-marker",
+               "value":"Wrocław - Rynek 1"
             },
             {
-               "name":"when",
-               "value":"March 23 - 17:00 - Rynek 1"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 17:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/323974081561765/\">Facebook Event</a>"
             }
          ],
@@ -577,15 +577,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Krakow"
+               "fa_icon":"fa-map-marker",
+               "value":"Krakow - Rynek Glowny"
             },
             {
-               "name":"when",
-               "value":"March 23 - 17:00 - Rynek Glowny"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 17:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/829021954107436/\">Facebook Event</a>"
             }
          ],
@@ -601,15 +601,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Katowice"
+               "fa_icon":"fa-map-marker",
+               "value":"Katowice - Rynek"
             },
             {
-               "name":"when",
-               "value":"March 23 - 17:00 - Rynek"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 17:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/2306389049638873/\">Facebook Event</a>"
             }
          ],
@@ -625,15 +625,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Amsterdam"
+               "fa_icon":"fa-map-marker",
+               "value":"Amsterdam - Dam square"
             },
             {
-               "name":"when",
-               "value":"March 23 - 17:00 - Dam square"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 17:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/2446844782253271/\">Facebook Event</a>"
             }
          ],
@@ -649,15 +649,15 @@
          "type":"Feature",
          "properties":[
             {
-               "name":"where",
-               "value":"Łódź"
+               "fa_icon":"fa-map-marker",
+               "value":"Łódź - Plac Wolności"
             },
             {
-               "name":"when",
-               "value":"March 23 - 17:00 - Plac Wolności"
+               "fa_icon":"fa-clock-o",
+               "value":"23.03.2019 17:00"
             },
             {
-               "name":"fb_event",
+               "fa_icon":"fb_event",
                "value":"<a href=\"https://www.facebook.com/events/384079415722434/\">Facebook Event</a>"
             }
          ],
