@@ -5,13 +5,17 @@ jQuery(() => {
       let content = JSON.parse(data)[0];
       let orga = "";
       content.orga.forEach(element => {
-        orga +=
-          '<div class="w-1/4 p-4 mt-8"><img src="' +
+        orga += '<div class="w-1/4 p-4 mt-8"><img src="' +
           "https://supporters.savetheinternet.info/" +
           element.logoURL +
-          '" class="h-16 block mx-auto"/><br /><p class="text-center w-full">' +
-          element.name +
-          "</p></div>";
+          '" class="h-16 block mx-auto"/><br /><p class="text-center w-full">'
+        if (element.url) {
+          orga += '<a href=' + element.url + '>' + element.name + '</a>';
+        }
+        else {
+          orga += element.name
+        }
+        orga += "</p></div>";
       });
 
       let ppl = "";

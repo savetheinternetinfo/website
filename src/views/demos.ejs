@@ -16,35 +16,35 @@
   }
 </style>
 <div class="container">
-  <h2 class="text-5xl p-2 md:p-0">
+  <h2 class="text-3xl p-2 md:p-0 tilt">
     <% /* %>
     <%= __('article_header') %> <span class="countdown"></span>
     <span class="countdown-done hidden">
       <%= __('countdown_done') %></span>
     <%= __('article_header2') %>
     <% */ %>
-    <%= __('article_header_new') %>
+    <div class="untilt bg-white text-blue p-4"><%= __('article_header_new') %></div>
   </h2>
-  <div class="p-2 md:p-0">
-    <p>
-      <%- __('demomap_text') %>
-    </p>
+  <div>
+      <div class="flex flex-row">
+        <div class="p-2 md:p-0">
+          <p>
+            <%- __('demomap_text') %>
+          </p>
+        </div>
+        <div class="px-4 py-2 m-2 overflow-y-auto demomap_container w-5/6">
+            <ul class="list-reset demomap_list pr-2" id="event-list"></ul>
+        </div>
+      </div>
   </div>
   <!--<div class="p-2 md:p-0"><p><b><%- __('demomap_text_footer') %></b></p></div>-->
-
-  <div class="sm:block md:flex mb-4 p-2 md:p-0">
-    <div class="md:w-3/4">
+  <div class="flex flex-col">
+    <div class="text-center">
       <div style="height: 35rem;" id="demomap"></div>
-    </div>
-
-    <div class="md:w-1/4">
-      <div class="w-full md:ml-3 mt-4 md:mt-0 overflow-y-auto text-sm demomap_container">
-        <ul class="list-reset demomap_list pr-2" id="event-list"></ul>
-      </div>
     </div>
   </div>
 
-  <!--<div class="w-full my-16 p-2 md:p-0">
+  <div class="w-full my-16 p-2 md:p-0">
     <div class="">
       <h2>
         <%- __('supporters_orga') %>
@@ -52,11 +52,11 @@
 
       <div class="w-full flex flex-wrap" id="supporting-orga"></div>
     </div>
-    <div class="mt-16">
+    <!--<div class="mt-16">
       <h2><%- __('supporters_person') %></h2>
 
       <div class="w-full flex flex-wrap" id="supporting-ppl"></div>
-    </div>
-  </div> -->
+    </div> -->
+  </div>
 </div>
 <%- include('layout/footer'); -%>
