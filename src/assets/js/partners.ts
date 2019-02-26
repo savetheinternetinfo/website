@@ -10,7 +10,7 @@ jQuery(() => {
         }
         
         orga += '<div class="w-1/4 p-4 mt-8">' +
-            '<a href=' + element.url + '>' + 
+            '<a href="' + element.url + '">' + 
             '<img src="' +
             'https://supporters.savetheinternet.info/' + element.logoURL +
             '" class="h-16 block mx-auto"/><br /><p class="text-center w-full">' +
