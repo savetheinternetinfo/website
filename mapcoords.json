@@ -226,26 +226,6 @@
          "properties":[
             {
                "fa_icon":"fa-map-marker",
-               "value":"Berlin - Potsdammer Platz"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 14:00"
-            }
-         ],
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               13.375946,
-               52.509651
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
                "value":"Zürich - t.b.a Zentrum"
             },
             {
