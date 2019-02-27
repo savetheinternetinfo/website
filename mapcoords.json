@@ -26,6 +26,98 @@
          }
       },
       {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Bremen - Marktplatz"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"17.03.2019 13:30"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/322508435067377/\">Facebook Event</a>"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              8.8049566,
+              53.0757801
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Köln - Neumarkt"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 14:00"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              6.9470738,
+              50.9359622
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Berlin - Potsdamer Platz"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 14:00"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/583197278810423/\">Facebook Event</a>"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              13.3737554,
+              52.5096488
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Wien - Christian Broda Platz"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 15:30"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/2372011113035461/\">Facebook Event</a>"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              16.3400049,
+              48.195289
+           ]
+        }
+     },
+      {
          "type":"Feature",
          "properties":[
             {
@@ -86,30 +178,6 @@
             "coordinates":[
                9.740479999999934,
                52.3759
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Lüneburg - Am Sande, IHK"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 11:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/769614156756441/\">Facebook Event</a>"
-            }
-         ],
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               10.408545,
-               53.247295
             ]
          }
       },
@@ -530,30 +598,6 @@
          "properties":[
             {
                "fa_icon":"fa-map-marker",
-               "value":"Bruxelles - Place de la Monnaie"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 17:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/248501622762624/\">Facebook Event</a>"
-            }
-         ],
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               4.354104,
-               50.849788
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
                "value":"Wrocław - Rynek 1"
             },
             {
@@ -621,30 +665,7 @@
             ]
          }
       },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Amsterdam - Dam square"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 17:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/2446844782253271/\">Facebook Event</a>"
-            }
-         ],
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               4.892608,
-               52.373239
-            ]
-         }
-      },
+     
       {
          "type":"Feature",
          "properties":[
