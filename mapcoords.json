@@ -50,6 +50,30 @@
         }
      },
      {
+      "type":"Feature",
+      "properties":[
+         {
+            "fa_icon":"fa-map-marker",
+            "value":"Berlin - Potsdamer Platz"
+         },
+         {
+            "fa_icon":"fa-clock-o",
+            "value":"23.03.2019 14:00"
+         },
+         {
+            "fa_icon":"fb_event",
+            "value":"<a href=\"https://www.facebook.com/events/583197278810423/\">Facebook Event</a>"
+         }
+      ],
+      "geometry":{
+         "type":"Point",
+         "coordinates":[
+            13.3737554,
+            52.5096488
+         ]
+      }
+   },
+     {
         "type":"Feature",
         "properties":[
            {
@@ -66,30 +90,6 @@
            "coordinates":[
               6.9470738,
               50.9359622
-           ]
-        }
-     },
-     {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Berlin - Potsdamer Platz"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 14:00"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/583197278810423/\">Facebook Event</a>"
-           }
-        ],
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              13.3737554,
-              52.5096488
            ]
         }
      },
