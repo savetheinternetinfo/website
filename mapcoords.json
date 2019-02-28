@@ -122,7 +122,7 @@
          "properties":[
             {
                "fa_icon":"fa-map-marker",
-               "value":"Dortmund- Friedensplatz"
+               "value":"Dortmund - Europabrunnen"
             },
             {
                "fa_icon":"fa-clock-o",
@@ -132,8 +132,8 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               7.466599999999971,
-               51.5115
+                7.4680112,
+                51.5146291
             ]
          }
       },
