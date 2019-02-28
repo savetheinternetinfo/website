@@ -19,7 +19,7 @@ class DemomapService {
             features: Joi.array().items(Joi.object().keys({
                 type: Joi.string().valid("Feature"),
                 properties: Joi.array().items(Joi.object().keys({
-                    name: Joi.string().lowercase(),
+                    fa_icon: Joi.string().lowercase(),
                     value: Joi.any(),
                 })),
                 geometry: Joi.object().keys({
@@ -43,22 +43,14 @@ class DemomapService {
               });
         }).then(value => {
             return geoJSONschema.validate(value);
-        }).catch((err) => {
-            log.error(err);
         });
     }
 
     getCoords(req, res): any {
         this.getCoordsFromJSON().then((coords) => {
-            for (let i = 0; i < coords.features.length; i++) {
-                const feature = coords.features[i];
-                for (let a = 0; a < feature.properties.length; a++) {
-                    let property = feature.properties[a];
-                    property.translation = res.__("demomap_prop_" + property.name);
-                }
-            }
             res.send(coords);
         }).catch((err) => {
+            res.send("Could not generate GeoJSON data!");
             log.error(err);
         });
     }
