@@ -26,42 +26,71 @@
     <div class="untilt bg-white text-blue p-4"><%= __('article_header_new') %></div>
   </h2>
   <div class="pt-2">
-      <div class="flex flex-row">
+      <div class="lg:flex xl:flex lg:flex-row xl:flex-row sm:flex-col md:flex-col">
         <div class="p-2 md:p-0">
           <p>
             <%- __('demomap_text') %>
           </p>
         </div>
-        <div class="px-4 py-2 m-2 overflow-y-auto demomap_container w-5/6">
-            <ul class="list-reset demomap_list pr-2" id="event-list"></ul>
+        <div class="px-4 py-2 m-2 scrolling-auto overflow-x-hidden sm:overflow-y-scroll md:overflow-y-scroll lg:overflow-y-scroll xl:overflow-y-scroll demomap_container w-5/6">
+            <ul class="list-reset demomap_list pr-2 h-64 lg:h-auto lg:h-auto" id="event-list"></ul>
         </div>
       </div>
   </div>
   <div class="p-2 md:p-0"><p><%- __('demomap_text_support') %></p></div>
 
   <!--<div class="p-2 md:p-0"><p><b><%- __('demomap_text_footer') %></b></p></div>-->
-  <div class="sm:block md:flex p-2 content-center justify-center">
-    <p>
-      <a href="https://twitter.com/search?q=%23stopArt13" class="mr-1 ml-1"><b>#stopArt13</b></a>
-      <a href="https://twitter.com/search?q=%23EU2303" class="mr-1 ml-1"><b>#EU2303</b></a>
-    </p>
-  </div>
-  <div class="sm:block md:flex mb-4 p-2 content-center justify-center">
-    <!--<div class="w-full md:w-2/5 md:pl-4 flex items-center justify-center">-->
-      <a
-        class="mt-3 md:mt-0 ml-1 mr-1 btn btn-orange inline-block"
-        href="https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet?utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition"
-      >
-        <%= __('demo_sign_petition') %>
-      </a>
+  <div class="flex flex-col">
+    <div class="sm:block md:flex p-2 content-center justify-center">
+      <p>
+        <a href="https://twitter.com/search?q=%23stopArt13" class="mr-1 ml-1"><b>#stopArt13</b></a>
+        <a href="https://twitter.com/search?q=%23EU2303" class="mr-1 ml-1"><b>#EU2303</b></a>
+      </p>
+    </div>
+    <div class="px-4 py-2">
+      <div class="sm:block md:flex mb-4 p-2 justify-center">
+        <!--<div class="w-full md:w-2/5 md:pl-4 flex items-center justify-center">-->
+          <a class="mt-3 md:mt-0 ml-1 mr-1 btn btn-orange inline-block" href="https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet">
+            <%= __('demo_sign_petition') %>
+          </a>
+    
+          <a class="mt-3 md:mt-0 ml-1 mr-1 btn btn-orange inline-block" href="https://www.gofundme.com/save-the-internet-info">
+            <%= __('gofundme_button') %>
+          </a>
+        <!--</div>-->
+      </div>
+    </div>
+    <div class="font-bold text-center">
+      <%= __('share_button') %>
+    </div>
+    <div class="px-4 py-2">
+      <div class="sm:block md:flex mb-4 p-2 flex justify-center">
+        <!-- Sharingbutton Facebook -->
+        <a class="text-white font-bold py-2 px-4" style="background-color: #3b5999;" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsavetheinternet.info%2F" target="_blank" rel="noopener" aria-label="Share on Facebook">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
 
-      <a
-        class="mt-3 md:mt-0 ml-1 mr-1 btn btn-orange inline-block"
-        href="https://www.gofundme.com/save-the-internet-info"
-      >
-        <%= __('gofundme_button') %>
-      </a>
-    <!--</div>-->
+        <!-- Sharingbutton Twitter -->
+        <a class="text-white font-bold py-2 px-4" style="background-color: #55acee;" href="https://twitter.com/intent/tweet/?text=<%= escape(__('share_twitter')) %>&amp;url=https%3A%2F%2Fsavetheinternet.info%2F" target="_blank" rel="noopener" aria-label="Share on Twitter">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+
+        <!-- Sharingbutton E-Mail -->
+        <a class="bg-grey text-white font-bold py-2 px-4" href="mailto:?subject=<%= escape(__('share_twitter')) %>&amp;body=https%3A%2F%2Fsavetheinternet.info%2F" target="_self" rel="noopener" aria-label="Share by E-Mail">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
+
+        <!-- Sharingbutton WhatsApp -->
+        <a class="text-white font-bold py-2 px-4" style="background-color: #25D366;" href="whatsapp://send?text=<%= escape(__('share_twitter')) %>%20https%3A%2F%2Fsavetheinternet.info%2F" target="_blank" rel="noopener" aria-label="Share on WhatsApp">
+          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </a>
+
+        <!-- Sharingbutton Telegram -->
+        <a class="text-white font-bold py-2 px-4" style="background-color: #0088CC;" href="https://telegram.me/share/url?text=<%= escape(__('share_twitter')) %>&amp;url=https%3A%2F%2Fsavetheinternet.info%2F" target="_blank" rel="noopener" aria-label="Share on Telegram">
+          <i class="fa fa-telegram" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
   </div>
 
   <div class="flex flex-col">
