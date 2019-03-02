@@ -2,30 +2,6 @@
    "type":"FeatureCollection",
    "features":[
       {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Berlin - Axel Springer Hochhaus"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"02.03.2019 13:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://berlingegen13.wordpress.com/demo/\">Berlingegen13.wordpress.com</a>"
-            }
-         ],
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               13.3980,
-               52.5070
-            ]
-         }
-      },
-      {
         "type":"Feature",
         "properties":[
            {
