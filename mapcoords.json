@@ -500,6 +500,151 @@
                49.0088189
             ]
          }
+      },
+      {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Poznań - Plac Adama Mickewicza"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 17:00"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/316462322548144/\">Facebook Event</a>"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              16.926896,
+              52.408654
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Warsaw - Jasna 14/16"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 17:00"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/245095949701247/\">Facebook Event</a>"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              21.011717,
+              52.235503
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Wrocław - Rynek 1"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 17:00"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/323974081561765/\">Facebook Event</a>"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              17.032302,
+              51.110861
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Krakow - Rynek Glowny"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 17:00"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/829021954107436/\">Facebook Event</a>"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              19.936761,
+              50.06198
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Katowice - Rynek"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 17:00"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/2306389049638873/\">Facebook Event</a>"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              19.021685,
+              50.259481
+           ]
+        }
+     },
+
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Łódź - Plac Wolności"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 17:00"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/384079415722434/\">Facebook Event</a>"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              19.454626,
+              51.777257
+           ]
+        }
       }
    ]
 }
