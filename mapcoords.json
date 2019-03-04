@@ -93,6 +93,30 @@
            ]
         }
      },
+     {
+      "type":"Feature",
+      "properties":[
+         {
+            "fa_icon":"fa-map-marker",
+            "value":"Amsterdam - Dam square"
+         },
+         {
+            "fa_icon":"fa-clock-o",
+            "value":"23.03.2019 17:00"
+         },
+         {
+            "fa_icon":"fb_event",
+            "value":"<a href=\"https://www.facebook.com/events/2446844782253271/\">Facebook Event</a>"
+         }
+      ],
+      "geometry":{
+         "type":"Point",
+         "coordinates":[
+            4.892608,
+            52.373239
+         ]
+      }
+    },
       {
          "type":"Feature",
          "properties":[
