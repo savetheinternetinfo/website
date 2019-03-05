@@ -13,7 +13,7 @@ jQuery(() => {
             '<a href="' + element.url + '" target="_blank">' + 
             '<img src="' +
             'https://supporters.savetheinternet.info/' + element.logoURL +
-            '" class="h-16 w-auto block mx-auto"/><br /><p class="text-center w-full overflow-hidden">' +
+            '" class="max-h-16 w-auto block mx-auto"/><br /><p class="text-center w-full overflow-hidden">' +
             element.name +
             '</a></p></div>';
       });
