@@ -26,6 +26,30 @@
         }
      },
      {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Fürth - Grüner Markt"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 13:00"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/794342270950440/\">Facebook Event</a>"
+           }
+        ],
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              10.9864408,
+              49.4796045
+           ]
+        }
+      },
+     {
       "type":"Feature",
       "properties":[
          {
