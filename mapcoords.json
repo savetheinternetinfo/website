@@ -31,6 +31,27 @@
         "properties":[
            {
               "fa_icon":"fa-map-marker",
+              "value":"Würzburg - Bahnhofsplatz"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 15:00"
+           }
+        ],
+        "STIDemo": true,
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              9.9356329,
+              49.8012673
+           ]
+        }
+     },
+     {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
               "value":"Fürth - Grüner Markt"
            },
            {
