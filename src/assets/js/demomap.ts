@@ -38,7 +38,13 @@ jQuery(() => {
     }
 
     const STIIcon = leaflet.icon({
-        iconUrl: "/static/marker.png",
+        iconUrl: "/static/pin-sti.png",
+        iconSize: [32, 32],
+        iconAnchor: [16, 37],
+        popupAnchor: [0, -28]
+      });
+    const nonSTIIcon = leaflet.icon({
+        iconUrl: "/static/pin_blank.png",
         iconSize: [32, 32],
         iconAnchor: [16, 37],
         popupAnchor: [0, -28]
@@ -68,7 +74,10 @@ jQuery(() => {
         } else {
             let geoJSONLayer = leaflet.geoJSON(data, {
                 pointToLayer: function (feature, latlng) {
-                    return leaflet.marker(latlng, {icon: STIIcon});
+                    if(feature['STIDemo']) {
+                        return leaflet.marker(latlng, {icon: STIIcon});
+                    }
+                    return leaflet.marker(latlng, {icon: nonSTIIcon});
                 },
                 onEachFeature: bindPopoup
             }).addTo(demomap);

@@ -48,7 +48,7 @@
 </head>
 
 <body class="bg-blue text-white min-h-screen flex flex-col">
-    <header class="z-50 flex flex-no-wrap justify-between bg-blue w-full shadow fixed">
+    <header class="z-50 flex flex-no-wrap justify-between bg-blue w-full shadow fixed relative">
         <div class="share-container flex flex-no-wrap ml-2">
             <a class="nav-link mr-1" href="https://www.facebook.com/Savetheinternet.info/"><i
                     class="fa fa-facebook-square"></i></a>
@@ -57,8 +57,8 @@
                     class="fa fa-instagram"></i></a>
         </div>
         <nav class="main-menu flex-1 justify-center sm:justify-start container">
-            <a class="nav-link block sm:hidden mobile-menu-trigger">Menu</a>
-            <ul class="hidden sm:flex flex-col sm:flex-row navbar flex-no-wrap list-reset m-0 p-0">
+            <a class="nav-link block md:hidden mobile-menu-trigger">Menu</a>
+            <ul class="hidden md:flex flex-col md:flex-row navbar bg-blue-dark md:bg-blue flex-no-wrap list-reset absolute md:relative pin-l w-full m-0 px-4">
                 <li><a class="nav-link" href="/"><i class="fa fa-home"></i></a></li>
                 <li><a class="nav-link" href="/about-us">
                         <%= __('about_us_heading') %></a></li>

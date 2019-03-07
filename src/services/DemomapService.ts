@@ -22,6 +22,7 @@ class DemomapService {
                     fa_icon: Joi.string().lowercase(),
                     value: Joi.any(),
                 })),
+                STIDemo: Joi.bool(),
                 geometry: Joi.object().keys({
                     type: Joi.string().valid("Point"),
                     coordinates: Joi.array().ordered([
