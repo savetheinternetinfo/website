@@ -4,6 +4,31 @@
       {
         "type":"Feature",
         "properties":[
+          {
+              "fa_icon":"fa-map-marker",
+              "value":"Nürnberg - Kornmarkt 5"
+          },
+          {
+              "fa_icon":"fa-clock-o",
+              "value":"16.03.2019 13:30"
+          },
+          {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/2748943875146243/\">Facebook Event</a>"
+          }
+        ],
+        "STIDemo": true,
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+            11.0726644,
+            49.4488698
+          ]
+        }
+      },
+      {
+        "type":"Feature",
+        "properties":[
            {
               "fa_icon":"fa-map-marker",
               "value":"Bremen - Marktplatz"
