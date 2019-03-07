@@ -76,6 +76,52 @@
            ]
         }
       },
+      {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Ravensburg - Marienplatz"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 13:00"
+           },
+           {
+              "fa_icon":"fb_event",
+              "value":"<a href=\"https://www.facebook.com/events/2105066326451341/\">Facebook Event</a>"
+           }
+        ],
+        "STIDemo": true,
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+            9.6116117,
+            47.7814241
+           ]
+        }
+      },
+      {
+        "type":"Feature",
+        "properties":[
+           {
+              "fa_icon":"fa-map-marker",
+              "value":"Villingen-Schwenningen - Latschariplatz"
+           },
+           {
+              "fa_icon":"fa-clock-o",
+              "value":"23.03.2019 12:00"
+           }
+        ],
+        "STIDemo": true,
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+            8.4577298,
+            48.059658
+           ]
+        }
+      },
      {
       "type":"Feature",
       "properties":[
