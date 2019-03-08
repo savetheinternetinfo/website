@@ -12,7 +12,7 @@ jQuery(() => {
         orga += '<div class="w-1/2 sm:w-1/3 md:w-1/4 p-4 mt-8">' +
             '<a href="' + element.url + '" target="_blank">' + 
             '<img src="' +
-            'https://supporters.savetheinternet.info/' + element.logoURL +
+            'https://supporters.savetheinternet.info' + element.logoURL +
             '" class="max-h-16 w-auto block mx-auto"/><br /><p class="text-center w-full overflow-hidden">' +
             element.name +
             '</a></p></div>';
