@@ -2,7 +2,7 @@ jQuery(() => {
   jQuery
     .get("https://supporters.savetheinternet.info/api/supporters")
     .done(data => {
-      let content = JSON.parse(data)[0];
+      let content = data[0];
       let orga = "";
       content.orga.forEach(element => {
         if(element.url != null && !element.url.startsWith("http")) {
@@ -17,7 +17,7 @@ jQuery(() => {
             element.name +
             '</a></p></div>';
       });
-
+/*
       let ppl = "";
       content.person.forEach(element => {
         ppl +=
@@ -26,7 +26,7 @@ jQuery(() => {
           "</p></div>";
       });
 
-      jQuery("#supporting-ppl").append(ppl);
+      jQuery("#supporting-ppl").append(ppl);*/
       jQuery("#supporting-orga").append(orga);
     });
 });
