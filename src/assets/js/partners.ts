@@ -17,7 +17,7 @@ jQuery(() => {
             element.name +
             '</a></p></div>';
       });
-
+/*
       let ppl = "";
       content.person.forEach(element => {
         ppl +=
@@ -26,7 +26,7 @@ jQuery(() => {
           "</p></div>";
       });
 
-      jQuery("#supporting-ppl").append(ppl);
+      jQuery("#supporting-ppl").append(ppl);*/
       jQuery("#supporting-orga").append(orga);
     });
 });
