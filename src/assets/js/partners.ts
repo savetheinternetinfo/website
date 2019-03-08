@@ -2,7 +2,7 @@ jQuery(() => {
   jQuery
     .get("https://supporters.savetheinternet.info/api/supporters")
     .done(data => {
-      let content = JSON.parse(data)[0];
+      let content = data[0];
       let orga = "";
       content.orga.forEach(element => {
         if(element.url != null && !element.url.startsWith("http")) {
