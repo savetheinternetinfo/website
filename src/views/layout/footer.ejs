@@ -1,33 +1,48 @@
 <div class="flex-grow"></div>
 <div class="notice p-4 bg-blue-dark text-center text-orange text-sm">
-    <p class="mb-0">
-        <%= __('footer_notice') %>
-    </p>
+        <p class="mb-0">
+                <%= __('footer_notice') %>
+        </p>
 </div>
 <footer class="flex flex-col lg:flex-row xl:flex-row bg-blue-darker text-sm">
-    <div class="p-4 flex-grow flex-no-shrink text-center lg:text-left xl:text-left">
-        © 2019 - <a href="https://savetheinternet.info">savetheinternet.info</a> - <a target="_blank" href="https://github.com/savetheinternetinfo/website/blob/master/LICENSE.md">CC
-            BY-NC-ND</a>
-    </div>
-    <nav>
-        <ul class="list-reset flex flex-wrap justify-center">
-            <li class="my-4 mx-3"><a href="/gallery">
-                    <%= __('gallery_title') %></a></li>
-            <li class="my-4 mx-3"><a href="/contact">
-                    <%= __('contact_link') %></a></li>
-            <li class="my-4 mx-3"><a href="/about">
-                    <%= __('about_title') %></a></li>
-            <li class="my-4 mx-3"><a href="/about-us">
-                    <%= __('about_us_heading') %></a></li>
-            <li class="my-4 mx-3"><a href="/imprint">
-                    <%= __('imprint_link') %></a></li>
-            <li class="my-4 mx-3"><a href="/privacy-policy">
-                    <%= __('privacy_link') %></a></li>
-            <li class="my-4 mx-3"><a target="_blank" href="https://github.com/savetheinternetinfo">GitHub</a></li>
-        </ul>
-    </nav>
+        <div class="p-4 flex-grow flex-no-shrink text-center lg:text-left xl:text-left">
+                © 2019 - <a href="https://savetheinternet.info">savetheinternet.info</a> - <a target="_blank" href="https://github.com/savetheinternetinfo/website/blob/master/LICENSE.md">CC
+                        BY-NC-ND</a>
+        </div>
+        <nav>
+                <ul class="list-reset flex flex-wrap justify-center">
+                        <li class="my-4 mx-3"><a href="/gallery">
+                                        <%= __('gallery_title') %></a></li>
+                        <li class="my-4 mx-3"><a href="/contact">
+                                        <%= __('contact_link') %></a></li>
+                        <li class="my-4 mx-3"><a href="/about">
+                                        <%= __('about_title') %></a></li>
+                        <li class="my-4 mx-3"><a href="/about-us">
+                                        <%= __('about_us_heading') %></a></li>
+                        <li class="my-4 mx-3"><a href="/imprint">
+                                        <%= __('imprint_link') %></a></li>
+                        <li class="my-4 mx-3"><a href="/privacy-policy">
+                                        <%= __('privacy_link') %></a></li>
+                        <li class="my-4 mx-3"><a target="_blank" href="https://github.com/savetheinternetinfo">GitHub</a></li>
+                </ul>
+        </nav>
 </footer>
 <script type="text/javascript" src="<%= assets['/assets/bundle.js'] %>"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+        var _paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+                var u = "//piwik.savetheinternet.info/";
+                _paq.push(['setTrackerUrl', u + 'matomo.php']);
+                _paq.push(['setSiteId', '1']);
+                var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+                g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+        })();
+</script>
+<!-- End Matomo Code -->
 </body>
 
 </html>
