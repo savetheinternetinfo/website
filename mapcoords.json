@@ -1,850 +1,848 @@
 {
-   "type":"FeatureCollection",
-   "features":[
-      {
-        "type":"Feature",
-        "properties":[
-          {
-              "fa_icon":"fa-map-marker",
-              "value":"Nürnberg - Kornmarkt 5"
-          },
-          {
-              "fa_icon":"fa-clock-o",
-              "value":"16.03.2019 13:30"
-          },
-          {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/2748943875146243/\">Facebook Event</a>"
-          }
-        ],
-        "STIDemo": true,
-        "geometry":{
-          "type":"Point",
-          "coordinates":[
-            11.0726644,
-            49.4488698
-          ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Nürnberg - Kornmarkt 5"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "16.03.2019 13:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2748943875146243/\">Facebook Event</a>"
         }
-      },
-      {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Bremen - Marktplatz"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"17.03.2019 13:30"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/322508435067377/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              8.8049566,
-              53.0757801
-           ]
-        }
-     },
-     {
-      "type":"Feature",
-      "properties":[
-         {
-            "fa_icon":"fa-map-marker",
-            "value":"Freiburg - Platz der alten Synagoge"
-         },
-         {
-            "fa_icon":"fa-clock-o",
-            "value":"23.03.2019 14:30"
-         },
-         {
-            "fa_icon":"fb_event",
-            "value":"<a href=\"https://www.facebook.com/events/2336164906416633/\">Facebook Event</a>"
-         }
       ],
       "STIDemo": true,
-      "geometry":{
-         "type":"Point",
-         "coordinates":[
-          7.843911,
-          47.9948945
-          
-         ]
-      }
-     },
-     {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Würzburg - Bahnhofsplatz"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 15:00"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/503458876850648/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              9.9356329,
-              49.8012673
-           ]
-        }
-     },
-     {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Fürth - Grüner Markt"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 13:00"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/794342270950440/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              10.9864408,
-              49.4796045
-           ]
-        }
-      },
-      {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Ravensburg - Marienplatz"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 13:00"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/2105066326451341/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-            9.6116117,
-            47.7814241
-           ]
-        }
-      },
-      {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Villingen-Schwenningen - Latschariplatz"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 12:00"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-            8.4577298,
-            48.059658
-           ]
-        }
-      },
-     {
-      "type":"Feature",
-      "properties":[
-         {
-            "fa_icon":"fa-map-marker",
-            "value":"Berlin - Potsdamer Platz"
-         },
-         {
-            "fa_icon":"fa-clock-o",
-            "value":"23.03.2019 14:00"
-         },
-         {
-            "fa_icon":"fb_event",
-            "value":"<a href=\"https://www.facebook.com/events/583197278810423/\">Facebook Event</a>"
-         }
-      ],
-      "STIDemo": true,
-      "geometry":{
-         "type":"Point",
-         "coordinates":[
-            13.3737554,
-            52.5096488
-         ]
-      }
-   },
-     {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Köln - Neumarkt"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 14:00"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              6.9470738,
-              50.9359622
-           ]
-        }
-     },
-     {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Wien - Christian Broda Platz"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 15:30"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/2372011113035461/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              16.3400049,
-              48.195289
-           ]
-        }
-     },
-     {
-      "type":"Feature",
-      "properties":[
-         {
-            "fa_icon":"fa-map-marker",
-            "value":"Amsterdam - Dam square"
-         },
-         {
-            "fa_icon":"fa-clock-o",
-            "value":"23.03.2019 17:00"
-         },
-         {
-            "fa_icon":"fb_event",
-            "value":"<a href=\"https://www.facebook.com/events/2446844782253271/\">Facebook Event</a>"
-         }
-      ],
-      "STIDemo": true,
-      "geometry":{
-         "type":"Point",
-         "coordinates":[
-            4.892608,
-            52.373239
-         ]
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0726644,
+          49.4488698
+        ]
       }
     },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Dortmund - Europabrunnen"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 14:00"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-                7.4680112,
-                51.5146291
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Düsseldorf - Friedrich-Ebert-Straße 34"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 13:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/2510740782333323/\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               6.7898244,
-               51.2217083
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Hannover - Ernst-August-Platz"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 11:00"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               9.740479999999934,
-               52.3759
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Kiel - Landtag Kiel"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 13:00"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               10.1525199,
-               54.3353052
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Rostock - Universitätsplatz"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 12:00"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               12.134199999999964,
-               54.0878
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Zürich - t.b.a Zentrum"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 13:30"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/2205504252842906/\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               8.540694,
-               47.37714
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Luxembourg - Place de l'Europe"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 14:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/2348261875408150/\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               6.144723,
-               49.619527
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Bucharest - Fântâna de la Universitate"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 15:00"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               26.101453,
-               44.436280
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Dresden – Goldener Reiter Dresden"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 14:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/322476768618069/\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               13.741347,
-               51.058114
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Hamburg - Gänsemarkt"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 13:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/559846927852058/\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               9.988333,
-               53.555
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Saarbrücken- Tbilisser Platz vor dem Staatstheater"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 14:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/542866742867644/\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               6.995972,
-               49.230833
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Koblenz - Löhrrondell"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 13:30"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/608041522951932/\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               7.5889959,
-               50.3569429
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Frankfurt - Paulsplatz"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 14:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/791707307876981/ \">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               8.681389,
-               50.111111
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Stuttgart - Rotebühlplatz"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 14:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/2043589342421711/\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               9.170264,
-               48.770637
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"München - Marienplatz"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 13:30"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/297793067550334/\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               11.575278,
-               48.137222
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Erfurt - Anger"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 14:30"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/151586089078792/?ti=cl\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               11.03578,
-               50.97825
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Leipzig"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 14:00"
-            },
-            {
-               "fa_icon":"fb_event",
-               "value":"<a href=\"https://www.facebook.com/events/2217164858603054/\">Facebook Event</a>"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               12.37475,
-               51.340333
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":[
-            {
-               "fa_icon":"fa-map-marker",
-               "value":"Karlsruhe - Stephansplatz"
-            },
-            {
-               "fa_icon":"fa-clock-o",
-               "value":"23.03.2019 13:30"
-            }
-         ],
-         "STIDemo": true,
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               8.3919626,
-               49.0088189
-            ]
-         }
-      },
-      {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Poznań - Plac Adama Mickewicza"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 17:00"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/316462322548144/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              16.926896,
-              52.408654
-           ]
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Bremen - Bahnhofsvorplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "17.03.2019 13:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/322508435067377/\">Facebook Event</a>"
         }
-     },
-     {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Warsaw - Jasna 14/16"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 17:00"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/245095949701247/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              21.011717,
-              52.235503
-           ]
-        }
-     },
-     {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Wrocław - Rynek 1"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 17:00"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/323974081561765/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              17.032302,
-              51.110861
-           ]
-        }
-     },
-     {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Krakow - Rynek Glowny"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 17:00"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/829021954107436/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              19.936761,
-              50.06198
-           ]
-        }
-     },
-     {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Katowice - Rynek"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 17:00"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/2306389049638873/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              19.021685,
-              50.259481
-           ]
-        }
-     },
-
-     {
-        "type":"Feature",
-        "properties":[
-           {
-              "fa_icon":"fa-map-marker",
-              "value":"Łódź - Plac Wolności"
-           },
-           {
-              "fa_icon":"fa-clock-o",
-              "value":"23.03.2019 17:00"
-           },
-           {
-              "fa_icon":"fb_event",
-              "value":"<a href=\"https://www.facebook.com/events/384079415722434/\">Facebook Event</a>"
-           }
-        ],
-        "STIDemo": true,
-        "geometry":{
-           "type":"Point",
-           "coordinates":[
-              19.454626,
-              51.777257
-           ]
-        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8049566,
+          53.0757801
+        ]
       }
-   ]
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Freiburg - Platz der alten Synagoge"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2336164906416633/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.843911,
+          47.9948945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Würzburg - Bahnhofsplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 15:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/503458876850648/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9356329,
+          49.8012673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Fürth - Grüner Markt"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/794342270950440/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9864408,
+          49.4796045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Ravensburg - Marienplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2105066326451341/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6116117,
+          47.7814241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Villingen-Schwenningen - Latschariplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 12:00"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4577298,
+          48.059658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Berlin - Potsdamer Platz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/583197278810423/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3737554,
+          52.5096488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Köln - Neumarkt"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9470738,
+          50.9359622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Wien - Christian Broda Platz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 15:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2372011113035461/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3400049,
+          48.195289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Amsterdam - Dam square"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 17:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2446844782253271/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.892608,
+          52.373239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Dortmund - Europabrunnen"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4680112,
+          51.5146291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Düsseldorf - Friedrich-Ebert-Straße 34"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2510740782333323/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7898244,
+          51.2217083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Hannover - Ernst-August-Platz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 11:00"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.740479999999934,
+          52.3759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Kiel - Landtag Kiel"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:00"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1525199,
+          54.3353052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Rostock - Universitätsplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 12:00"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.134199999999964,
+          54.0878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Zürich - t.b.a Zentrum"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2205504252842906/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.540694,
+          47.37714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Luxembourg - Place de l'Europe"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2348261875408150/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.144723,
+          49.619527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Bucharest - Fântâna de la Universitate"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 15:00"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.101453,
+          44.436280
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Dresden – Goldener Reiter Dresden"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/322476768618069/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.741347,
+          51.058114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Hamburg - Gänsemarkt"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/559846927852058/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.988333,
+          53.555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Saarbrücken- Tbilisser Platz vor dem Staatstheater"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/542866742867644/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.995972,
+          49.230833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Koblenz - Löhrrondell"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/608041522951932/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5889959,
+          50.3569429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Frankfurt - Paulsplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/791707307876981/ \">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.681389,
+          50.111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Stuttgart - Rotebühlplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2043589342421711/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.170264,
+          48.770637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "München - Marienplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/297793067550334/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.575278,
+          48.137222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Erfurt - Anger"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/151586089078792/?ti=cl\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.03578,
+          50.97825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Leipzig"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2217164858603054/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.37475,
+          51.340333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Karlsruhe - Stephansplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:30"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3919626,
+          49.0088189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Poznań - Plac Adama Mickewicza"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 17:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/316462322548144/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.926896,
+          52.408654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Warsaw - Jasna 14/16"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 17:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/245095949701247/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.011717,
+          52.235503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Wrocław - Rynek 1"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 17:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/323974081561765/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.032302,
+          51.110861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Krakow - Rynek Glowny"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 17:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/829021954107436/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.936761,
+          50.06198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Katowice - Rynek"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 17:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2306389049638873/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.021685,
+          50.259481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Łódź - Plac Wolności"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 17:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/384079415722434/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.454626,
+          51.777257
+        ]
+      }
+    }
+  ]
 }
