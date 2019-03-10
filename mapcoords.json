@@ -52,6 +52,32 @@
         }
      },
      {
+      "type":"Feature",
+      "properties":[
+         {
+            "fa_icon":"fa-map-marker",
+            "value":"Freiburg - Platz der alten Synagoge"
+         },
+         {
+            "fa_icon":"fa-clock-o",
+            "value":"23.03.2019 14:30"
+         },
+         {
+            "fa_icon":"fb_event",
+            "value":"<a href=\"https://www.facebook.com/events/2336164906416633/\">Facebook Event</a>"
+         }
+      ],
+      "STIDemo": true,
+      "geometry":{
+         "type":"Point",
+         "coordinates":[
+          7.843911,
+          47.9948945
+          
+         ]
+      }
+     },
+     {
         "type":"Feature",
         "properties":[
            {
