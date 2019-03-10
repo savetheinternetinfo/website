@@ -345,6 +345,10 @@
         {
           "fa_icon": "fa-clock-o",
           "value": "23.03.2019 13:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/343263056288492/\">Facebook Event</a>"
         }
       ],
       "STIDemo": true,
