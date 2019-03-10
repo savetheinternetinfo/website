@@ -847,6 +847,56 @@
           51.777257
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Göteborg - Gustav Adolfs torg"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 12:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/273022263631421/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9637279,
+          57.7072838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Stockholm - Rosenbadsparken"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 12:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2239460902933225/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0625306,
+          59.3283941
+        ]
+      }
     }
   ]
 }
