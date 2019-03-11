@@ -259,7 +259,7 @@
           "value": "<a href=\"https://www.facebook.com/events/2446844782253271/\">Facebook Event</a>"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -422,7 +422,7 @@
           "value": "<a href=\"https://www.facebook.com/events/2348261875408150/\">Facebook Event</a>"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -443,7 +443,7 @@
           "value": "23.03.2019 15:00"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -714,7 +714,7 @@
           "value": "<a href=\"https://www.facebook.com/events/316462322548144/\">Facebook Event</a>"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -739,7 +739,7 @@
           "value": "<a href=\"https://www.facebook.com/events/245095949701247/\">Facebook Event</a>"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -764,7 +764,7 @@
           "value": "<a href=\"https://www.facebook.com/events/323974081561765/\">Facebook Event</a>"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -789,7 +789,7 @@
           "value": "<a href=\"https://www.facebook.com/events/829021954107436/\">Facebook Event</a>"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -814,7 +814,7 @@
           "value": "<a href=\"https://www.facebook.com/events/2306389049638873/\">Facebook Event</a>"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -839,7 +839,7 @@
           "value": "<a href=\"https://www.facebook.com/events/384079415722434/\">Facebook Event</a>"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -864,7 +864,7 @@
           "value": "<a href=\"https://www.facebook.com/events/273022263631421/\">Facebook Event</a>"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -889,7 +889,7 @@
           "value": "<a href=\"https://www.facebook.com/events/2239460902933225/\">Facebook Event</a>"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
