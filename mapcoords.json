@@ -443,7 +443,7 @@
           "value": "23.03.2019 15:00"
         }
       ],
-      "STIDemo": true,
+      "STIDemo": false,
       "geometry": {
         "type": "Point",
         "coordinates": [
