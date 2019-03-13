@@ -31,6 +31,31 @@
       "properties": [
         {
           "fa_icon": "fa-map-marker",
+          "value": "Graz - Am Eisernen Tor"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "16.03.2019 15:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/405753400224978\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.439711,
+          47.0682225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
           "value": "Bremen - Bahnhofsvorplatz"
         },
         {
@@ -48,6 +73,81 @@
         "coordinates": [
           8.8049566,
           53.0757801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Magdeburg - Landtag/Domplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/294185707926078/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6329451,
+          52.1264606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Bielefeld - Hauptbahnhof"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/1225932890902314/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5325922,
+          52.0285822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Salzburg - Hauptbahnhof"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/359455584647550/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0428819,
+          47.8130523
         ]
       }
     },
@@ -895,6 +995,31 @@
         "coordinates": [
           18.0625306,
           59.3283941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Praha - Palackého náměstí"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/259571161641706\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": false,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4126204,
+          50.0733147
         ]
       }
     }
