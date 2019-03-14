@@ -106,6 +106,56 @@
       "properties": [
         {
           "fa_icon": "fa-map-marker",
+          "value": "Jena - Holzmarkt"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/395551727922929/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5834115,
+          50.926785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Göttingen - Am Nabel"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 12:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/571638866675416/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9330067,
+          51.5344785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
           "value": "Bielefeld - Hauptbahnhof"
         },
         {
@@ -348,6 +398,31 @@
       "properties": [
         {
           "fa_icon": "fa-map-marker",
+          "value": "Innsbruck - Annasäule"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/358339198225087/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3919988,
+          47.2656652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
           "value": "Amsterdam - Dam square"
         },
         {
@@ -424,6 +499,10 @@
         {
           "fa_icon": "fa-clock-o",
           "value": "23.03.2019 11:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/1263307543816885/\">Facebook Event</a>"
         }
       ],
       "STIDemo": true,
