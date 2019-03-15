@@ -27,6 +27,7 @@ mix.ts('src/assets/js/main.ts', 'public/assets/bundle.js')
     .copyDirectory("src/assets/static", 'public/static')
     .copyDirectory("src/assets/gallery", 'public/gallery')
     .copyDirectory("src/assets/memes", 'public/memes')
+    .copyDirectory("src/assets/blackout", 'public/blackout')
     .sourceMaps()
     .version()
     .setPublicPath('public');
