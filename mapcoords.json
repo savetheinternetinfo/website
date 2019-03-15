@@ -81,6 +81,106 @@
       "properties": [
         {
           "fa_icon": "fa-map-marker",
+          "value": "Osnabrück - Gewerkschaftshaus"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 15:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/1587074334728344/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0569209,
+          52.2705677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Chemnitz - Johannisplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/390955531486774/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9213191,
+          50.8332769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Potsdam - Luisenplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 10:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://potsdamgegen13.github.io/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0444001,
+          52.3992826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Münster - Servatiiplatz"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:37"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://m.facebook.com/events/270817613844608/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.632388,
+          51.9597249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
           "value": "Magdeburg - Landtag/Domplatz"
         },
         {
@@ -549,6 +649,10 @@
         {
           "fa_icon": "fa-clock-o",
           "value": "23.03.2019 12:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/381339362449881/\">Facebook Event</a>"
         }
       ],
       "STIDemo": true,
