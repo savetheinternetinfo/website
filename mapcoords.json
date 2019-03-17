@@ -106,6 +106,106 @@
       "properties": [
         {
           "fa_icon": "fa-map-marker",
+          "value": "Aachen - Elisenbrunnen"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/803650056694470/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0846833,
+          50.7741453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Oldenburg - Hauptbahnhof"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 17:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/343354349618730/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2202767,
+          53.1435951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Siegen - Sandstraße 54 (BlueBox)"
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 11:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/2151663128479380/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0215593,
+          50.8777907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
+          "value": "Trier - Viehmarktplatz "
+        },
+        {
+          "fa_icon": "fa-clock-o",
+          "value": "23.03.2019 13:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/257842595094336/\">Facebook Event</a>"
+        }
+      ],
+      "STIDemo": true,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6350092,
+          49.7521774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": [
+        {
+          "fa_icon": "fa-map-marker",
           "value": "Chemnitz - Johannisplatz"
         },
         {
@@ -553,6 +653,10 @@
         {
           "fa_icon": "fa-clock-o",
           "value": "23.03.2019 14:00"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/373668063475918/\">Facebook Event</a>"
         }
       ],
       "STIDemo": true,
@@ -970,6 +1074,10 @@
         {
           "fa_icon": "fa-clock-o",
           "value": "23.03.2019 13:30"
+        },
+        {
+          "fa_icon": "fb_event",
+          "value": "<a href=\"https://www.facebook.com/events/327277111229118/\">Facebook Event</a>"
         }
       ],
       "STIDemo": true,
