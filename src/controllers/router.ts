@@ -24,6 +24,13 @@ export function router(app) {
     app.locals.currentLanguage = i18n.getLocale(req);
     app.locals.currentRoute = req.path.replace(/^\/|\/$/g, "");
 
+    if (!req.cookies[config.server.cookieprefix + "lang"]) {
+      res.cookie(config.server.cookieprefix + "lang", app.locals.currentLanguage, {
+        maxAge: 900000,
+        httpOnly: true
+      });
+    }
+
     if (req.query.lang) {
       res.cookie(config.server.cookieprefix + "lang", req.query.lang, {
         maxAge: 900000,
