@@ -64,6 +64,14 @@ export function router(app) {
       });
   });
 
+  app.get("/blackout", (req, res) => {
+    let currentLocale = i18n.getLocale(req);
+    res.render("blackout", {
+      moment: moment,
+      currLang: currentLocale
+    });
+  });
+
   app.get("/mapcoords", (req, res) => {
     demomap.getCoords(req, res);
   });
