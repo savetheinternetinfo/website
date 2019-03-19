@@ -24,6 +24,13 @@ export function router(app) {
     app.locals.currentLanguage = i18n.getLocale(req);
     app.locals.currentRoute = req.path.replace(/^\/|\/$/g, "");
 
+    if (!req.cookies[config.server.cookieprefix + "lang"]) {
+      res.cookie(config.server.cookieprefix + "lang", app.locals.currentLanguage, {
+        maxAge: 900000,
+        httpOnly: true
+      });
+    }
+
     if (req.query.lang) {
       res.cookie(config.server.cookieprefix + "lang", req.query.lang, {
         maxAge: 900000,
@@ -55,6 +62,14 @@ export function router(app) {
       .catch(err => {
         sendError(req, res, err);
       });
+  });
+
+  app.get("/blackout", (req, res) => {
+    let currentLocale = i18n.getLocale(req);
+    res.render("blackout", {
+      moment: moment,
+      currLang: currentLocale
+    });
   });
 
   app.get("/mapcoords", (req, res) => {
