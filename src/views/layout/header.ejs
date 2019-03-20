@@ -16,8 +16,7 @@
         <%= currentRoute.replace(/\-/g, " ").capitalize() %> | Save the Internet</title>
     <% } %>
     <meta name="title" content="Save the Internet">
-    <meta name="description"
-        content="The Internet is in great danger. We are an organization who has the goal to inform and stop the EU from their biggest mistake. Help us defend the Internet!">
+    <meta name="description" content="The Internet is in great danger. We are an organization who has the goal to inform and stop the EU from their biggest mistake. Help us defend the Internet!">
 
     <!-- Browser Colors -->
     <meta name="msapplication-TileColor" content="#12233f">
@@ -51,10 +50,13 @@
 <body class="bg-blue text-white min-h-screen flex flex-col">
     <header class="z-50 flex flex-no-wrap justify-between bg-blue w-full shadow fixed relative">
         <div class="share-container flex flex-no-wrap ml-2">
-            <a class="nav-link mr-1" target="_blank" rel="noopener" href="https://www.facebook.com/Savetheinternet.info/"><i class="fa fa-facebook-square"></i></a>
+            <a class="nav-link mr-1" target="_blank" rel="noopener" href="https://www.facebook.com/Savetheinternet.info/"><i
+                    class="fa fa-facebook-square"></i></a>
             <a class="nav-link mr-1" target="_blank" rel="noopener" href="https://twitter.com/uploadfilter"><i class="fa fa-twitter"></i></a>
-            <a class="nav-link mr-1" target="_blank" rel="noopener" href="https://www.instagram.com/savetheinternetpetition/"><i class="fa fa-instagram"></i></a>
-            <a class="nav-link mr-0" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCfsfq_B3zJU4_Zjqtw5lhhQ"><i class="fa fa-youtube"></i></a>
+            <a class="nav-link mr-1" target="_blank" rel="noopener" href="https://www.instagram.com/savetheinternetpetition/"><i
+                    class="fa fa-instagram"></i></a>
+            <a class="nav-link mr-0" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCfsfq_B3zJU4_Zjqtw5lhhQ"><i
+                    class="fa fa-youtube"></i></a>
         </div>
         <nav class="main-menu flex-1 justify-center sm:justify-start container">
             <a class="nav-link block md:hidden mobile-menu-trigger">Menu</a>
@@ -75,17 +77,15 @@
                         <%= __('pressreview') %></a></li>
                 <% } %>
                 <li><a class="nav-link" href="/blackout">
-                    Blackout</a></li>
+                        Blackout</a></li>
             </ul>
         </nav>
         <div class="language-picker mr-2">
-            <a class="cursor-pointer nav-link pr-4 mr-0 lang-trigger"><span
-                    class="flag-icon flag-icon-<%= currentLanguage == 'en' ? 'gb' : currentLanguage %>"></span></a>
+            <a class="cursor-pointer nav-link pr-4 mr-0 lang-trigger"><span class="flag-icon flag-icon-<%= currentLanguage == 'en' ? 'gb' : currentLanguage %>"></span></a>
             <menu class="hidden absolute w-full bg-blue shadow-md m-0 p-0 pr-2">
                 <ul class="flex flex-wrap justify-end w-full list-reset">
                     <% languages.forEach((language) => { %>
-                    <li><a class="nav-link mb-2 mr-0 ml-2" href="/<%= currentRoute %>?lang=<%= language %>"><span
-                                class="flag-icon flag-icon-<%= language == 'en' ? 'gb' : language %>"></span>
+                    <li><a class="nav-link mb-2 mr-0 ml-2" href="/<%= currentRoute %>?lang=<%= language %>"><span class="flag-icon flag-icon-<%= language == 'en' ? 'gb' : language %>"></span>
                         </a></li>
                     <% }); %>
                 </ul>
@@ -93,21 +93,15 @@
 
         </div>
     </header>
-    <% if(currentRoute !== "demos") { %>
     <div class="hero pt-8 flex items-center justify-center flex-col mt-4">
         <div class="tilt text-2xl md:text-title m-4 bg-white p-4">
             <div class="untilt">
-                <a class="text-blue hover:text-blue font-bold" href="/">Save <span id="head-typer"
-                        class="font-hairline">the</span>Internet</a>
+                <a class="text-blue hover:text-blue font-bold" href="/">Save <span id="head-typer" class="font-hairline">the</span>Internet</a>
             </div>
         </div>
         <p class="text-xl px-2 text-center">
             <%= __('header_tagline') %>
         </p>
-        <a class="btn btn-orange mt-3" target="_blank"
-            href="https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet">
+        <a class="btn btn-orange mt-3" target="_blank" href="https://www.change.org/p/european-parliament-stop-the-censorship-machinery-save-the-internet">
             <%= __('sign_petition') %></a>
     </div>
-    <% } else { %>
-    <div class="w-full h-24"></div>
-    <% } %>
