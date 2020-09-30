@@ -2,7 +2,8 @@
 
 <p align="center">
 <img height="150" width="auto" src="https://i.imgur.com/SXC70FD.png" /><br>
-Save the Internet with us
+Save the Internet with us 
+Let's stand together for Freedom
 </p>
 
 <hr>
